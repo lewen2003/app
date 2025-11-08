@@ -1218,5 +1218,1134 @@
             "D"
         ],
         "type": "single"
+    },
+    {
+        "question": "Il feocromocitoma può essere localizzato:",
+        "options": {
+            "A": "Tutte le precedenti",
+            "B": "Nel sangue",
+            "C": "Nel glomo carotideo",
+            "D": "Nei surreni",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Gli ormoni autocrini e paracrini sono:",
+        "options": {
+            "A": "Di varia natura chimica",
+            "B": "Solo glicoproteine",
+            "C": "Di natura esclusivamente carboidratica",
+            "D": "Di natura esclusivamente proteica-peptidica",
+            "E": "Solo steroidei"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Quali sono gli ormoni che derivano dal colesterolo?",
+        "options": {
+            "A": "Nessuna delle affermazioni è esatta",
+            "B": "Insulina e glucagone",
+            "C": "Corticosteroide",
+            "D": "Ormoni steroidei (progesterone, androgeni, estrogeni, mineralcorticoidi, vit. D e derivati)",
+            "E": "Tutte le precedenti"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "I topi geneticamente modificati e privi di Leptina:",
+        "options": {
+            "A": "Sono obesi, iperfagici, iperinsulinemici",
+            "B": "Sono obesi, ipofagici, ipoinsulinemici",
+            "C": "Sono magri, ipofagici, ipoinsulinemici",
+            "D": "Sono magri, ipofagici, iperinsulinemici",
+            "E": "Sono magri, iperfagici, iperinsulinemici"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La causa più frequente di ipotiroidismo:",
+        "options": {
+            "A": "Danno indotto da radiazioni",
+            "B": "Agenesia della tiroide",
+            "C": "Tiroidite cronica (di Hashimoto)",
+            "D": "Tutte le precedenti",
+            "E": "Trauma cranico"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "L'ACTH agisce:",
+        "options": {
+            "A": "Sull'ipofisi",
+            "B": "Sulla tiroide",
+            "C": "Sulla corticale del surrene",
+            "D": "Sulla midollare del surrene",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "L'aldosterone controlla i livelli di:",
+        "options": {
+            "A": "Cloro e potassio",
+            "B": "Calcio e fosforo",
+            "C": "Nessuna delle precedenti",
+            "D": "Sodio e potassio",
+            "E": "Tutte le altre affermazioni sono esatte"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è l'azione del PTH (paratormone)?",
+        "options": {
+            "A": "Aumenta il riassorbimento osseo, induce l'attività della 1 alfa idrossilasi aumentando il riassorbimento renale di calcio e magnesio ed inibizione del riassorbimento di bicarbonati e fosfati",
+            "B": "Nessuna delle altre affermazioni è corretta",
+            "C": "Aumenta la secrezione urinaria di calcio",
+            "D": "Riduce la secrezione di insulina",
+            "E": "Aumenta la secrezione degli ormoni tiroidei"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il neurormone è:",
+        "options": {
+            "A": "Una sostanza che, prodotta da un neurone, viene immessa nello spazio sinaptico",
+            "B": "Un ormone che regola il sistema nervoso centrale",
+            "C": "Nessuno dei precedenti",
+            "D": "Una sostanza che, prodotta da un neurone, viene immessa in circolo",
+            "E": "È un ormone steroideo"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Gli ormoni steroidei:",
+        "options": {
+            "A": "Interagiscono con i recettori di membrana",
+            "B": "Attivano la via del Camp",
+            "C": "Tutte le affermazioni sono esatte",
+            "D": "Interagiscono con i recettori nucleari o citoplasmatici",
+            "E": "Nessuna delle altre affermazioni è esatta"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "I glucocorticoidi esercitano un'azione:",
+        "options": {
+            "A": "immunosoppressiva",
+            "B": "catabolica",
+            "C": "iperglicemizzante",
+            "D": "tutte le affermazioni sono esatte",
+            "E": "antinfiammatoria"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Per quale delle seguenti ragioni il muscolo scheletrico ha particolare rilevanza?",
+        "options": {
+            "A": "per la sintesi delle lipoproteine",
+            "B": "perché utilizza la maggior parte del glucosio assorbito",
+            "C": "nessuna delle precedenti risposte",
+            "D": "perché rappresenta il tessuto quantitativamente preponderante tra quelli che costituiscono la massa grassa",
+            "E": "può controllare la concentrazione di glucosio a digiuno aumentando la gluconeogenesi"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è la causa più frequente di ipotiroidismo?",
+        "options": {
+            "A": "il morbo di Basedow",
+            "B": "l'adenoma di Plummer",
+            "C": "nessuna delle altre affermazioni è esatta",
+            "D": "la malattia di Klinefelter",
+            "E": "la tiroidite di Hashimoto"
+        },
+        "correct": ["E"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è la causa più frequente di insufficienza corticosurrenale cronica?",
+        "options": {
+            "A": "surrenalite autoimmune",
+            "B": "sono tutte false",
+            "C": "surrenalite tubercolare",
+            "D": "iposurrenalismo idiopatico",
+            "E": "adenoma non funzionante dell'ipofisi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Lo stato ipotiroideo di modesta entità (ipotiroidismo subclinico) può essere sospetto clinico ed identificato sul piano semiologico-laboratoristico dal riscontro di:",
+        "options": {
+            "A": "dimagrimento",
+            "B": "nervosismo",
+            "C": "riduzione modesta del TSH, tachicardia, iperidrosi",
+            "D": "aumento modesto del TSH, bradicardia, cute secca",
+            "E": "assenza di alcun sintomo"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Gli anticorpi antitiroide specifici del morbo di Basedow sono:",
+        "options": {
+            "A": "anticorpi antitireoglobulina",
+            "B": "anticorpi antitireoperossidasi",
+            "C": "nessuna delle precedenti",
+            "D": "anticorpi antirecettore del TSH",
+            "E": "anticorpi antiT3"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "L'apporto alimentare ottimale di iodio è:",
+        "options": {
+            "A": "1000 ug al giorno",
+            "B": "300 ug al giorno",
+            "C": "500 ug al giorno",
+            "D": "150 ug al giorno",
+            "E": "50 ug al giorno"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Il feocromocitoma può essere localizzato:",
+        "options": {
+            "A": "tutte le precedenti",
+            "B": "nel sangue",
+            "C": "nel glomo carotideo",
+            "D": "nei surreni",
+            "E": "nessuna delle precedenti"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Gli ormoni autocrini e paracrini sono:",
+        "options": {
+            "A": "di varia natura chimica",
+            "B": "solo glicoproteine",
+            "C": "di natura esclusivamente carboidratica",
+            "D": "di natura esclusivamente proteica-peptidica",
+            "E": "solo steroidei"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Quali sono gli ormoni che derivano dal colesterolo?",
+        "options": {
+            "A": "nessuna delle affermazioni è esatta",
+            "B": "insulina e glucagone",
+            "C": "corticosteroidei",
+            "D": "ormoni steroidei (progesterone, androgeni, estrogeni, mineralcorticoidi, vit. D e derivati)",
+            "E": "tutte le precedenti"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "I topi geneticamente modificati e privi di Leptina:",
+        "options": {
+            "A": "sono obesi, iperfagici, iperinsulinemici",
+            "B": "sono obesi, ipofagici, ipoinsulinemici",
+            "C": "sono magri, ipofagici, ipoinsulinemici",
+            "D": "sono magri, ipofagici, iperinsulinemici",
+            "E": "sono magri, iperfagici, iperinsulinemici"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La causa più frequente di ipotiroidismo:",
+        "options": {
+            "A": "danno indotto da radiazioni",
+            "B": "agenesia della tiroide",
+            "C": "tiroidite cronica (di Hashimoto)",
+            "D": "tutte le precedenti",
+            "E": "trauma cranico"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "L'ACTH agisce:",
+        "options": {
+            "A": "sull'ipofisi",
+            "B": "sulla tiroide",
+            "C": "sull'ovaio",
+            "D": "sulla corticale del surrene",
+            "E": "sulla midollare del surrene"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "L'aldosterone controlla i livelli di:",
+        "options": {
+            "A": "cloro e potassio",
+            "B": "calcio e fosforo",
+            "C": "nessuna delle precedenti",
+            "D": "sodio e potassio",
+            "E": "tutte le altre affermazioni sono esatte"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è l'azione del PTH (paratormone)?",
+        "options": {
+            "A": "aumenta il riassorbimento osseo, induce l'attività della 1 alfa idrossilasi aumentando il riassorbimento renale di calcio e magnesio ed inibizione del riassorbimento di bicarbonati e fosfati",
+            "B": "nessuna delle altre affermazioni è corretta",
+            "C": "aumenta la secrezione urinaria di calcio",
+            "D": "riduce la secrezione di insulina",
+            "E": "aumenta la secrezione degli ormoni tiroidei"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il neurormone è:",
+        "options": {
+            "A": "una sostanza che, prodotta da un neurone, viene immessa nello spazio sinaptico",
+            "B": "un ormone che regula il sistema nervoso centrale",
+            "C": "nessuno dei precedenti",
+            "D": "una sostanza che, prodotta da un neurone, viene immessa in circolo",
+            "E": "è un ormone steroideo"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Gli ormoni steroidei:",
+        "options": {
+            "A": "interagiscono con i recettori di membrana",
+            "B": "attivano la via del cAMP",
+            "C": "tutte le affermazioni sono esatte",
+            "D": "interagiscono con i recettori nucleari o citoplasmatici",
+            "E": "nessuna delle altre affermazioni è esatta"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Quali sono i tessuti insulino-dipendenti?",
+        "options": {
+            "A": "tutte le altre affermazioni sono esatte",
+            "B": "globuli rossi e fegato",
+            "C": "nessuna delle altre affermazioni è esatta",
+            "D": "cervello, cuore",
+            "E": "tessuto adiposo, muscolo scheletrico, fegato"
+        },
+        "correct": ["E"],
+        "type": "single"
+    },
+    {
+        "question": "Quando una persona si può definire obesa in base all'indice di massa corporea?",
+        "options": {
+            "A": "valori >/= 30",
+            "B": "valori compresi tra 24 e 27",
+            "C": "valori > 24",
+            "D": "valori </= 27",
+            "E": "valori >/= 28"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è il precursore degli ormoni tiroidei?",
+        "options": {
+            "A": "Tirosina",
+            "B": "Triptofano",
+            "C": "Colesterolo",
+            "D": "Acido glutammico",
+            "E": "Fenilalanina"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Cos'è il feocromocitoma?",
+        "options": {
+            "A": "Tumore delle paratiroidi",
+            "B": "Tumore neuroendocrino",
+            "C": "Infiammazione della tiroide",
+            "D": "Malattia autoimmune",
+            "E": "Infezione delle ghiandole surrenali"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Nel Morbo Basedow, l'iperfunzione tiroidea è dovuta a:",
+        "options": {
+            "A": "Eccesso di TSH",
+            "B": "Mutazione genetica",
+            "C": "Immunoglobuline",
+            "D": "Deficit di iodio",
+            "E": "Infezione virale"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "Per quale dei seguenti carcinomi tiroidei è stata documentata la trasmissione genetica?",
+        "options": {
+            "A": "Carcinoma papillare",
+            "B": "Carcinoma follicolare",
+            "C": "Carcinoma midollare",
+            "D": "Carcinoma anaplastico",
+            "E": "Carcinoma a cellule di Hürthle"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "Precursore biologico dell'insulina:",
+        "options": {
+            "A": "Glucagone",
+            "B": "Pro-insulina",
+            "C": "Pre-pro-insulina",
+            "D": "Amilina",
+            "E": "Somatostatina"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è il precursore degli ormoni tiroidei?",
+        "options": {
+            "A": "Tirosina",
+            "B": "Triptofano",
+            "C": "Colesterolo",
+            "D": "Acido glutammico",
+            "E": "Fenilalanina"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Cos'è il feocromocitoma?",
+        "options": {
+            "A": "Tumore delle paratiroidi",
+            "B": "Tumore neuroendocrino",
+            "C": "Infiammazione della tiroide",
+            "D": "Malattia autoimmune",
+            "E": "Infezione delle ghiandole surrenali"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Nel Morbo Basedow, l'iperfunzione tiroidea è dovuta a:",
+        "options": {
+            "A": "Eccesso di TSH",
+            "B": "Mutazione genetica",
+            "C": "Immunoglobuline",
+            "D": "Deficit di iodio",
+            "E": "Infezione virale"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "Per quale dei seguenti carcinomi tiroidei è stata documentata la trasmissione genetica?",
+        "options": {
+            "A": "Carcinoma papillare",
+            "B": "Carcinoma follicolare",
+            "C": "Carcinoma midollare",
+            "D": "Carcinoma anaplastico",
+            "E": "Carcinoma a cellule di Hürthle"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "Precursore biologico dell'insulina:",
+        "options": {
+            "A": "Glucagone",
+            "B": "Pro-insulina",
+            "C": "Pre-pro-insulina",
+            "D": "Amilina",
+            "E": "Somatostatina"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Principali sedi dell'insulino-resistenza:",
+        "options": {
+            "A": "Muscolo e fegato",
+            "B": "Cervello e reni",
+            "C": "Cuore e polmoni",
+            "D": "Pelle e ossa",
+            "E": "Intestino e pancreas"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Testosterone:",
+        "options": {
+            "A": "Deriva dal colesterolo",
+            "B": "Deriva dagli aminoacidi",
+            "C": "Deriva dai carboidrati",
+            "D": "Deriva dagli acidi grassi",
+            "E": "Deriva dalle vitamine"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Patologia con la presenza di anticorpi diretti contro i recettori TSH:",
+        "options": {
+            "A": "Tiroidite di Hashimoto",
+            "B": "Morbo di Graves o Basedow",
+            "C": "Adenoma tiroideo",
+            "D": "Ipotiroidismo congenito",
+            "E": "Gozzo multinodulare"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Cellule del pancreas che secernono l'insulina:",
+        "options": {
+            "A": "Alpha",
+            "B": "Beta",
+            "C": "Delta",
+            "D": "Gamma",
+            "E": "Epsilon"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Ormone che risponde allo stress:",
+        "options": {
+            "A": "PRL o PRI",
+            "B": "TSH",
+            "C": "FSH",
+            "D": "LH",
+            "E": "GH"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'obesità comporta un maggior rischio di diabete per il seguente motivo:",
+        "options": {
+            "A": "Insulino resistenza",
+            "B": "Deficit di glucagone",
+            "C": "Iperproduzione di GH",
+            "D": "Ipofunzione tiroidea",
+            "E": "Alterato assorbimento intestinale"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'ormone antidiuretico agisce a livello del:",
+        "options": {
+            "A": "Tubulo distale",
+            "B": "Tubulo prossimale",
+            "C": "Ansa di Henle",
+            "D": "Glomerulo",
+            "E": "Collettore midollare"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'ormone della crescita regola la sintesi di:",
+        "options": {
+            "A": "GH/Somatomedina",
+            "B": "Insulina",
+            "C": "Glucagone",
+            "D": "Cortisolo",
+            "E": "Tiroxina"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'ormone somatotropo agisce sul metabolismo di:",
+        "options": {
+            "A": "Tutti i precedenti",
+            "B": "Solo i carboidrati",
+            "C": "Solo i lipidi",
+            "D": "Solo le proteine",
+            "E": "Solo i minerali"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'ossitocina è un ormone:",
+        "options": {
+            "A": "Peptidico",
+            "B": "Steroideo",
+            "C": "Aminico",
+            "D": "Glicoproteico",
+            "E": "Steroideo-simile"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'uso di estropogestinici è:",
+        "options": {
+            "A": "Un fattore predisponente all'ipertrigliceridemia",
+            "B": "Protettivo per i trigliceridi",
+            "C": "Senza effetto sui lipidi",
+            "D": "Utile nel diabete",
+            "E": "Antipertensivo"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Marker della sindrome surrenogenitale:",
+        "options": {
+            "A": "Deficit 21-idrossilasi e elevazione di 17OH-progesterone",
+            "B": "Deficit di aldosterone",
+            "C": "Eccesso di cortisolo",
+            "D": "Deficit di renina",
+            "E": "Eccesso di ACTH"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nei pazienti affetti da nanismo di Laron i valori sierici del GH e dell'IGF sono:",
+        "options": {
+            "A": "GH elevato e IGF-I ridotto",
+            "B": "GH ridotto e IGF-I elevato",
+            "C": "Entrambi elevati",
+            "D": "Entrambi ridotti",
+            "E": "Normali"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nei soggetti geneticamente predisposti, a parità di numero di calorie introdotte, quali delle seguente combinazioni di crescita esercita il maggiore ruolo diabetogeno?",
+        "options": {
+            "A": "Dieta iperlipidica, ricca in carboidrati, ipoproteica e povera in fibre",
+            "B": "Dieta ipolipidica, povera in carboidrati",
+            "C": "Dieta iperproteica, ricca in fibre",
+            "D": "Dieta bilanciata standard",
+            "E": "Digiuno intermittente"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella dieta di un soggetto diabetico, un'accettabile ripartizione percentuale di carboidrati, proteine e grassi, può essere rispettivamente:",
+        "options": {
+            "A": "50% carboidrati, 20% proteine e 30% grassi",
+            "B": "70% carboidrati, 10% proteine e 20% grassi",
+            "C": "30% carboidrati, 40% proteine e 30% grassi",
+            "D": "40% carboidrati, 30% proteine e 30% grassi",
+            "E": "60% carboidrati, 15% proteine e 25% grassi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella donna normale i più alti livelli plasmatici di gonadotropine si hanno:",
+        "options": {
+            "A": "In menopausa",
+            "B": "In pubertà",
+            "C": "In gravidanza",
+            "D": "Nell'infanzia",
+            "E": "Nella fase follicolare"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella femmina il primo segno di sviluppo puberale è nella maggior parte dei casi:",
+        "options": {
+            "A": "Comparsa dello sviluppo mammario",
+            "B": "Comparsa del menarca",
+            "C": "Comparsa dei peli pubici",
+            "D": "Accelerazione della crescita",
+            "E": "Modificazioni vulvari"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella menopausa risulta elevato il:",
+        "options": {
+            "A": "FSH",
+            "B": "Estrogeni",
+            "C": "Progesterone",
+            "D": "Prolattina",
+            "E": "TSH"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella Sindrome di Morris i livelli di testosterone sono:",
+        "options": {
+            "A": "Sono nella norma per un adulto di sesso maschile",
+            "B": "Ridotti",
+            "C": "Elevati",
+            "D": "Assenti",
+            "E": "Variabili"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella Sindrome a sole cellule di Sertoli o aplasia germinale, normalmente si riscontrano:",
+        "options": {
+            "A": "LH normale, FSH elevato, testosterone normale e inibina ridotta",
+            "B": "LH elevato, FSH ridotto, testosterone elevato",
+            "C": "LH ridotto, FSH normale, testosterone ridotto",
+            "D": "Tutti gli ormoni normali",
+            "E": "LH e FSH entrambi elevati"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella Sindrome di Conn è indicata la terapia con:",
+        "options": {
+            "A": "Spironolattone",
+            "B": "Metformina",
+            "C": "Levotiroxina",
+            "D": "Idrocortisone",
+            "E": "Furosemide"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella Sindrome di Cushing, da neoplasia surrenalica, la secrezione di ACTH:",
+        "options": {
+            "A": "è diminuita",
+            "B": "è aumentata",
+            "C": "è normale",
+            "D": "è variabile",
+            "E": "è assente"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella Sindrome di Klinefelter tipica si trovano sempre valori elevati di:",
+        "options": {
+            "A": "FSH",
+            "B": "LH",
+            "C": "Testosterone",
+            "D": "Estrogeni",
+            "E": "Prolattina"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'insufficienza renale cronica, è frequente il riscontro di:",
+        "options": {
+            "A": "Ipertrigliceridemia",
+            "B": "Ipoglicemia",
+            "C": "Ipotrigliceridemia",
+            "D": "Normolipidemia",
+            "E": "Ipercolesterolemia isolata"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'iperaldosteronismo primario si riscontrano:",
+        "options": {
+            "A": "Aumento di aldosterone e diminuzione di renina",
+            "B": "Diminuzione di aldosterone e aumento di renina",
+            "C": "Aumento di entrambi",
+            "D": "Diminuzione di entrambi",
+            "E": "Valori normali"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'iperaldosteronismo primitivo il mantenimento dell'ipertensione è dovuto a:",
+        "options": {
+            "A": "Aumento delle resistenze periferiche",
+            "B": "Aumento della gittata cardiaca",
+            "C": "Ritenzione idrica",
+            "D": "Vasodilatazione",
+            "E": "Aumento del sodio intracellulare"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'ipocorticosurrenalismo cronico è indicata terapia con:",
+        "options": {
+            "A": "Idrocortisone",
+            "B": "Insulina",
+            "C": "Levotiroxina",
+            "D": "Testosterone",
+            "E": "Estrogeni"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "I livelli di insulina nel sangue aumentano maggiormente in seguito a:",
+        "options": {
+            "A": "Al diabete mellito di tipo II",
+            "B": "Al digiuno prolungato",
+            "C": "All'esercizio fisico",
+            "D": "Allo stress acuto",
+            "E": "Al sonno profondo"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Da quale precursore derivano gli ormoni tiroidei:",
+        "options": {
+            "A": "TSH o Tireotropina",
+            "B": "TRH",
+            "C": "CRH",
+            "D": "GnRH",
+            "E": "GHRH"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "È un ormone che risponde allo stress è:",
+        "options": {
+            "A": "ACTH importante per la secrezione di cortisolo",
+            "B": "TSH per la tiroide",
+            "C": "FSH per le gonadi",
+            "D": "GH per la crescita",
+            "E": "Prolattina per l'allattamento"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il funzionamento corretto del sistema riproduttivo femminile, dipende dall'alterazione di vari organi, oltre quelli proveniente dall'ipofisi, da quale ghiandola o organo?",
+        "options": {
+            "A": "Ovaie, utero, gonadi",
+            "B": "Tiroide, surrene",
+            "C": "Pancreas, fegato",
+            "D": "Reni, cuore",
+            "E": "Polmoni, milza"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'uomo quali sono gli ormoni neuroipofisi?",
+        "options": {
+            "A": "Nell'uomo FSH, nella donna GNRH",
+            "B": "ADH e ossitocina",
+            "C": "TSH e ACTH",
+            "D": "GH e prolattina",
+            "E": "LH e FSH"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'obesità comporta un maggiore rischio di diabete mellito di tipo 2:",
+        "options": {
+            "A": "Insulino resistenza",
+            "B": "Deficit di insulina",
+            "C": "Eccesso di glucagone",
+            "D": "Alterato assorbimento",
+            "E": "Iperfunzione tiroidea"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Frequente nel paziente con obesità centrale:",
+        "options": {
+            "A": "Aumentano le concentrazioni plasmatiche di acidi grassi liberi, trigliceridi, LDL. Sono invece ridotte le concentrazioni di HDL",
+            "B": "Diminuiscono tutti i lipidi",
+            "C": "Aumenta solo il colesterolo",
+            "D": "Diminuiscono solo i trigliceridi",
+            "E": "Tutti i valori sono normali"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Alterata tolleranza di glucosio come è percepita?",
+        "options": {
+            "A": "Glicemia a digiuno minore di 126mg/die",
+            "B": "Glicemia a digiuno maggiore di 200mg/die",
+            "C": "Glicemia post-prandiale minore di 140mg/die",
+            "D": "Emoglobina glicata minore di 6%",
+            "E": "Glicemia random minore di 100mg/die"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'insulina…la glicemia in quanto?",
+        "options": {
+            "A": "L'insulina è l'ormone prodotto dal pancreas, che consente al glucosio l'ingresso nelle cellule e il suo conseguente utilizzo come fonte energetica. Quando questo meccanismo è alterato, il glucosio si accumula nel circolo sanguigno",
+            "B": "Aumenta la glicemia promuovendo la gluconeogenesi",
+            "C": "Stimola il fegato a produrre più glucosio",
+            "D": "Inibisce l'utilizzo del glucosio periferico",
+            "E": "Blocca il rilascio di glucagone"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "È un esame che permette la diagnosi di diabete mellito in caso di dubbi:",
+        "options": {
+            "A": "Test di tolleranza al carico orale di glucosio (OGTT)",
+            "B": "Curva insulinemica",
+            "C": "Test del cortisolo",
+            "D": "Esame delle urine",
+            "E": "Ecografia pancreatica"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'aumento della concentrazione di glucosio plasmatico provoca l'aumento della sintesi di:",
+        "options": {
+            "A": "Glucagone",
+            "B": "Insulina",
+            "C": "Cortisolo",
+            "D": "Adrenalina",
+            "E": "GH"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "I livelli di insulina nel sangue aumentano maggiormente in seguito a:",
+        "options": {
+            "A": "Piatto ricco di carboidrati",
+            "B": "Pasto proteico",
+            "C": "Digiuno",
+            "D": "Esercizio fisico",
+            "E": "Stress"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il peptide C è:",
+        "options": {
+            "A": "Un frammento della molecola originale dalla quale si forma l'insulina",
+            "B": "Un precursore del glucagone",
+            "C": "Un marcatore tumorale",
+            "D": "Un ormone tiroideo",
+            "E": "Un neurotrasmettitore"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Tra le neoplasie della tiroide l'istotipo più frequente è:",
+        "options": {
+            "A": "Papillare",
+            "B": "Midollare",
+            "C": "Follicolare",
+            "D": "Anaplastico",
+            "E": "Linfoma"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Quali sono nell'uomo gli ormoni della neuroipofisi?",
+        "options": {
+            "A": "ADH",
+            "B": "ACTH",
+            "C": "TSH",
+            "D": "FSH",
+            "E": "LH"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'esito più frequente di una tiroide di Hashimoto è:",
+        "options": {
+            "A": "Ipotiroidismo",
+            "B": "Ipertiroidismo",
+            "C": "Eutiroidismo",
+            "D": "Neoplasia",
+            "E": "Guarigione"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Quali sono i criteri per diagnosticare il diabete?",
+        "options": {
+            "A": "Analisi del sangue",
+            "B": "Esame delle urine",
+            "C": "Ecografia pancreatica",
+            "D": "Test genetico",
+            "E": "Biopsia epatica"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'insulina è un ormone:",
+        "options": {
+            "A": "Ipoglicemizzante",
+            "B": "Iperglicemizzante",
+            "C": "Lipolitico",
+            "D": "Catabolico",
+            "E": "Neuromodulatore"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il GH è prodotto da:",
+        "options": {
+            "A": "Ipofisi anteriore",
+            "B": "Ipofisi posteriore",
+            "C": "Ipotalamo",
+            "D": "Tiroide",
+            "E": "Surrene"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il glucagone è un ormone:",
+        "options": {
+            "A": "Prodotto dalle cellule alfa del pancreas",
+            "B": "Prodotto dalle cellule beta del pancreas",
+            "C": "Prodotto dalle cellule delta del pancreas",
+            "D": "Prodotto dal fegato",
+            "E": "Prodotto dall'ipofisi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Le catecolamine:",
+        "options": {
+            "A": "tutte le risposte sono corrette",
+            "B": "sono solo adrenalina e noradrenalina",
+            "C": "sono prodotte solo dalla midollare del surrene",
+            "D": "non influenzano il metabolismo",
+            "E": "sono ormoni steroidei"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il cortisolo:",
+        "options": {
+            "A": "la sua secrezione aumenta in caso di stress psico-fisico",
+            "B": "diminuisce in caso di stress",
+            "C": "non è influenzato dallo stress",
+            "D": "è costante nelle 24 ore",
+            "E": "è prodotto dalla midollare surrenale"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Gli ormoni steroidei:",
+        "options": {
+            "A": "tutte corrette",
+            "B": "sono solo i sessuali",
+            "C": "non attraversano la membrana cellulare",
+            "D": "si legano a recettori di membrana",
+            "E": "derivano da aminoacidi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'insulina è secreta:",
+        "options": {
+            "A": "Dalle cellule beta del pancreas",
+            "B": "Dalle cellule alfa del pancreas",
+            "C": "Dalle cellule delta del pancreas",
+            "D": "Dal fegato",
+            "E": "Dall'ipofisi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La secrezione di GH:",
+        "options": {
+            "A": "ha un effetto iperglicemizzante a lungo termine",
+            "B": "ha effetto ipoglicemizzante",
+            "C": "non influisce sulla glicemia",
+            "D": "aumenta la sensibilità insulinica",
+            "E": "inibisce la gluconeogenesi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Il testosterone:",
+        "options": {
+            "A": "stimola la sintesi di eritropoietina",
+            "B": "inibisce l'eritropoiesi",
+            "C": "non influisce sull'eritropoiesi",
+            "D": "riduce l'emoglobina",
+            "E": "causa anemia"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "L'insulina:",
+        "options": {
+            "A": "è l'ormone anabolico per eccellenza",
+            "B": "è un ormone catabolico",
+            "C": "promuove la lipolisi",
+            "D": "stimola la gluconeogenesi",
+            "E": "inibisce la sintesi proteica"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La secrezione di cortisolo:",
+        "options": {
+            "A": "aumenta in seguito ad esercizio fisico prolungato",
+            "B": "diminuisce con l'esercizio",
+            "C": "non cambia con l'esercizio",
+            "D": "è massima di notte",
+            "E": "è costante tutto il giorno"
+        },
+        "correct": ["A"],
+        "type": "single"
     }
+
 ]
