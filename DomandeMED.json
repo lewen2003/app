@@ -1,0 +1,121 @@
+[
+    {
+        "question": "I glucocorticoidi esercitano un'azione:",
+        "options": {
+            "A": "Immunosoppressiva",
+            "B": "Catabolica",
+            "C": "Iperglicemizzante",
+            "D": "Tutte le affermazioni sono esatte",
+            "E": "Antinfiammatoria"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "Nella diagnosi del Diabete:",
+        "options": {
+            "A": "Tutte le affermazioni sono esatte",
+            "B": "Si definisce alteratala glicemia a digiuno compresa tra 110 mg/dl e 126 mg/dl",
+            "C": "È diagnostica una glicemia a digiuno >126 mg/dl",
+            "D": "Nessuna delle precedenti",
+            "E": "È diagnosticata una glicemia random >200 mg/dl"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Un adulto Ipotiroideo presenta sintomi come:",
+        "options": {
+            "A": "Intolleranza al freddo",
+            "B": "Tutte le affermazioni sono esatte",
+            "C": "Scarsa resistenza alla fatica",
+            "D": "Aumento di peso",
+            "E": "Facile faticabilità"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Per il controllo del diabete sia di tipo 1 e di tipo 2:",
+        "options": {
+            "A": "è importante l'automonitoraggio più volte al giorno attraverso il reflettometro",
+            "B": "La dieta è l'attività fisica sono fondamentali",
+            "C": "Un esercizio fisico di tipo aerobico permette un miglioramento della glicemia e dell'insulino - resistenza",
+            "D": "Tutte le risposte precedenti"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "La miglior resa energetica per mole di substrato energetico utilizzato si ottiene dal metabolismo:",
+        "options": {
+            "A": "Anaerobico lattacido",
+            "B": "Anaerobico alattacido",
+            "C": "Fosfocreatina",
+            "D": "Aerobico",
+            "E": "Lattacido"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "La concentrazione plasmatica di insulina è influenzata dalla VO2max. Indicare l'affermazione esatta:",
+        "options": {
+            "A": "Diminuisce a partire dall' 80% della vo2max",
+            "B": "Aumenta all'aumentare della vo2max",
+            "C": "Decresce fino a una VO2 del 60% - 70% e poi aumenta",
+            "D": "Non è influenzata dalla vo2max",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": ["C"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di testosterone in ambito sportivo:",
+        "options": {
+            "A": "Dosaggio testosterone ematico",
+            "B": "Valutazione del rapporto testosterone/epitestosterone nelle urine",
+            "C": "Valutazione del rapporto testosterone/ epitestosterone nel sangue",
+            "D": "Dosaggio epitestosterone sierico",
+            "E": "Dosaggio di metaboliti del testosterone nel sangue"
+        },
+        "correct": ["B"],
+        "type": "single"
+    },
+    {
+        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di GH in ambito sportivo:",
+        "options": {
+            "A": "Dosaggio IGF - 1 ematico",
+            "B": "Valutazione del rapporto GH 22 - kDa/GH non - 22 - kDa nel sangue",
+            "C": "Misurazione del GH urinario",
+            "D": "Misurazione di alcuni marker del turnover dell'osso e del collagene",
+            "E": "A + B + D"
+        },
+        "correct": ["E"],
+        "type": "single"
+    },
+    {
+        "question": "La specificità dell'azione ormonale è determinata:",
+        "options": {
+            "A": "Dalla presenza dello specifico recettore sulla cellula bersaglio",
+            "B": "Dalla quantità di recettori sulla cellula bersaglio",
+            "C": "Dal numero di cellule bersaglio",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La calcitonina è prodotta:",
+        "options": {
+            "A": "Nell'ovaio",
+            "B": "Nel testicolo",
+            "C": "Nella tiroide",
+            "D": "Nell'ipofisi",
+            "E": "Nella paratiroide"
+        },
+        "correct": ["C"],
+        "type": "single"
+    }
+]
