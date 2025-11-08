@@ -1,0 +1,1222 @@
+[
+    {
+        "question": "I glucocorticoidi esercitano un'azione:",
+        "options": {
+            "A": "Immunosoppressiva",
+            "B": "Catabolica",
+            "C": "Iperglicemizzante",
+            "D": "Tutte le affermazioni sono esatte",
+            "E": "Antinfiammatoria"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Nella diagnosi del Diabete:",
+        "options": {
+            "A": "Tutte le affermazioni sono esatte",
+            "B": "Si definisce alteratala glicemia a digiuno compresa tra 110 mg\/dl e 126 mg\/dl",
+            "C": "È diagnostica una glicemia a digiuno >126 mg\/dl",
+            "D": "Nessuna delle precedenti",
+            "E": "È diagnosticata una glicemia random >200 mg\/dl"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Un adulto Ipotiroideo presenta sintomi come:",
+        "options": {
+            "A": "Intolleranza al freddo",
+            "B": "Tutte le affermazioni sono esatte",
+            "C": "Scarsa resistenza alla fatica",
+            "D": "Aumento di peso",
+            "E": "Facile faticabilità"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Per il controllo del diabete sia di tipo 1 e di tipo 2:",
+        "options": {
+            "A": "è importante l'automonitoraggio più volte al giorno attraverso il reflettometro",
+            "B": "La dieta è l'attività fisica sono fondamentali",
+            "C": "Un esercizio fisico di tipo aerobico permette un miglioramento della glicemia e dell'insulino - resistenza",
+            "D": "Tutte le risposte precedenti"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La miglior resa energetica per mole di substrato energetico utilizzato si ottiene dal metabolismo:",
+        "options": {
+            "A": "Anaerobico lattacido",
+            "B": "Anaerobico alattacido",
+            "C": "Fosfocreatina",
+            "D": "Aerobico",
+            "E": "Lattacido"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La concentrazione plasmatica di insulina è influenzata dalla VO2max. Indicare l'affermazione esatta:",
+        "options": {
+            "A": "Diminuisce a partire dall' 80% della vo2max",
+            "B": "Aumenta all'aumentare della vo2max",
+            "C": "Decresce fino a una VO2 del 60% - 70% e poi aumenta",
+            "D": "Non è influenzata dalla vo2max",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di testosterone in ambito sportivo:",
+        "options": {
+            "A": "Dosaggio testosterone ematico",
+            "B": "Valutazione del rapporto testosterone\/epitestosterone nelle urine",
+            "C": "Valutazione del rapporto testosterone\/ epitestosterone nel sangue",
+            "D": "Dosaggio epitestosterone sierico",
+            "E": "Dosaggio di metaboliti del testosterone nel sangue"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di GH in ambito sportivo:",
+        "options": {
+            "A": "Dosaggio IGF - 1 ematico",
+            "B": "Valutazione del rapporto GH 22 - kDa\/GH non - 22 - kDa nel sangue",
+            "C": "Misurazione del GH urinario",
+            "D": "Misurazione di alcuni marker del turnover dell'osso e del collagene",
+            "E": "A + B + D"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La specificità dell'azione ormonale è determinata:",
+        "options": {
+            "A": "Dalla presenza dello specifico recettore sulla cellula bersaglio",
+            "B": "Dalla quantità di recettori sulla cellula bersaglio",
+            "C": "Dal numero di cellule bersaglio",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La calcitonina è prodotta:",
+        "options": {
+            "A": "Nell'ovaio",
+            "B": "Nel testicolo",
+            "C": "Nella tiroide",
+            "D": "Nell'ipofisi",
+            "E": "Nella paratiroide"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'esercizio fisico intenso si associa a:",
+        "options": {
+            "A": "Dimagrimento e nervosismo",
+            "B": "Amenorrea secondaria",
+            "C": "Disturbi dell'umore",
+            "D": "Incremento del peso ed amenorrea primaria",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La desentizzazione recettoriale:",
+        "options": {
+            "A": "è rappresentata da un aumento del numero di recettori sulla cellula",
+            "B": "è una riduzione della risposta della cellula bersaglio all'ormone",
+            "C": "è sempre legata alla distruzione recettoriale",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Un soggetto con diabete mellito di tipo 1 può svolgere le seguenti attività agonistiche:",
+        "options": {
+            "A": "Pugilato",
+            "B": "Body building",
+            "C": "Corsa motociclista",
+            "D": "Immersioni con bombole",
+            "E": "Nessuna delle precedenti risposte perché sono nocive alla salute"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Qual è la cosa più importante per mantenere un buon controllo glicemico nello sportivo con diabete di tipo 1:",
+        "options": {
+            "A": "Il frequente controllo della glicemia prima e dopo i pasti",
+            "B": "Il frequente controllo della glicemia prima e dopo i pasti e prima, durante e dopo l'attività fisica",
+            "C": "Fare ogni 6 mesi l'elettrocardiogramma",
+            "D": "Evitare di mangiare gli zuccheri semplici",
+            "E": "Evitare i grassi"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il recettore insulinico non legato all'insulina e formato da:",
+        "options": {
+            "A": "1 subunità alfa e 1 beta",
+            "B": "2 subunità alfa e 2 beta",
+            "C": "1 subunità alfa e 3 beta",
+            "D": "3 subunità alfa e 1 beta",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'importanza clinica del concetto di feedback è data dal fatto che:",
+        "options": {
+            "A": "Può essere causata nella terapia di malattie infettive",
+            "B": "Rappresenta la base fisiologica dei test di stimolazione e di frenazione usati nella pratica clinica",
+            "C": "Deve essere applicata alle sole malattie delle ghiandole endocrine periferiche",
+            "D": "Deve essere applicato alle sole malattie dell'ipofisi",
+            "E": "Serve esclusivamente a scopo di ricerca"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La maggior parte della secrezione fisiologica di GH avviene:",
+        "options": {
+            "A": "Durante le ultime ore di sonno",
+            "B": "Durante la veglia",
+            "C": "Durante il pasto",
+            "D": "Con un intenso sforzo fisico",
+            "E": "Durante le prime ore di sonno"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "I sintomi clinici del diabete di tipo 1 sono:",
+        "options": {
+            "A": "Dimagrimento",
+            "B": "Poliuria e polidipsia",
+            "C": "Polifagia",
+            "D": "Tutte le precedenti risposte",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La T3 è formata dalla reazione di accoppiamento di:",
+        "options": {
+            "A": "2 residui monoiodotirosinici mit",
+            "B": "1 residuo monoiodotirosinico mit e 2 residui diiodotirosinici dit",
+            "C": "2 residui diiodotirosinici dit",
+            "D": "3 residui monoiodotirosinici",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "GLUT - 4 è:",
+        "options": {
+            "A": "Il trasportatore del glucosio insulino - dipendente",
+            "B": "Il co - trasportatore sodio - glucosio",
+            "C": "Il trasportatore del glucosio insulino - indipendente",
+            "D": "Una proteina accessoria all'attivazione del recettore insulinico",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Le complicanze croniche del diabete sono:",
+        "options": {
+            "A": "Chetoacidosi",
+            "B": "Cardiomiopatia ischemica",
+            "C": "Retinopatia e neuropatia",
+            "D": "A + C",
+            "E": "Tutte le precedenti risposte"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il neurormone è:",
+        "options": {
+            "A": "Una sostanza che, prodotta da un neurone, viene immessa nello spazio sinaptico",
+            "B": "Un ormone che regola il sistema nervoso centrale",
+            "C": "Nessuno dei precedenti",
+            "D": "Una sostanza che, prodotta da un neurone, viene immessa in circolo",
+            "E": "è un ormone steroideo"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quale dei seguenti sport si presta meglio per l'attività agonistica di soggetti con diabete insulino- dipendente:",
+        "options": {
+            "A": "Nuoto su lunghe distanze",
+            "B": "Motociclismo",
+            "C": "Maratona",
+            "D": "Ciclismo",
+            "E": "Automobilismo"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Gli ormoni possono avere azione:",
+        "options": {
+            "A": "Endocrina",
+            "B": "Paracrina",
+            "C": "Autocrina",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La causa più frequente di Ipotiroidismo:",
+        "options": {
+            "A": "Danno ridotto da radiazioni",
+            "B": "Agenesia della tiroide",
+            "C": "Tutte le precedenti",
+            "D": "Trauma cranico",
+            "E": "Tiroide cronica autoimmune"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'ipotiroidismo determina alterazioni anatomo - funzionali a carico di:",
+        "options": {
+            "A": "Cute e annessi",
+            "B": "Cuore e circolo",
+            "C": "Muscolo scheletrico",
+            "D": "Sistema nervoso",
+            "E": "Tutte le precedenti"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il recettore androgenico si trova:",
+        "options": {
+            "A": "Sulla membrana plasmatica",
+            "B": "Nel citoplasma",
+            "C": "Sui ribosomi",
+            "D": "Nel nucleo",
+            "E": "Tutte le risposte precedenti"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il fenotipo della completa insensibilità agli androgeni è caratterizzato da:",
+        "options": {
+            "A": "Fenotipo maschile con infertilità",
+            "B": "Fenotipo maschile con genitali ambigui",
+            "C": "Fenotipo femminile con testicoli criptorchidi",
+            "D": "Fenotipo femminile con parziale virilizzazione dei genitali esterni",
+            "E": "Fenotipo estremamente variabile tra il maschio e la femmina"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "In base ai criteri classificativi dell'American Diabetes Association il diabete viene diagnosticato in base ai seguenti valori di glicemia:",
+        "options": {
+            "A": "Pari o superiore a 126 mg\/dl a digiuno, almeno in due misurazioni",
+            "B": "Maggiore di 180 mg\/dl",
+            "C": "Nessuna delle precedenti",
+            "D": "Maggiore di 200 mg\/dl dopo due ore di carico orale di glucosio",
+            "E": "Le risposte 1 e 2 sono corrette"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il recettore insulinico è un recettore:",
+        "options": {
+            "A": "Nucleare",
+            "B": "Di membrana accoppiato alle g - proteins",
+            "C": "Di membrana tirosino - chinasico",
+            "D": "Di membrana accoppiato a canali ionici",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il trauma cranico può causare frequentemente ipopituitarismo e particolarmente deficit di GH:",
+        "options": {
+            "A": "Vero",
+            "B": "Falso",
+            "C": "Qualche volta",
+            "D": "Spesso",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quale delle seguenti affermazioni è vera?",
+        "options": {
+            "A": "La secrezione di prl è regolata principalmente dal prolactin releasing hormone",
+            "B": "La secrezione di prl è regolata principalmente dal trh",
+            "C": "La secrezione di prl è regolata principalmente dalla dopamina",
+            "D": "La secrezione di prl avviene seguendo il ritmo del cortisolo e dell'ACh",
+            "E": "La secrezione di prl avviene solo dopo il parto"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La causa più frequente di ipercortisolismo endogeno è:",
+        "options": {
+            "A": "Secrezione ectopica di ACh",
+            "B": "Carcinoma surrenalico",
+            "C": "Malattia di Cushing",
+            "D": "Displasia nodulare primaria pigmentata del surrene",
+            "E": "Iperplasia surrenalica nodulare"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quale delle seguenti affermazioni sulla sindrome di Cushing è esatta?",
+        "options": {
+            "A": "L'ipoglicemia è un sintomo frequente",
+            "B": "è presente spesso un'aumentata mineralizzazione ossea",
+            "C": "Sono tipiche le crisi ipertensive parossistiche",
+            "D": "Le striae rubrae sono un segno patognomonico",
+            "E": "Provoca dimagrimento e ipotensione"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quali di queste affermazioni è vera?",
+        "options": {
+            "A": "La secrezione di aldosterone è principalmente regolata dal sistema renina - angiotensina",
+            "B": "La sintesi dell'aldosterone avviene nella zona fascicolata della corticale del surrenalica",
+            "C": "La sintesi di cortisolo avviene nella zona glomerulosa della corticale surrenalica",
+            "D": "Il ritmo circadiano del cortisolo è caratterizzato da una secrezione minima al mattino e massimo alla sera",
+            "E": "Tutte le precedenti risposte"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quale di queste patologie endocrine possono causare una bassa statura:",
+        "options": {
+            "A": "Nessuna delle precedenti",
+            "B": "Morbo di Cushing",
+            "C": "Ipertiroidismo",
+            "D": "Deficit dell'ormone della crescita (Gh)",
+            "E": "Iperprolattinemia"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Tra questi sintomi qual è patognomico del morbo di Basedow:",
+        "options": {
+            "A": "La tachicardia",
+            "B": "Il gozzo diffuso",
+            "C": "L'esoftalmo",
+            "D": "Il mixedema pretibiale",
+            "E": "Tutte le precedenti"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quali sono i principali sintomi e segni di deficit surrenalico primitivo:",
+        "options": {
+            "A": "Astenia, iperpigmentazione, ipotensione arteriosa, nausea",
+            "B": "Ipertensione arteriosa, iperpigmentazione, disidratazione, vomito",
+            "C": "Anoressia, vomito, ipernatriemia, ipopotassiemia",
+            "D": "Nessuna delle precedenti",
+            "E": "A + C (astenia, iperpigmentazione, ipotensione arteriosa, nausea e anoressia, vomito, ipernatriemia, ipopotassiemia)"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Astenia e debolezza muscolare sono sintomi legati a deficit di:",
+        "options": {
+            "A": "Gh",
+            "B": "Tsh",
+            "C": "Lh",
+            "D": "Acth",
+            "E": "Tutte le risposte precedenti"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il GH è:",
+        "options": {
+            "A": "Una proteina simile alla proinsulina",
+            "B": "Una proteina simile alla prolattina",
+            "C": "Una proteina dimerica formata da una subunità alfa e una beta",
+            "D": "Una glicoproteina",
+            "E": "Un neuro - ormone ipotalamico che regola la funzione ipofisaria"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il feedback negativo è:",
+        "options": {
+            "A": "Il meccanismo attraverso il quale si verifica un aumento degli ormoni ipofisari",
+            "B": "Il meccanismo in cui si ottiene l'inibizione dell'azione ormonale",
+            "C": "Il meccanismo con il quale gli ormoni ipotalamici stimolano i centri nervosi",
+            "D": "Il meccanismo di regolazione tra ipofisi e midollare del surrene",
+            "E": "Il meccanismo di regolazione della secrezione di glucagone da parte dell'acth"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il GH:",
+        "options": {
+            "A": "Glucidico",
+            "B": "Tutte le affermazioni sono esatte",
+            "C": "Stimola la sintesi di igf - 1",
+            "D": "La sua azione è regolata in modo negativo dalla somatostatina",
+            "E": "La sua azione è regolata in modo positivo dal ghrh"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L' IGF - 1:",
+        "options": {
+            "A": "Una glicoproteina",
+            "B": "Uno steroide",
+            "C": "Una proteina simile alla proinsulina",
+            "D": "Una proteina formata da una catena alfa e una beta",
+            "E": "Un neuro - ormone ipotalamico che regola la funzione ipofisiaria"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La somatostatina è:",
+        "options": {
+            "A": "Un ormone prodotto ubiquitariamente che regola la crescita cellulare",
+            "B": "Un ormone prodotto in vari organi che regola la secrezione di altri",
+            "C": "Un ormone prodotto dal rene che regola la pressione sanguigna",
+            "D": "Un fattore di crescita",
+            "E": "Uno steroide"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Le azioni del GH sono:",
+        "options": {
+            "A": "In parte dirette e in parte mediate dall' igf - 1",
+            "B": "Essenzialmente simil - insuliniche ipoglicemizzanti",
+            "C": "Di tipo catabolico",
+            "D": "Di tipo inibitorio sulla funzione tiroidea",
+            "E": "Di tipo inibitorio sulla funzione gonadica"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Negli atleti che praticano sport di durata è possibile riscontrare:",
+        "options": {
+            "A": "Un incremento di livelli sierici di testosterone",
+            "B": "Una riduzione di livelli sierici di testosterone",
+            "C": "Una iper - risposta ipofisiaria al ghrh",
+            "D": "Un peggioramento dei valori seminali",
+            "E": "B + D"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il ciclo mestruale normale ha una durata media di:",
+        "options": {
+            "A": "28 - 30 giorni",
+            "B": "20 - 26 giorni",
+            "C": "32 - 38 giorni",
+            "D": "18 - 24 giorni",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quali sono le cause di insufficienza surrenalica secondaria:",
+        "options": {
+            "A": "Tumori dell'ipofisi, carcinoma del surrene, ipofisite linfocitaria",
+            "B": "Terapia cronica con glucocorticoidi, ipofisite linfocitaria, adrenoleucodistrofia",
+            "C": "Interventi neuro - chirurgici, tumori dell'ipofisi, terapie cortisoniche prolungate",
+            "D": "Nessuna delle precedenti",
+            "E": "A + C (tumori dell'ipofisi, carcinoma del surrene, ipofisite linfocitaria e interventi neuro - chirurgici, tumori dell'ipofisi, terapie cortisoniche prolungate)."
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La Triade dell'atleta donna è caratterizzata da:",
+        "options": {
+            "A": "Amenorrea, dismenorrea ed osteoporosi",
+            "B": "Disordini alimentari, amenorrea ed osteoporosi",
+            "C": "Obesità, nervosismo ed osteoporosi",
+            "D": "Amenorrea, obesità ed osteoporosi",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il neuropeptide Y aumenta:",
+        "options": {
+            "A": "Lontano dai pasti",
+            "B": "Subito dopo i pasti",
+            "C": "Prima e durante i pasti",
+            "D": "Dopo un breve periodo di digiuno",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "GLP - 1:",
+        "options": {
+            "A": "è secreto dalle cellule l della mucosa",
+            "B": "Aumenta la secrezione di insulina",
+            "C": "Diminuisce la secrezione di glucagone",
+            "D": "Rallenta lo svuotamento gastrico",
+            "E": "Tutte le risposte sono esatte"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "I livelli di ghrelin acilato sono diminuiti:",
+        "options": {
+            "A": "Subito dopo i pasti",
+            "B": "Dopo digiuno prolungato",
+            "C": "Son dieta ipocalorica",
+            "D": "In soggetti anoressici",
+            "E": "A + c (subito dopo i pasti e con dieta ipocalorica)"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Qual è la terapia dell'insufficienza surrenalica:",
+        "options": {
+            "A": "Analogo dell'acth",
+            "B": "Glucocorticoidi, mineralcorticoidi",
+            "C": "Mineralcorticoidi, androgeni",
+            "D": "Analogo del crh",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'intensità di un esercizio può essere espressa in funzione di:",
+        "options": {
+            "A": "% Hr",
+            "B": "% vo2max",
+            "C": "% hr o mets",
+            "D": "Quantità del lavoro eseguito",
+            "E": "Dispendio calorico"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La sindrome da insulino - resistenza di tipo A è caratterizzata da:",
+        "options": {
+            "A": "Iperinsulinemia, acanthosis nigricans e segni di iperandrogenismo",
+            "B": "Grave ritardo della crescita intrauterino e postnatale, lipotrofia, facies dismorfica (occhi rotondi, orecchie larghe, micrognazia) e acanthosis nigricans",
+            "C": "Severa insulino - resistenza e diabete (refrettario alla terapia con altre dosi di insulina) associati ad acanthosis nigricans, anomalie dello sviluppo dei denti e delle unghie, capelli spessi e a crescita rapida",
+            "D": "Tachicardia, dimagrimento, esoftalmo",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La mutazione del gene PROP - 1 è responsabile di alterata secrezione di:",
+        "options": {
+            "A": "Solo prolattina",
+            "B": "Prolattina e tsh",
+            "C": "Gh e fsh",
+            "D": "Lh, fsh, gh, prolattina e tsh",
+            "E": "Lh e tsh"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Un giovane con diabete mellito di tipo 1 può svolgere attività agonistica:",
+        "options": {
+            "A": "No, perché è pericoloso per la sua salute",
+            "B": "No, perché il diabete è una malattia invalidante",
+            "C": "Si, se non ha gravi complicanze e ha un buon controllo glicemico",
+            "D": "Si, anche in presenza di neuropatia autonomica diabetica",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'ormone anteroipofisiario più sensibile all'azione di agenti lesivi è:",
+        "options": {
+            "A": "Prolattina",
+            "B": "Gh",
+            "C": "Tsh",
+            "D": "Acth",
+            "E": "Lh"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Gli estrogeni possono esercitare:",
+        "options": {
+            "A": "Feedback solo positivo",
+            "B": "Feedback solo negativo",
+            "C": "Feedback positivo e negativo",
+            "D": "Feedback positivo solo in presenza di inibina",
+            "E": "Feedback solo in presenza gnrh"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il processo di adattamento dell'osso al carico meccanico durante l'esercizio fisico:",
+        "options": {
+            "A": "Dipende principalmente dall'intensità dell'esercizio fisico",
+            "B": "è minore negli sport ad alto impatto",
+            "C": "è indipendente dallo strain provocato",
+            "D": "Non consente di ottenere un osso più resistente",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'aumento degli androgeni nella donna comporta:",
+        "options": {
+            "A": "Un vantaggio in certe forme di attività sportiva",
+            "B": "Uno svantaggio in certe forme di attività sportiva",
+            "C": "Nessun effetto sull'attività sportiva",
+            "D": "A + c",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Lo scheletro di un soggetto adulto è costituito da:",
+        "options": {
+            "A": "Osso corticale per l'80% e osso trabecolare per il 20%",
+            "B": "Osso corticale per il 60% e osso trabecolare per il 40%",
+            "C": "Osso corticale per il 50% e osso trabecolare per il 50%",
+            "D": "Osso corticale per il 30% e osso trabecolare per il 70%",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La BMD areale è:",
+        "options": {
+            "A": "Espressa in grammi di idrossiapatite per unità di superficie",
+            "B": "Direttamente dipendente dalla densità minerale ossea del segmento osseo misurato",
+            "C": "Direttamente correlata con la resistenza dell'osso al carico meccanico",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Nelle attività sportive che richiedono l'impiego di forze pressoché massimali la maggior parte dell'energia necessaria deriva da:",
+        "options": {
+            "A": "Sintesi della fosfocreatina",
+            "B": "Glicolisi anaerobica",
+            "C": "Glicolisi aerobica",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "A",
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'attività aerobica determina:",
+        "options": {
+            "A": "Aumento dei depositi di glicogeno muscolare",
+            "B": "Utilizzo dei substrati lipidici",
+            "C": "Aumento dell'attività specifica di enzimi ossidativi coinvolti nel processo di beta - ossidazione dei lipidi",
+            "D": "Rilascio di acidi grassi liberi dai depositi",
+            "E": "Tutte le risposte precedenti"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il rimodellamento osseo:",
+        "options": {
+            "A": "Avviene per attivazione delle unità di rimodellamento osseo (bmu)",
+            "B": "Consente di rinnovare completamente lo scheletro di un soggetto adulto ogni 10 anni",
+            "C": "Si compone di tre fasi (rimodellamento, intermedia, neoformazione), strettamente connessa tra loro che si succedono in modo sequenziale",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "In risposta a uno stimolo aerobico allenante si osservano tutti i seguenti fenomeni, eccetto:",
+        "options": {
+            "A": "Aumento di dimensione delle fibre muscolari di tipo lento",
+            "B": "Aumento di dimensione delle fibre muscolari veloci",
+            "C": "Aumento del numero dei capillari attorno alle fibre",
+            "D": "Aumento della mioglobina muscolare",
+            "E": "Aumento della massa mitocondriale muscolare"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Le fasi che caratterizzano, nell'ordine, il ciclo endometriale sono:",
+        "options": {
+            "A": "Fase premestruale, fase mestruale, fase proliferativa, fase secretiva",
+            "B": "Fase premestruale, fase mestruale, fase secretiva, fase proliferativa",
+            "C": "Fase proliferativa, fase secretiva, fase premestruale e fase mestruale",
+            "D": "Fase secretiva, fase proliferativa, fase premestruale e fase mestruale",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il carcinoma tiroideo costituisce:",
+        "options": {
+            "A": "Meno dell'1% di tutti i tumori maligni",
+            "B": "Meno dell'1% per mille di tutti i tumori maligni",
+            "C": "Il 10% di tutti i tumori maligni",
+            "D": "Il 5% di tutti i tumori maligni",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quali delle seguenti caratteristiche ecografiche è sospetta per malignità in un nodulo tiroideo?",
+        "options": {
+            "A": "Ipoecogenicità",
+            "B": "Irregolarità dei margini",
+            "C": "Ipervascolarizzazione interna",
+            "D": "Presenza di calcificazioni puntate",
+            "E": "Tutte le risposte sono corrette"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quale fra le seguenti non è una causa di iperaldosteronismo primario?",
+        "options": {
+            "A": "Morbo di conn",
+            "B": "Reninoma",
+            "C": "Iperplasia surrenalica",
+            "D": "Carcinoma surrenalico",
+            "E": "Iperaldosteronismo steroido - sensibile"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quale di questi complessi sintomatologico è più suggestivo di feocromocitoma?",
+        "options": {
+            "A": "Amenorrea, osteoporosi, ipertensione",
+            "B": "Crisi ipertensive parossistiche, cefalea, palpitazioni",
+            "C": "Astenia, cefalea, iperidrosi",
+            "D": "Ipopotassemia, ipertensione, striae rubrae",
+            "E": "Ipopotassemia, ipertensione, pseudo - diabete insipido"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Quali esami di laboratorio si eseguono in prima battuta nei pazienti ai quali viene riscontrato un nodulo tiroideo?",
+        "options": {
+            "A": "Tsh, ft3, ft4",
+            "B": "Tsh, calcitonina",
+            "C": "Tsh, anti corpi antirecettori del tsh",
+            "D": "Anti corpi anti - tireoglobulina e anti - tireoperossidasi",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "A",
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La perdita di peso nelle pazienti obese appare associata a una riduzione del rischio di queste patologie:",
+        "options": {
+            "A": "Malattie cardiovascolari e diabete",
+            "B": "Anovularietà",
+            "C": "Malattie gastrointestinali",
+            "D": "A + B",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La cellula di Sertoli si trova:",
+        "options": {
+            "A": "Nell'ovaio embrionale",
+            "B": "Nel pancreas endocrino",
+            "C": "Nel pancreas esocrino",
+            "D": "Nei tubuli seminiferi",
+            "E": "Nel corticosurrene"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La struttura dell'ormone LH è molto simile a quella di quale delle seguenti sostanze?",
+        "options": {
+            "A": "Hcg",
+            "B": "Testosterone",
+            "C": "Tsh",
+            "D": "Fsh",
+            "E": "Tutte le precedenti risposte tranne la B"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Il paratormone è elaborato:",
+        "options": {
+            "A": "Dalle paratiroidi",
+            "B": "Dalla tiroide",
+            "C": "Dal corticosurrene",
+            "D": "Dal pancreas endocrino",
+            "E": "Dal testicolo"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'ipotiroidismo primitivo limita la performance fisica più frequentemente e in maggior misura a causa di:",
+        "options": {
+            "A": "Deficit respiratorio",
+            "B": "Insufficienza cardiaca",
+            "C": "Insufficienza muscolare",
+            "D": "Danni nervosi",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": [
+            "C"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Da dove origina il testosterone della donna:",
+        "options": {
+            "A": "Dall'ovaio",
+            "B": "Dal surrene",
+            "C": "Per il 50% dall'ovaio e per il 50% dal surrene",
+            "D": "Per i 2\/3 dall'ovaio e per 1\/3 dal surrene",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "La calcitonina è un marker specifico di una delle seguenti neoplasie tiroidee:",
+        "options": {
+            "A": "Carcinoma midollare",
+            "B": "Carcinoma papillare",
+            "C": "Carcinoma follicolare",
+            "D": "Carcinoma anaplastico",
+            "E": "Tumore solitario fibroso"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Qual è la più comune forma di iperandrogenismo nella donna:",
+        "options": {
+            "A": "La sindrome dell'ovaio policistico",
+            "B": "L'irsutismo idiopatico",
+            "C": "I deficit enzimatici surrenalici",
+            "D": "I tumori androgeni secernenti",
+            "E": "Nessuna delle precedenti risposte"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Per quale delle seguenti ragioni il muscolo scheletrico ha particolare rilevanza?",
+        "options": {
+            "A": "Per la sintesi delle lipoproteine",
+            "B": "Perché utilizza la maggior parte del glucosio assorbito",
+            "C": "Nessuna delle precedenti risposte",
+            "D": "Perché rappresenta il tessuto quantitativamente preponderante tra quelli che costituiscono la massa grassa",
+            "E": "Può controllare la concentrazione di glucosio a digiuno aumentando la gluconeogenesi"
+        },
+        "correct": [
+            "B"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Qual è la causa più frequente di ipotiroidismo?",
+        "options": {
+            "A": "Il morbo di Basedow",
+            "B": "L'adenoma di Plummer",
+            "C": "Nessuna delle altre affermazioni è esatta",
+            "D": "La malattia di Klinefelter",
+            "E": "La tiroidite di Hashimoto"
+        },
+        "correct": [
+            "E"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Qual è la causa più frequente di insufficienza corticosurrenale cronica?",
+        "options": {
+            "A": "Surrenalite autoimmune",
+            "B": "Sono tutte false",
+            "C": "Surrenalite tubercolare",
+            "D": "Iposurrenalismo idiopatico",
+            "E": "Adenoma non funzionante dell'ipofisi"
+        },
+        "correct": [
+            "A"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Lo stato ipotiroideo di modesta entità (ipotiroidismo subclinico) può essere sospetto clinico ed identificato sul piano semiologico-laboratoristico dal riscontro di:",
+        "options": {
+            "A": "Dimagrimento",
+            "B": "Nervosismo",
+            "C": "Riduzione modesta del TSH, tachicardia, iperidrosi",
+            "D": "Aumento modesto del TSH, bradicardia, cute secca",
+            "E": "Assenza di alcun sintomo"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "Gli anticorpi antitiroide specifici del morbo di Basedow sono:",
+        "options": {
+            "A": "Anticorpi antitireoglobulina",
+            "B": "Anticorpi antitireoperossidasi",
+            "C": "Nessuna delle precedenti",
+            "D": "Anticorpi antirecettore del TSH",
+            "E": "Anticorpi antiT3"
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    },
+    {
+        "question": "L'apporto alimentare ottimale di iodio è:",
+        "options": {
+            "A": "1000 ug",
+            "B": "300 ug",
+            "C": "1500 ug",
+            "D": "150 ug",
+            "E": "50 ug"
+
+        },
+        "correct": [
+            "D"
+        ],
+        "type": "single"
+    }
+]
