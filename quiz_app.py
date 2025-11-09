@@ -13,6 +13,274 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+# DOMANDE DI MEDICINA INCORPORATE NEL CODICE
+DOMANDE_MEDICINA = [
+    {
+        "question": "L'ischemia nel distretto splancnico durante esercizio?",
+        "options": {
+            "A": "Una difesa dell'organismo dovuta ad adattamenti vascolari",
+            "B": "Patologia congenita dei vasi intestinali che non si adattano all'esercizio",
+            "C": "Complicanza dell'anemia cronica",
+            "D": "Complicanza del diabete di tipo II",
+            "E": "Sempre patologica e pericolosa"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Durante una maratona quale dei seguenti sintomi si può manifestare?",
+        "options": {
+            "A": "Defecazione imperiosa",
+            "B": "Minzione imperiosa",
+            "C": "Flatulenze",
+            "D": "Diarrea",
+            "E": "Stipsi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Una delle più frequenti cause di esofagite e gastrite nella pratica dello sport è?",
+        "options": {
+            "A": "Uso cronico di antinfiammatori",
+            "B": "Uso di cibi piccanti",
+            "C": "Anemia cronica",
+            "D": "Intolleranza al glutine",
+            "E": "Consumo di alcol"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Durante l'esercizio fisico il dolore toracico va valutato attentamente e?",
+        "options": {
+            "A": "Può essere anche un sintomo di reflusso gastroesofageo",
+            "B": "Può essere un segno di stanchezza cronica",
+            "C": "È sempre un segno di cardiopatia ischemica",
+            "D": "È sempre benigno",
+            "E": "Non richiede mai attenzione medica"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La gestosi del terzo trimestre di gravidanza:",
+        "options": {
+            "A": "Ipertensione, edema, proteinuria",
+            "B": "Ipotensione, edema, glicosuria",
+            "C": "Ipertensione, tachicardia, febbre",
+            "D": "Ipotensione, bradicardia, ipotermia",
+            "E": "Anemia, edemi, iperglicemia"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La lipotimia è:",
+        "options": {
+            "A": "Una presincope",
+            "B": "Una sincope completa",
+            "C": "Una crisi epilettica",
+            "D": "Un attacco di panico",
+            "E": "Una crisi ipoglicemica"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La morte improvvisa da sport:",
+        "options": {
+            "A": "Evento raro non prevedibile ed in genere determinato da cardiopatia non nota",
+            "B": "Evento frequente negli atleti professionisti",
+            "C": "Sempre causata da doping",
+            "D": "Prevedibile con esami di routine",
+            "E": "Causata solo da trauma cardiaco"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sideremia:",
+        "options": {
+            "A": "Dà misura di ferro libero nel sangue",
+            "B": "Misura il ferro legato all'emoglobina",
+            "C": "Valuta i depositi di ferro",
+            "D": "Misura la capacità di legare il ferro",
+            "E": "Valuta solo il ferro alimentare"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sincope:",
+        "options": {
+            "A": "Può essere un sintomo di embolia polmonare",
+            "B": "È sempre di origine cardiaca",
+            "C": "Non è mai pericolosa",
+            "D": "È sempre benigna",
+            "E": "Colpisce solo soggetti anziani"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sincope nell'anziano:",
+        "options": {
+            "A": "Può essere il segno di una patologia coronarica arteriosclerotica",
+            "B": "È sempre vasovagale",
+            "C": "Non richiede mai approfondimenti",
+            "D": "È sempre benigna",
+            "E": "Colpisce solo donne"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sincope post esercizio:",
+        "options": {
+            "A": "Si può verificare se ci si arresta bruscamente dopo allenamento prolungato",
+            "B": "È sempre causata da disidratazione",
+            "C": "Non si verifica mai negli atleti allenati",
+            "D": "È sempre di origine cardiaca",
+            "E": "Richiede sempre ospedalizzazione"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sindrome da anticorpi anticardiolipina in caso di connettivite provoca:",
+        "options": {
+            "A": "Trombosi venosa e arteriosa, poliabortività",
+            "B": "Emorragie diffuse",
+            "C": "Ipertensione arteriosa",
+            "D": "Insufficienza renale",
+            "E": "Epatite autoimmune"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La trombosi venosa profonda è associata alla presenza di:",
+        "options": {
+            "A": "Stasi ematica",
+            "B": "Ipercoagulabilità",
+            "C": "Danno endoteliale",
+            "D": "Tutte le precedenti",
+            "E": "Nessuna delle precedenti"
+        },
+        "correct": ["D"],
+        "type": "single"
+    },
+    {
+        "question": "La trombosi venosa profonda è caratterizzata da:",
+        "options": {
+            "A": "Edema dell'arto interessato",
+            "B": "Pallore dell'arto",
+            "C": "Diminuzione della temperatura",
+            "D": "Assenza di dolore",
+            "E": "Miglioramento con il movimento"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Lo sport migliore per i bambini asmatici è:",
+        "options": {
+            "A": "Nuoto",
+            "B": "Corsa",
+            "C": "Ciclismo",
+            "D": "Calcio",
+            "E": "Pallavolo"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'anemia la fase prelatente:",
+        "options": {
+            "A": "È completamente asintomatica",
+            "B": "Presenta sintomi gravi",
+            "C": "Mostra anemia conclamata",
+            "D": "Richiede sempre trasfusione",
+            "E": "È diagnosticabile solo con esami geneticos"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'asma si può praticare sport:",
+        "options": {
+            "A": "Sì",
+            "B": "No",
+            "C": "Solo sport leggeri",
+            "D": "Solo in inverno",
+            "E": "Mai"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'epilessia:",
+        "options": {
+            "A": "Non si possono praticare tutti gli sport con alto rischio intrinseco",
+            "B": "Non si può praticare nessuno sport",
+            "C": "Si possono praticare tutti gli sport",
+            "D": "Si può praticare solo nuoto",
+            "E": "Lo sport è controindicato"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella fatica cronica:",
+        "options": {
+            "A": "Si riduce il testosterone e aumenta il cortisolo",
+            "B": "Aumentano tutti gli ormoni",
+            "C": "Si altera solo la glicemia",
+            "D": "Non ci sono alterazioni ormonali",
+            "E": "Aumenta solo la prolattina"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Quale di queste affermazioni è falsa:",
+        "options": {
+            "A": "L'anfetamina aumenta l'appetito",
+            "B": "L'anfetamina può causare dipendenza",
+            "C": "L'anfetamina è uno stimolante",
+            "D": "L'anfetamina può causare ipertensione",
+            "E": "L'anfetamina è una sostanza dopante"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Trombosi venosa superficiale:",
+        "options": {
+            "A": "Non provoca solitamente embolia polmonare",
+            "B": "Provoca sempre embolia polmonare",
+            "C": "È più pericolosa della trombosi profonda",
+            "D": "Richiede sempre anticoagulanti",
+            "E": "Non causa mai sintomi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Un pasto abbondante prima della competizione:",
+        "options": {
+            "A": "Può causare ischemia intestinale",
+            "B": "Migliora la performance",
+            "C": "Previene l'ipoglicemia",
+            "D": "È sempre raccomandato",
+            "E": "Aumenta la resistenza"
+        },
+        "correct": ["A"],
+        "type": "single"
+    }
+]
+
 # Funzioni per caricare i diversi set di domande
 @st.cache_data
 def carica_domande_endocrinologia():
@@ -29,16 +297,8 @@ def carica_domande_endocrinologia():
 
 @st.cache_data
 def carica_domande_medicina():
-    try:
-        with open('DomandeMED.json', 'r', encoding='utf-8') as f:
-            domande = json.load(f)
-            return domande
-    except FileNotFoundError:
-        st.error("❌ File 'DomandeMED.json' non trovato!")
-        return []
-    except json.JSONDecodeError:
-        st.error("❌ Errore nel formato del file JSON 'DomandeMED.json'!")
-        return []
+    # Ritorna direttamente le domande incorporate nel codice
+    return DOMANDE_MEDICINA
 
 def inizializza_session_state():
     """Inizializza tutte le variabili di sessione"""
@@ -64,7 +324,7 @@ def inizializza_session_state():
             st.session_state[key] = value
 
 def inizia_quiz(tipo_quiz):
-    """Inizia un nuovo quiz del tipo specificato - MODIFICATA PER USARE TUTTE LE DOMANDE"""
+    """Inizia un nuovo quiz del tipo specificato"""
     st.session_state.tipo_quiz = tipo_quiz
     
     if tipo_quiz == "endocrinologia":
@@ -79,8 +339,8 @@ def inizia_quiz(tipo_quiz):
         st.error(f"❌ Non ci sono domande disponibili per il quiz di {tipo_quiz}!")
         return False
     
-    # MODIFICA: Usa TUTTE le domande disponibili invece di fare un campione
-    st.session_state.domande_quiz = domande_totali  # Non più random.sample()
+    # Usa TUTTE le domande disponibili
+    st.session_state.domande_quiz = domande_totali
     st.session_state.risposte_utente = [None] * len(domande_totali)
     st.session_state.indice_corrente = 0
     st.session_state.punteggio = 0
