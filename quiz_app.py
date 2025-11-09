@@ -64,7 +64,7 @@ def inizializza_session_state():
             st.session_state[key] = value
 
 def inizia_quiz(tipo_quiz):
-    """Inizia un nuovo quiz del tipo specificato"""
+    """Inizia un nuovo quiz del tipo specificato - MODIFICATA PER USARE TUTTE LE DOMANDE"""
     st.session_state.tipo_quiz = tipo_quiz
     
     if tipo_quiz == "endocrinologia":
@@ -79,8 +79,8 @@ def inizia_quiz(tipo_quiz):
         st.error(f"❌ Non ci sono domande disponibili per il quiz di {tipo_quiz}!")
         return False
     
-    # Usa tutte le domande disponibili
-    st.session_state.domande_quiz = domande_totali
+    # MODIFICA: Usa TUTTE le domande disponibili invece di fare un campione
+    st.session_state.domande_quiz = domande_totali  # Non più random.sample()
     st.session_state.risposte_utente = [None] * len(domande_totali)
     st.session_state.indice_corrente = 0
     st.session_state.punteggio = 0
