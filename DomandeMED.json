@@ -1,121 +1,266 @@
 [
     {
-        "question": "I glucocorticoidi esercitano un'azione:",
+        "question": "L'ischemia nel distretto splancnico durante esercizio?",
         "options": {
-            "A": "Immunosoppressiva",
-            "B": "Catabolica",
-            "C": "Iperglicemizzante",
-            "D": "Tutte le affermazioni sono esatte",
-            "E": "Antinfiammatoria"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Nella diagnosi del Diabete:",
-        "options": {
-            "A": "Tutte le affermazioni sono esatte",
-            "B": "Si definisce alteratala glicemia a digiuno compresa tra 110 mg/dl e 126 mg/dl",
-            "C": "È diagnostica una glicemia a digiuno >126 mg/dl",
-            "D": "Nessuna delle precedenti",
-            "E": "È diagnosticata una glicemia random >200 mg/dl"
+            "A": "Una difesa dell'organismo dovuta ad adattamenti vascolari",
+            "B": "Patologia congenita dei vasi intestinali che non si adattano all'esercizio",
+            "C": "Complicanza dell'anemia cronica",
+            "D": "Complicanza del diabete di tipo II",
+            "E": "Sempre patologica e pericolosa"
         },
         "correct": ["A"],
         "type": "single"
     },
     {
-        "question": "Un adulto Ipotiroideo presenta sintomi come:",
+        "question": "Durante una maratona quale dei seguenti sintomi si può manifestare?",
         "options": {
-            "A": "Intolleranza al freddo",
-            "B": "Tutte le affermazioni sono esatte",
-            "C": "Scarsa resistenza alla fatica",
-            "D": "Aumento di peso",
-            "E": "Facile faticabilità"
+            "A": "Defecazione imperiosa",
+            "B": "Minzione imperiosa",
+            "C": "Flatulenze",
+            "D": "Diarrea",
+            "E": "Stipsi"
         },
-        "correct": ["B"],
+        "correct": ["A"],
         "type": "single"
     },
     {
-        "question": "Per il controllo del diabete sia di tipo 1 e di tipo 2:",
+        "question": "Una delle più frequenti cause di esofagite e gastrite nella pratica dello sport è?",
         "options": {
-            "A": "è importante l'automonitoraggio più volte al giorno attraverso il reflettometro",
-            "B": "La dieta è l'attività fisica sono fondamentali",
-            "C": "Un esercizio fisico di tipo aerobico permette un miglioramento della glicemia e dell'insulino - resistenza",
-            "D": "Tutte le risposte precedenti"
+            "A": "Uso cronico di antinfiammatori",
+            "B": "Uso di cibi piccanti",
+            "C": "Anemia cronica",
+            "D": "Intolleranza al glutine",
+            "E": "Consumo di alcol"
         },
-        "correct": ["D"],
+        "correct": ["A"],
         "type": "single"
     },
     {
-        "question": "La miglior resa energetica per mole di substrato energetico utilizzato si ottiene dal metabolismo:",
+        "question": "Durante l'esercizio fisico il dolore toracico va valutato attentamente e?",
         "options": {
-            "A": "Anaerobico lattacido",
-            "B": "Anaerobico alattacido",
-            "C": "Fosfocreatina",
-            "D": "Aerobico",
-            "E": "Lattacido"
+            "A": "Può essere anche un sintomo di reflusso gastroesofageo",
+            "B": "Può essere un segno di stanchezza cronica",
+            "C": "È sempre un segno di cardiopatia ischemica",
+            "D": "È sempre benigno",
+            "E": "Non richiede mai attenzione medica"
         },
-        "correct": ["D"],
+        "correct": ["A"],
         "type": "single"
     },
     {
-        "question": "La concentrazione plasmatica di insulina è influenzata dalla VO2max. Indicare l'affermazione esatta:",
+        "question": "La gestosi del terzo trimestre di gravidanza:",
         "options": {
-            "A": "Diminuisce a partire dall' 80% della vo2max",
-            "B": "Aumenta all'aumentare della vo2max",
-            "C": "Decresce fino a una VO2 del 60% - 70% e poi aumenta",
-            "D": "Non è influenzata dalla vo2max",
+            "A": "Ipertensione, edema, proteinuria",
+            "B": "Ipotensione, edema, glicosuria",
+            "C": "Ipertensione, tachicardia, febbre",
+            "D": "Ipotensione, bradicardia, ipotermia",
+            "E": "Anemia, edemi, iperglicemia"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La lipotimia è:",
+        "options": {
+            "A": "Una presincope",
+            "B": "Una sincope completa",
+            "C": "Una crisi epilettica",
+            "D": "Un attacco di panico",
+            "E": "Una crisi ipoglicemica"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La morte improvvisa da sport:",
+        "options": {
+            "A": "Evento raro non prevedibile ed in genere determinato da cardiopatia non nota",
+            "B": "Evento frequente negli atleti professionisti",
+            "C": "Sempre causata da doping",
+            "D": "Prevedibile con esami di routine",
+            "E": "Causata solo da trauma cardiaco"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sideremia:",
+        "options": {
+            "A": "Dà misura di ferro libero nel sangue",
+            "B": "Misura il ferro legato all'emoglobina",
+            "C": "Valuta i depositi di ferro",
+            "D": "Misura la capacità di legare il ferro",
+            "E": "Valuta solo il ferro alimentare"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sincope:",
+        "options": {
+            "A": "Può essere un sintomo di embolia polmonare",
+            "B": "È sempre di origine cardiaca",
+            "C": "Non è mai pericolosa",
+            "D": "È sempre benigna",
+            "E": "Colpisce solo soggetti anziani"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sincope nell'anziano:",
+        "options": {
+            "A": "Può essere il segno di una patologia coronarica arteriosclerotica",
+            "B": "È sempre vasovagale",
+            "C": "Non richiede mai approfondimenti",
+            "D": "È sempre benigna",
+            "E": "Colpisce solo donne"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sincope post esercizio:",
+        "options": {
+            "A": "Si può verificare se ci si arresta bruscamente dopo allenamento prolungato",
+            "B": "È sempre causata da disidratazione",
+            "C": "Non si verifica mai negli atleti allenati",
+            "D": "È sempre di origine cardiaca",
+            "E": "Richiede sempre ospedalizzazione"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La sindrome da anticorpi anticardiolipina in caso di connettivite provoca:",
+        "options": {
+            "A": "Trombosi venosa e arteriosa, poliabortività",
+            "B": "Emorragie diffuse",
+            "C": "Ipertensione arteriosa",
+            "D": "Insufficienza renale",
+            "E": "Epatite autoimmune"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "La trombosi venosa profonda è associata alla presenza di:",
+        "options": {
+            "A": "Stasi ematica",
+            "B": "Ipercoagulabilità",
+            "C": "Danno endoteliale",
+            "D": "Tutte le precedenti",
             "E": "Nessuna delle precedenti"
         },
-        "correct": ["C"],
+        "correct": ["D"],
         "type": "single"
     },
     {
-        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di testosterone in ambito sportivo:",
+        "question": "La trombosi venosa profonda è caratterizzata da:",
         "options": {
-            "A": "Dosaggio testosterone ematico",
-            "B": "Valutazione del rapporto testosterone/epitestosterone nelle urine",
-            "C": "Valutazione del rapporto testosterone/ epitestosterone nel sangue",
-            "D": "Dosaggio epitestosterone sierico",
-            "E": "Dosaggio di metaboliti del testosterone nel sangue"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di GH in ambito sportivo:",
-        "options": {
-            "A": "Dosaggio IGF - 1 ematico",
-            "B": "Valutazione del rapporto GH 22 - kDa/GH non - 22 - kDa nel sangue",
-            "C": "Misurazione del GH urinario",
-            "D": "Misurazione di alcuni marker del turnover dell'osso e del collagene",
-            "E": "A + B + D"
-        },
-        "correct": ["E"],
-        "type": "single"
-    },
-    {
-        "question": "La specificità dell'azione ormonale è determinata:",
-        "options": {
-            "A": "Dalla presenza dello specifico recettore sulla cellula bersaglio",
-            "B": "Dalla quantità di recettori sulla cellula bersaglio",
-            "C": "Dal numero di cellule bersaglio",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti risposte"
+            "A": "Edema dell'arto interessato",
+            "B": "Pallore dell'arto",
+            "C": "Diminuzione della temperatura",
+            "D": "Assenza di dolore",
+            "E": "Miglioramento con il movimento"
         },
         "correct": ["A"],
         "type": "single"
     },
     {
-        "question": "La calcitonina è prodotta:",
+        "question": "Lo sport migliore per i bambini asmatici è:",
         "options": {
-            "A": "Nell'ovaio",
-            "B": "Nel testicolo",
-            "C": "Nella tiroide",
-            "D": "Nell'ipofisi",
-            "E": "Nella paratiroide"
+            "A": "Nuoto",
+            "B": "Corsa",
+            "C": "Ciclismo",
+            "D": "Calcio",
+            "E": "Pallavolo"
         },
-        "correct": ["C"],
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'anemia la fase prelatente:",
+        "options": {
+            "A": "È completamente asintomatica",
+            "B": "Presenta sintomi gravi",
+            "C": "Mostra anemia conclamata",
+            "D": "Richiede sempre trasfusione",
+            "E": "È diagnosticabile solo con esami genetici"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'asma si può praticare sport:",
+        "options": {
+            "A": "Sì",
+            "B": "No",
+            "C": "Solo sport leggeri",
+            "D": "Solo in inverno",
+            "E": "Mai"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nell'epilessia:",
+        "options": {
+            "A": "Non si possono praticare tutti gli sport con alto rischio intrinseco",
+            "B": "Non si può praticare nessuno sport",
+            "C": "Si possono praticare tutti gli sport",
+            "D": "Si può praticare solo nuoto",
+            "E": "Lo sport è controindicato"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Nella fatica cronica:",
+        "options": {
+            "A": "Si riduce il testosterone e aumenta il cortisolo",
+            "B": "Aumentano tutti gli ormoni",
+            "C": "Si altera solo la glicemia",
+            "D": "Non ci sono alterazioni ormonali",
+            "E": "Aumenta solo la prolattina"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Quale di queste affermazioni è falsa:",
+        "options": {
+            "A": "L'anfetamina aumenta l'appetito",
+            "B": "L'anfetamina può causare dipendenza",
+            "C": "L'anfetamina è uno stimolante",
+            "D": "L'anfetamina può causare ipertensione",
+            "E": "L'anfetamina è una sostanza dopante"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Trombosi venosa superficiale:",
+        "options": {
+            "A": "Non provoca solitamente embolia polmonare",
+            "B": "Provoca sempre embolia polmonare",
+            "C": "È più pericolosa della trombosi profonda",
+            "D": "Richiede sempre anticoagulanti",
+            "E": "Non causa mai sintomi"
+        },
+        "correct": ["A"],
+        "type": "single"
+    },
+    {
+        "question": "Un pasto abbondante prima della competizione:",
+        "options": {
+            "A": "Può causare ischemia intestinale",
+            "B": "Migliora la performance",
+            "C": "Previene l'ipoglicemia",
+            "D": "È sempre raccomandato",
+            "E": "Aumenta la resistenza"
+        },
+        "correct": ["A"],
         "type": "single"
     }
 ]
