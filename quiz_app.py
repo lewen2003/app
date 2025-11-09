@@ -7,23 +7,37 @@ import time
 
 # Configurazione pagina
 st.set_page_config(
-    page_title="Quiz di Ripasso - 40 Domande",
+    page_title="Quiz di Ripasso - Endocrinologia e Medicina",
     page_icon="🧠",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
 
-# Carica le domande
+# Funzioni per caricare i diversi set di domande
 @st.cache_data
-def carica_domande():
+def carica_domande_endocrinologia():
     try:
         with open('domande.json', 'r', encoding='utf-8') as f:
-            return json.load(f)
+            domande = json.load(f)
+            return domande
     except FileNotFoundError:
         st.error("❌ File 'domande.json' non trovato!")
         return []
     except json.JSONDecodeError:
-        st.error("❌ Errore nel formato del file JSON!")
+        st.error("❌ Errore nel formato del file JSON 'domande.json'!")
+        return []
+
+@st.cache_data
+def carica_domande_medicina():
+    try:
+        with open('DomandeMED.json', 'r', encoding='utf-8') as f:
+            domande = json.load(f)
+            return domande
+    except FileNotFoundError:
+        st.error("❌ File 'DomandeMED.json' non trovato!")
+        return []
+    except json.JSONDecodeError:
+        st.error("❌ Errore nel formato del file JSON 'DomandeMED.json'!")
         return []
 
 def inizializza_session_state():
@@ -37,38 +51,58 @@ def inizializza_session_state():
         'quiz_terminato': False,
         'mostra_revisione': False,
         'tempo_inizio': None,
-        'tempo_rimanente': 30 * 60,  # 30 minuti in secondi
-        'timer_scaduto': False
+        'tempo_rimanente': 0,
+        'tempo_limite': 0,
+        'timer_scaduto': False,
+        'tipo_quiz': None,  # 'endocrinologia', 'medicina'
+        'punteggio_massimo': 0,
+        'soglia_minima': 0
     }
     
     for key, value in session_vars.items():
         if key not in st.session_state:
             st.session_state[key] = value
 
-def inizia_quiz():
-    """Inizia un nuovo quiz"""
-    tutte_domande = carica_domande()
-    if len(tutte_domande) < 40:
-        st.error("❌ Servono almeno 40 domande nel file JSON!")
+def inizia_quiz(tipo_quiz):
+    """Inizia un nuovo quiz del tipo specificato"""
+    st.session_state.tipo_quiz = tipo_quiz
+    
+    if tipo_quiz == "endocrinologia":
+        domande_totali = carica_domande_endocrinologia()
+        tempo_limite = 60 * 60  # 1 ora in secondi
+    elif tipo_quiz == "medicina":
+        domande_totali = carica_domande_medicina()
+        tempo_limite = 20 * 60  # 20 minuti in secondi
+    
+    # Verifica che ci siano domande
+    if len(domande_totali) == 0:
+        st.error(f"❌ Non ci sono domande disponibili per il quiz di {tipo_quiz}!")
         return False
     
-    st.session_state.domande_quiz = random.sample(tutte_domande, 40)
-    st.session_state.risposte_utente = [None] * 40
+    # Usa tutte le domande disponibili
+    st.session_state.domande_quiz = domande_totali
+    st.session_state.risposte_utente = [None] * len(domande_totali)
     st.session_state.indice_corrente = 0
     st.session_state.punteggio = 0
     st.session_state.quiz_terminato = False
     st.session_state.quiz_iniziato = True
     st.session_state.mostra_revisione = False
     st.session_state.tempo_inizio = datetime.now()
-    st.session_state.tempo_rimanente = 30 * 60  # 30 minuti
+    st.session_state.tempo_limite = tempo_limite
+    st.session_state.tempo_rimanente = tempo_limite
     st.session_state.timer_scaduto = False
+    
+    # Calcola punteggio massimo e soglia minima
+    st.session_state.punteggio_massimo = len(domande_totali) * 10
+    st.session_state.soglia_minima = int(st.session_state.punteggio_massimo * 0.6)  # 60%
+    
     return True
 
 def aggiorna_timer():
     """Aggiorna il timer rimanente"""
     if st.session_state.quiz_iniziato and not st.session_state.quiz_terminato:
         tempo_trascorso = (datetime.now() - st.session_state.tempo_inizio).total_seconds()
-        st.session_state.tempo_rimanente = max(0, 30 * 60 - tempo_trascorso)
+        st.session_state.tempo_rimanente = max(0, st.session_state.tempo_limite - tempo_trascorso)
         
         if st.session_state.tempo_rimanente <= 0 and not st.session_state.timer_scaduto:
             st.session_state.timer_scaduto = True
@@ -77,10 +111,15 @@ def aggiorna_timer():
             st.rerun()
 
 def formatta_tempo(secondi):
-    """Formatta il tempo in MM:SS"""
-    minuti = int(secondi // 60)
+    """Formatta il tempo in HH:MM:SS o MM:SS"""
+    ore = int(secondi // 3600)
+    minuti = int((secondi % 3600) // 60)
     secondi = int(secondi % 60)
-    return f"{minuti:02d}:{secondi:02d}"
+    
+    if ore > 0:
+        return f"{ore:02d}:{minuti:02d}:{secondi:02d}"
+    else:
+        return f"{minuti:02d}:{secondi:02d}"
 
 def calcola_punteggio():
     """Calcola il punteggio finale"""
@@ -92,20 +131,24 @@ def calcola_punteggio():
 
 def mostra_progresso():
     """Mostra la barra di progresso"""
-    progresso = (st.session_state.indice_corrente + 1) / 40
+    num_domande = len(st.session_state.domande_quiz)
+    progresso = (st.session_state.indice_corrente + 1) / num_domande
     st.progress(progresso)
-    st.caption(f"Domanda {st.session_state.indice_corrente + 1} di 40")
+    st.caption(f"Domanda {st.session_state.indice_corrente + 1} di {num_domande}")
 
 def mostra_timer():
     """Mostra il timer"""
     tempo_rimanente = st.session_state.tempo_rimanente
-    minuti_rimanenti = tempo_rimanente / 60
+    tempo_limite = st.session_state.tempo_limite
+    
+    # Calcola la percentuale di tempo rimanente
+    percentuale_tempo = (tempo_rimanente / tempo_limite) * 100
     
     # Cambia colore in base al tempo rimanente
-    if minuti_rimanenti <= 5:
+    if percentuale_tempo <= 20:
         colore = "red"
         icona = "🔴"
-    elif minuti_rimanenti <= 10:
+    elif percentuale_tempo <= 50:
         colore = "orange"
         icona = "🟠"
     else:
@@ -132,6 +175,7 @@ def mostra_domanda():
         return
     
     domanda = st.session_state.domande_quiz[st.session_state.indice_corrente]
+    num_domande = len(st.session_state.domande_quiz)
     
     # Header con numero domanda e timer
     col1, col2 = st.columns([2, 1])
@@ -172,7 +216,7 @@ def mostra_domanda():
             st.rerun()
     
     with col2:
-        if st.button("Prossima ➡️", disabled=st.session_state.indice_corrente == 39):
+        if st.button("Prossima ➡️", disabled=st.session_state.indice_corrente == num_domande - 1):
             st.session_state.indice_corrente += 1
             st.rerun()
     
@@ -187,7 +231,7 @@ def mostra_domanda():
         domanda_target = st.number_input(
             "Vai a:",
             min_value=1,
-            max_value=40,
+            max_value=num_domande,
             value=st.session_state.indice_corrente + 1,
             key="salto_domanda"
         )
@@ -201,9 +245,22 @@ def mostra_domanda():
 def mostra_risultati():
     """Mostra i risultati del quiz"""
     punteggio = st.session_state.punteggio
-    superato = punteggio >= 240  # 240/400 = 60%
+    punteggio_massimo = st.session_state.punteggio_massimo
+    soglia_minima = st.session_state.soglia_minima
+    superato = punteggio >= soglia_minima
+    
+    # Titolo in base al tipo di quiz
+    titolo_quiz = {
+        "endocrinologia": "Endocrinologia",
+        "medicina": "Medicina"
+    }
+    
+    quiz_type = st.session_state.tipo_quiz
+    num_domande = len(st.session_state.domande_quiz)
     
     # Header risultati
+    st.header(f"🎯 Risultati Quiz - {titolo_quiz[quiz_type]}")
+    
     if st.session_state.timer_scaduto:
         st.error("⏰ **Tempo scaduto!**")
     elif superato:
@@ -215,9 +272,9 @@ def mostra_risultati():
     # Punteggio
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Punteggio", f"{punteggio}/400")
+        st.metric("Punteggio", f"{punteggio}/{punteggio_massimo}")
     with col2:
-        st.metric("Soglia minima", "240/400")
+        st.metric("Soglia minima", f"{soglia_minima}/{punteggio_massimo}")
     with col3:
         st.metric("Esito", "✅ Superato" if superato else "❌ Non superato")
     
@@ -226,19 +283,24 @@ def mostra_risultati():
     st.subheader("📊 Statistiche")
     
     domande_corrette = punteggio // 10
-    domande_errate = 40 - domande_corrette
-    percentuale = (punteggio / 400) * 100
+    domande_errate = num_domande - domande_corrette
+    percentuale = (punteggio / punteggio_massimo) * 100
     
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.metric("Domande corrette", domande_corrette)
+        st.metric("Domande totali", num_domande)
     with col2:
-        st.metric("Domande errate", domande_errate)
+        st.metric("Domande corrette", domande_corrette)
     with col3:
-        st.metric("Percentuale", f"{percentuale:.1f}%")
+        st.metric("Domande errate", domande_errate)
     with col4:
-        st.metric("Tempo utilizzato", 
-                 formatta_tempo(30*60 - st.session_state.tempo_rimanente) if not st.session_state.timer_scaduto else "30:00")
+        st.metric("Percentuale", f"{percentuale:.1f}%")
+    
+    # Tempo utilizzato
+    st.metric("Tempo utilizzato", 
+             formatta_tempo(st.session_state.tempo_limite - st.session_state.tempo_rimanente) 
+             if not st.session_state.timer_scaduto 
+             else formatta_tempo(st.session_state.tempo_limite))
     
     # Grafico a barre
     dati = {
@@ -254,7 +316,8 @@ def mostra_risultati():
     
     with col1:
         if st.button("🔄 Nuovo Quiz", type="primary", use_container_width=True):
-            inizia_quiz()
+            st.session_state.quiz_iniziato = False
+            st.session_state.quiz_terminato = False
             st.rerun()
     
     with col2:
@@ -332,50 +395,95 @@ def mostra_revisione_dettagliata():
             st.session_state.mostra_revisione = False
             st.rerun()
     with col2:
-        if st.button("🔄 Nuovo Quiz", use_container_width=True):
-            inizia_quiz()
+        if st.button("🏠 Menu Principale", use_container_width=True):
+            st.session_state.quiz_iniziato = False
+            st.session_state.quiz_terminato = False
             st.rerun()
 
 def mostra_homepage():
-    """Mostra la homepage dell'app"""
-    st.title("🧠 Quiz di Ripasso - 40 Domande")
+    """Mostra la homepage dell'app con selezione del tipo di quiz"""
+    st.title("🧠 Quiz di Ripasso - Endocrinologia e Medicina")
     st.markdown("---")
     
     st.markdown("""
-    ### Benvenuto nel Quiz Avanzato!
+    ### Scegli il tipo di quiz:
     
-    **Nuove regole:**
-    - 🔄 **40 domande** casuali dal database
-    - ⏰ **30 minuti** di tempo a disposizione
+    **Quiz disponibili:**
+    - 🧬 **Endocrinologia**: Tutte le domande di endocrinologia (1 ora)
+    - 🩺 **Medicina**: Tutte le domande di medicina (20 minuti)
+    
+    **Regole:**
     - ✅ Risposta corretta: **10 punti**
-    - 🎯 Obiettivo: **almeno 240/400 punti** (60%)
+    - 🎯 Obiettivo: **almeno 60% del punteggio totale**
     - 📱 Ottimizzato per mobile
     - 💾 Salvataggio automatico delle risposte
-    
-    **Suggerimenti:**
-    - Gestisci bene il tuo tempo!
-    - Usa il pulsante "Vai a" per navigare rapidamente
-    - Controlla il timer in alto a destra
     """)
     
-    # Statistiche domande disponibili
-    tutte_domande = carica_domande()
-    if tutte_domande:
-        st.info(f"📚 **Domande disponibili nel database: {len(tutte_domande)}**")
+    # Carica e mostra statistiche per entrambi i database
+    domande_endo = carica_domande_endocrinologia()
+    domande_med = carica_domande_medicina()
+    
+    # Calcola punteggi massimi e soglie
+    punteggio_max_endo = len(domande_endo) * 10
+    soglia_endo = int(punteggio_max_endo * 0.6)
+    
+    punteggio_max_med = len(domande_med) * 10
+    soglia_med = int(punteggio_max_med * 0.6)
+    
+    # Container per statistiche
+    with st.container():
+        col1, col2 = st.columns(2)
         
-        if len(tutte_domande) < 40:
-            st.warning(f"⚠️ **Attenzione:** Servono almeno 40 domande, ma ne hai solo {len(tutte_domande)}")
-        else:
-            st.success(f"✅ **Pronto:** {len(tutte_domande)} domande disponibili")
+        with col1:
+            if len(domande_endo) > 0:
+                st.success(f"🧬 **Endocrinologia**")
+                st.write(f"📊 **{len(domande_endo)}** domande")
+                st.write(f"⏰ **1 ora** di tempo")
+                st.write(f"🎯 **{soglia_endo}/{punteggio_max_endo}** punti per superare")
+            else:
+                st.error("🧬 **Endocrinologia**")
+                st.write("❌ Nessuna domanda disponibile")
+        
+        with col2:
+            if len(domande_med) > 0:
+                st.success(f"🩺 **Medicina**")
+                st.write(f"📊 **{len(domande_med)}** domande")
+                st.write(f"⏰ **20 minuti** di tempo")
+                st.write(f"🎯 **{soglia_med}/{punteggio_max_med}** punti per superare")
+            else:
+                st.error("🩺 **Medicina**")
+                st.write("❌ Nessuna domanda disponibile")
     
     st.divider()
     
-    # Pulsante per iniziare
-    col1, col2, col3 = st.columns([1, 2, 1])
+    # Pulsanti per selezionare il tipo di quiz
+    st.subheader("🎯 Seleziona il tuo quiz:")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        if len(domande_endo) > 0:
+            if st.button("🧬\nQuiz Endocrinologia\nTutte le domande\n(1 ora)", 
+                        type="primary", use_container_width=True, key="endo"):
+                if inizia_quiz("endocrinologia"):
+                    st.rerun()
+        else:
+            st.button("🧬\nQuiz Endocrinologia\nTutte le domande\n(1 ora)", 
+                     disabled=True, 
+                     help="Nessuna domanda disponibile nel database",
+                     use_container_width=True, key="endo_disabled")
+    
     with col2:
-        if st.button("🚀 Inizia il Quiz (40 domande - 30 minuti)", type="primary", use_container_width=True):
-            if inizia_quiz():
-                st.rerun()
+        if len(domande_med) > 0:
+            if st.button("🩺\nQuiz Medicina\nTutte le domande\n(20 minuti)", 
+                        type="primary", use_container_width=True, key="med"):
+                if inizia_quiz("medicina"):
+                    st.rerun()
+        else:
+            st.button("🩺\nQuiz Medicina\nTutte le domande\n(20 minuti)", 
+                     disabled=True, 
+                     help="Nessuna domanda disponibile nel database",
+                     use_container_width=True, key="med_disabled")
 
 # App principale
 def main():
