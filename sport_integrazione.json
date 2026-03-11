@@ -1,0 +1,232 @@
+[
+  {
+    "domanda": "Il Libro Bianco sullo sport si occupa:",
+    "opzioni": [
+      "Di regolamentare le federazioni sportive nazionali",
+      "In questo documento la Commissione UE si occupa per la prima volta in maniera ampia e sistematica di sport",
+      "Di finanziare le olimpiadi europee",
+      "Di definire i criteri di ammissione degli atleti professionisti"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Il termine Fair play indica:",
+    "opzioni": [
+      "Una tattica di gioco difensiva nel calcio moderno",
+      "Un comportamento corretto e improntato a signorile gentilezza nei rapporti con gli altri",
+      "Il rispetto esclusivo delle regole formali del gioco",
+      "Una filosofia di allenamento basata sulla competizione leale"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "La frase: 'il primo sentimento verso cui si sente disposto un giovane educato con cura non è l'amore, ma l'amicizia' è di:",
+    "opzioni": [
+      "Voltaire",
+      "Kant",
+      "Rousseau",
+      "Locke"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Un processo di effettiva integrazione riguarda molti aspetti:",
+    "opzioni": [
+      "Solo economico e sociale",
+      "Esclusivamente culturale e politico",
+      "Economico-sociale-culturale-politico",
+      "Solo linguistico e culturale"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Essere cittadino del mondo vuol dire:",
+    "opzioni": [
+      "Avere la doppia cittadinanza in almeno due paesi",
+      "Il cittadino globale esercita i suoi diritti come persona più che come cittadino di un singolo stato",
+      "Poter lavorare liberamente in qualsiasi paese del mondo",
+      "Partecipare alle elezioni internazionali"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Per coltivare e rendere duratura un'amicizia è necessario:",
+    "opzioni": [
+      "Solo la vicinanza fisica e la frequentazione costante",
+      "L'ascolto, il tempo, i rituali, la reciprocità",
+      "Avere gli stessi interessi e la stessa estrazione sociale",
+      "Solo la fiducia reciproca e la lealtà"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "La moderna concezione di cittadinanza secondo il Consiglio d'Europa comprende:",
+    "opzioni": [
+      "Solo un insieme di diritti civili e politici",
+      "Esclusivamente doveri verso lo Stato",
+      "Uno status e un ruolo",
+      "Solo la partecipazione alle elezioni"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "L'assimilazione verso il basso:",
+    "opzioni": [
+      "Descrive l'integrazione positiva dei migranti nella società ospitante",
+      "Indica il processo di apprendimento della lingua del paese di accoglienza",
+      "Vede giovani delle seconde generazioni assorbite da subculture urbane spesso devianti",
+      "Si riferisce alla perdita della cultura d'origine mantenendo quella ospitante"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "La pedagogia interculturale:",
+    "opzioni": [
+      "Si occupa esclusivamente dell'insegnamento delle lingue straniere",
+      "Guarda ai rapporti tra i soggetti, ai contesti, ai processi e alle dinamiche relazionali, sforzandosi di promuovere una prassi educativa che interagisca costruttivamente con i contesti politico-istituzionali ed economico-sociali",
+      "Si limita a studiare le differenze culturali tra i popoli",
+      "È una branca della sociologia che analizza i flussi migratori"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Per dignità intendiamo:",
+    "opzioni": [
+      "Il rispetto formale delle norme sociali e comportamentali",
+      "Una componente dell'idea moderna dell'importanza di vita comune",
+      "La capacità di mantenere la propria posizione sociale",
+      "Il riconoscimento dei meriti individuali nella società"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Parlando del rispetto abbiamo parlato delle tre R, che sono:",
+    "opzioni": [
+      "Rispetto, Rettitudine, Ragionevolezza",
+      "Rispetto per te stesso, rispetto per gli altri, responsabilità delle proprie azioni",
+      "Rispetto, Regole, Risultati",
+      "Rispetto, Relazione, Riconoscimento"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Nelle dinamiche di gruppo l'equilibrio operativo si ottiene:",
+    "opzioni": [
+      "Attraverso la leadership autoritaria di un unico responsabile",
+      "Con la riduzione al minimo dei conflitti interni al gruppo",
+      "Attraverso un'equa distribuzione dei compiti e la valorizzazione delle singole competenze",
+      "Eliminando le differenze individuali tra i membri del gruppo"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Il gruppo primario:",
+    "opzioni": [
+      "È caratterizzato da relazioni formali e impersonali",
+      "Ha dimensioni limitate o un numero ristretto di componenti",
+      "Si forma esclusivamente in ambito lavorativo",
+      "È definito dalla condivisione di obiettivi economici"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Nel pregiudizio:",
+    "opzioni": [
+      "I preconcetti sono sempre basati su dati oggettivi e verificabili",
+      "I preconcetti spesso mancano di oggettività ma sono determinanti per la costruzione di sentimenti e comportamenti scorretti",
+      "Il pregiudizio si forma solo dopo un'esperienza diretta negativa",
+      "I preconcetti possono essere eliminati facilmente con l'educazione"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Il paradosso di Easterlin (o paradosso della felicità) consiste nel fatto che:",
+    "opzioni": [
+      "La felicità aumenta proporzionalmente al reddito in modo costante",
+      "La felicità è direttamente proporzionale al livello di istruzione",
+      "La felicità non è linearmente proporzionale al reddito, alla ricchezza",
+      "La felicità dipende esclusivamente dalle relazioni sociali"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "L'intelligenza esistenziale di Gardner è:",
+    "opzioni": [
+      "La capacità di risolvere problemi pratici nella vita quotidiana",
+      "Caratterizzata dalla capacità di ragionamento astratto e riflessione su tematiche esistenziali",
+      "L'abilità di comprendere e gestire le proprie emozioni",
+      "La capacità di adattarsi a diversi contesti culturali"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Essere cittadino vuol dire:",
+    "opzioni": [
+      "Possedere un documento di identità rilasciato dallo Stato",
+      "Pagare le tasse e rispettare le leggi del proprio paese",
+      "Il singolo è chiamato ad esercitare un'azione diretta e attiva nelle comunità orientata al miglioramento della comunità stessa",
+      "Avere diritto al voto nelle elezioni nazionali"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "I valori:",
+    "opzioni": [
+      "Sono norme sociali imposte dall'esterno all'individuo",
+      "Rappresentano i prerequisiti del pensiero e del comportamento etico",
+      "Si acquisiscono esclusivamente attraverso l'istruzione formale",
+      "Cambiano continuamente senza una struttura stabile"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Il termine Bliss significa:",
+    "opzioni": [
+      "Una condizione di benessere fisico duraturo e permanente",
+      "Uno stato di felicità temporaneo, descrivibile come estasi o beatitudine",
+      "La soddisfazione derivante dal raggiungimento di obiettivi concreti",
+      "Un equilibrio psicofisico stabile ottenuto con la meditazione"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Nello studio del gruppo alcune classificazioni sono:",
+    "opzioni": [
+      "Formale-informale, stabile-instabile",
+      "Omogeneo-disomogeneo, primario-secondario",
+      "Coeso-frammentato, attivo-passivo",
+      "Democratico-autoritario, piccolo-grande"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Il rispetto dell'altro è così definito:",
+    "opzioni": [
+      "Il rispetto dell'altro si traduce nella tolleranza assoluta di qualsiasi comportamento altrui",
+      "Il rispetto dell'altro coincide con l'approvazione incondizionata delle scelte altrui",
+      "Il rispetto dell'altro non si può però tradurre nella tolleranza assoluta e limitata, che conduce invece all'indifferenza",
+      "Il rispetto dell'altro significa accettare passivamente ogni differenza culturale"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Lo sport percepito come 'social charge' è:",
+    "opzioni": [
+      "Vivere la competizione sportiva come obbligo sociale imposto dalla comunità",
+      "Utilizzare lo sport come strumento di promozione economica e commerciale",
+      "Vivere valori sportivi interiorizzati e cercare di trasmetterli a tutta la società",
+      "Considerare lo sport come un peso e un onere per la collettività"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Il gruppo secondario:",
+    "opzioni": [
+      "È caratterizzato da relazioni molto intime e personali tra i membri",
+      "È formato da poche persone con forti legami affettivi",
+      "Ha dimensioni più ampie rispetto al gruppo primario",
+      "Si distingue per l'assenza di regole formali e strutture organizzative"
+    ],
+    "risposta_corretta": 2
+  }
+]
