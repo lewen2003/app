@@ -32,7 +32,6 @@ QUIZ_CONFIG = {
 # CARICAMENTO DOMANDE
 # ============================================================
 
-@st.cache_data
 def carica_domande(filename):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     path = os.path.join(base_dir, filename)
