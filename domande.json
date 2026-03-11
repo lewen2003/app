@@ -1,2351 +1,502 @@
 [
-    {
-        "question": "I glucocorticoidi esercitano un'azione:",
-        "options": {
-            "A": "Immunosoppressiva",
-            "B": "Catabolica",
-            "C": "Iperglicemizzante",
-            "D": "Tutte le affermazioni sono esatte",
-            "E": "Antinfiammatoria"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Nella diagnosi del Diabete:",
-        "options": {
-            "A": "Tutte le affermazioni sono esatte",
-            "B": "Si definisce alteratala glicemia a digiuno compresa tra 110 mg\/dl e 126 mg\/dl",
-            "C": "È diagnostica una glicemia a digiuno >126 mg\/dl",
-            "D": "Nessuna delle precedenti",
-            "E": "È diagnosticata una glicemia random >200 mg\/dl"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Un adulto Ipotiroideo presenta sintomi come:",
-        "options": {
-            "A": "Intolleranza al freddo",
-            "B": "Tutte le affermazioni sono esatte",
-            "C": "Scarsa resistenza alla fatica",
-            "D": "Aumento di peso",
-            "E": "Facile faticabilità"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Per il controllo del diabete sia di tipo 1 e di tipo 2:",
-        "options": {
-            "A": "è importante l'automonitoraggio più volte al giorno attraverso il reflettometro",
-            "B": "La dieta è l'attività fisica sono fondamentali",
-            "C": "Un esercizio fisico di tipo aerobico permette un miglioramento della glicemia e dell'insulino - resistenza",
-            "D": "Tutte le risposte precedenti"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La miglior resa energetica per mole di substrato energetico utilizzato si ottiene dal metabolismo:",
-        "options": {
-            "A": "Anaerobico lattacido",
-            "B": "Anaerobico alattacido",
-            "C": "Fosfocreatina",
-            "D": "Aerobico",
-            "E": "Lattacido"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La concentrazione plasmatica di insulina è influenzata dalla VO2max. Indicare l'affermazione esatta:",
-        "options": {
-            "A": "Diminuisce a partire dall' 80% della vo2max",
-            "B": "Aumenta all'aumentare della vo2max",
-            "C": "Decresce fino a una VO2 del 60% - 70% e poi aumenta",
-            "D": "Non è influenzata dalla vo2max",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di testosterone in ambito sportivo:",
-        "options": {
-            "A": "Dosaggio testosterone ematico",
-            "B": "Valutazione del rapporto testosterone\/epitestosterone nelle urine",
-            "C": "Valutazione del rapporto testosterone\/ epitestosterone nel sangue",
-            "D": "Dosaggio epitestosterone sierico",
-            "E": "Dosaggio di metaboliti del testosterone nel sangue"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Qual è l'indagine più comunemente utilizzata per identificare l'abuso di GH in ambito sportivo:",
-        "options": {
-            "A": "Dosaggio IGF - 1 ematico",
-            "B": "Valutazione del rapporto GH 22 - kDa\/GH non - 22 - kDa nel sangue",
-            "C": "Misurazione del GH urinario",
-            "D": "Misurazione di alcuni marker del turnover dell'osso e del collagene",
-            "E": "A + B + D"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La specificità dell'azione ormonale è determinata:",
-        "options": {
-            "A": "Dalla presenza dello specifico recettore sulla cellula bersaglio",
-            "B": "Dalla quantità di recettori sulla cellula bersaglio",
-            "C": "Dal numero di cellule bersaglio",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La calcitonina è prodotta:",
-        "options": {
-            "A": "Nell'ovaio",
-            "B": "Nel testicolo",
-            "C": "Nella tiroide",
-            "D": "Nell'ipofisi",
-            "E": "Nella paratiroide"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'esercizio fisico intenso si associa a:",
-        "options": {
-            "A": "Dimagrimento e nervosismo",
-            "B": "Amenorrea secondaria",
-            "C": "Disturbi dell'umore",
-            "D": "Incremento del peso ed amenorrea primaria",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La desentizzazione recettoriale:",
-        "options": {
-            "A": "è rappresentata da un aumento del numero di recettori sulla cellula",
-            "B": "è una riduzione della risposta della cellula bersaglio all'ormone",
-            "C": "è sempre legata alla distruzione recettoriale",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Un soggetto con diabete mellito di tipo 1 può svolgere le seguenti attività agonistiche:",
-        "options": {
-            "A": "Pugilato",
-            "B": "Body building",
-            "C": "Corsa motociclista",
-            "D": "Immersioni con bombole",
-            "E": "Nessuna delle precedenti risposte perché sono nocive alla salute"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Qual è la cosa più importante per mantenere un buon controllo glicemico nello sportivo con diabete di tipo 1:",
-        "options": {
-            "A": "Il frequente controllo della glicemia prima e dopo i pasti",
-            "B": "Il frequente controllo della glicemia prima e dopo i pasti e prima, durante e dopo l'attività fisica",
-            "C": "Fare ogni 6 mesi l'elettrocardiogramma",
-            "D": "Evitare di mangiare gli zuccheri semplici",
-            "E": "Evitare i grassi"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il recettore insulinico non legato all'insulina e formato da:",
-        "options": {
-            "A": "1 subunità alfa e 1 beta",
-            "B": "2 subunità alfa e 2 beta",
-            "C": "1 subunità alfa e 3 beta",
-            "D": "3 subunità alfa e 1 beta",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'importanza clinica del concetto di feedback è data dal fatto che:",
-        "options": {
-            "A": "Può essere causata nella terapia di malattie infettive",
-            "B": "Rappresenta la base fisiologica dei test di stimolazione e di frenazione usati nella pratica clinica",
-            "C": "Deve essere applicata alle sole malattie delle ghiandole endocrine periferiche",
-            "D": "Deve essere applicato alle sole malattie dell'ipofisi",
-            "E": "Serve esclusivamente a scopo di ricerca"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La maggior parte della secrezione fisiologica di GH avviene:",
-        "options": {
-            "A": "Durante le ultime ore di sonno",
-            "B": "Durante la veglia",
-            "C": "Durante il pasto",
-            "D": "Con un intenso sforzo fisico",
-            "E": "Durante le prime ore di sonno"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "I sintomi clinici del diabete di tipo 1 sono:",
-        "options": {
-            "A": "Dimagrimento",
-            "B": "Poliuria e polidipsia",
-            "C": "Polifagia",
-            "D": "Tutte le precedenti risposte",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La T3 è formata dalla reazione di accoppiamento di:",
-        "options": {
-            "A": "2 residui monoiodotirosinici mit",
-            "B": "1 residuo monoiodotirosinico mit e 2 residui diiodotirosinici dit",
-            "C": "2 residui diiodotirosinici dit",
-            "D": "3 residui monoiodotirosinici",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "GLUT - 4 è:",
-        "options": {
-            "A": "Il trasportatore del glucosio insulino - dipendente",
-            "B": "Il co - trasportatore sodio - glucosio",
-            "C": "Il trasportatore del glucosio insulino - indipendente",
-            "D": "Una proteina accessoria all'attivazione del recettore insulinico",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Le complicanze croniche del diabete sono:",
-        "options": {
-            "A": "Chetoacidosi",
-            "B": "Cardiomiopatia ischemica",
-            "C": "Retinopatia e neuropatia",
-            "D": "A + C",
-            "E": "Tutte le precedenti risposte"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il neurormone è:",
-        "options": {
-            "A": "Una sostanza che, prodotta da un neurone, viene immessa nello spazio sinaptico",
-            "B": "Un ormone che regola il sistema nervoso centrale",
-            "C": "Nessuno dei precedenti",
-            "D": "Una sostanza che, prodotta da un neurone, viene immessa in circolo",
-            "E": "è un ormone steroideo"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quale dei seguenti sport si presta meglio per l'attività agonistica di soggetti con diabete insulino- dipendente:",
-        "options": {
-            "A": "Nuoto su lunghe distanze",
-            "B": "Motociclismo",
-            "C": "Maratona",
-            "D": "Ciclismo",
-            "E": "Automobilismo"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Gli ormoni possono avere azione:",
-        "options": {
-            "A": "Endocrina",
-            "B": "Paracrina",
-            "C": "Autocrina",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La causa più frequente di Ipotiroidismo:",
-        "options": {
-            "A": "Danno ridotto da radiazioni",
-            "B": "Agenesia della tiroide",
-            "C": "Tutte le precedenti",
-            "D": "Trauma cranico",
-            "E": "Tiroide cronica autoimmune"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'ipotiroidismo determina alterazioni anatomo - funzionali a carico di:",
-        "options": {
-            "A": "Cute e annessi",
-            "B": "Cuore e circolo",
-            "C": "Muscolo scheletrico",
-            "D": "Sistema nervoso",
-            "E": "Tutte le precedenti"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il recettore androgenico si trova:",
-        "options": {
-            "A": "Sulla membrana plasmatica",
-            "B": "Nel citoplasma",
-            "C": "Sui ribosomi",
-            "D": "Nel nucleo",
-            "E": "Tutte le risposte precedenti"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il fenotipo della completa insensibilità agli androgeni è caratterizzato da:",
-        "options": {
-            "A": "Fenotipo maschile con infertilità",
-            "B": "Fenotipo maschile con genitali ambigui",
-            "C": "Fenotipo femminile con testicoli criptorchidi",
-            "D": "Fenotipo femminile con parziale virilizzazione dei genitali esterni",
-            "E": "Fenotipo estremamente variabile tra il maschio e la femmina"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "In base ai criteri classificativi dell'American Diabetes Association il diabete viene diagnosticato in base ai seguenti valori di glicemia:",
-        "options": {
-            "A": "Pari o superiore a 126 mg\/dl a digiuno, almeno in due misurazioni",
-            "B": "Maggiore di 180 mg\/dl",
-            "C": "Nessuna delle precedenti",
-            "D": "Maggiore di 200 mg\/dl dopo due ore di carico orale di glucosio",
-            "E": "Le risposte 1 e 2 sono corrette"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il recettore insulinico è un recettore:",
-        "options": {
-            "A": "Nucleare",
-            "B": "Di membrana accoppiato alle g - proteins",
-            "C": "Di membrana tirosino - chinasico",
-            "D": "Di membrana accoppiato a canali ionici",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il trauma cranico può causare frequentemente ipopituitarismo e particolarmente deficit di GH:",
-        "options": {
-            "A": "Vero",
-            "B": "Falso",
-            "C": "Qualche volta",
-            "D": "Spesso",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quale delle seguenti affermazioni è vera?",
-        "options": {
-            "A": "La secrezione di prl è regolata principalmente dal prolactin releasing hormone",
-            "B": "La secrezione di prl è regolata principalmente dal trh",
-            "C": "La secrezione di prl è regolata principalmente dalla dopamina",
-            "D": "La secrezione di prl avviene seguendo il ritmo del cortisolo e dell'ACh",
-            "E": "La secrezione di prl avviene solo dopo il parto"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La causa più frequente di ipercortisolismo endogeno è:",
-        "options": {
-            "A": "Secrezione ectopica di ACh",
-            "B": "Carcinoma surrenalico",
-            "C": "Malattia di Cushing",
-            "D": "Displasia nodulare primaria pigmentata del surrene",
-            "E": "Iperplasia surrenalica nodulare"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quale delle seguenti affermazioni sulla sindrome di Cushing è esatta?",
-        "options": {
-            "A": "L'ipoglicemia è un sintomo frequente",
-            "B": "è presente spesso un'aumentata mineralizzazione ossea",
-            "C": "Sono tipiche le crisi ipertensive parossistiche",
-            "D": "Le striae rubrae sono un segno patognomonico",
-            "E": "Provoca dimagrimento e ipotensione"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quali di queste affermazioni è vera?",
-        "options": {
-            "A": "La secrezione di aldosterone è principalmente regolata dal sistema renina - angiotensina",
-            "B": "La sintesi dell'aldosterone avviene nella zona fascicolata della corticale del surrenalica",
-            "C": "La sintesi di cortisolo avviene nella zona glomerulosa della corticale surrenalica",
-            "D": "Il ritmo circadiano del cortisolo è caratterizzato da una secrezione minima al mattino e massimo alla sera",
-            "E": "Tutte le precedenti risposte"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quale di queste patologie endocrine possono causare una bassa statura:",
-        "options": {
-            "A": "Nessuna delle precedenti",
-            "B": "Morbo di Cushing",
-            "C": "Ipertiroidismo",
-            "D": "Deficit dell'ormone della crescita (Gh)",
-            "E": "Iperprolattinemia"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Tra questi sintomi qual è patognomico del morbo di Basedow:",
-        "options": {
-            "A": "La tachicardia",
-            "B": "Il gozzo diffuso",
-            "C": "L'esoftalmo",
-            "D": "Il mixedema pretibiale",
-            "E": "Tutte le precedenti"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quali sono i principali sintomi e segni di deficit surrenalico primitivo:",
-        "options": {
-            "A": "Astenia, iperpigmentazione, ipotensione arteriosa, nausea",
-            "B": "Ipertensione arteriosa, iperpigmentazione, disidratazione, vomito",
-            "C": "Anoressia, vomito, ipernatriemia, ipopotassiemia",
-            "D": "Nessuna delle precedenti",
-            "E": "A + C (astenia, iperpigmentazione, ipotensione arteriosa, nausea e anoressia, vomito, ipernatriemia, ipopotassiemia)"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Astenia e debolezza muscolare sono sintomi legati a deficit di:",
-        "options": {
-            "A": "Gh",
-            "B": "Tsh",
-            "C": "Lh",
-            "D": "Acth",
-            "E": "Tutte le risposte precedenti"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il GH è:",
-        "options": {
-            "A": "Una proteina simile alla proinsulina",
-            "B": "Una proteina simile alla prolattina",
-            "C": "Una proteina dimerica formata da una subunità alfa e una beta",
-            "D": "Una glicoproteina",
-            "E": "Un neuro - ormone ipotalamico che regola la funzione ipofisaria"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il feedback negativo è:",
-        "options": {
-            "A": "Il meccanismo attraverso il quale si verifica un aumento degli ormoni ipofisari",
-            "B": "Il meccanismo in cui si ottiene l'inibizione dell'azione ormonale",
-            "C": "Il meccanismo con il quale gli ormoni ipotalamici stimolano i centri nervosi",
-            "D": "Il meccanismo di regolazione tra ipofisi e midollare del surrene",
-            "E": "Il meccanismo di regolazione della secrezione di glucagone da parte dell'acth"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il GH:",
-        "options": {
-            "A": "Glucidico",
-            "B": "Tutte le affermazioni sono esatte",
-            "C": "Stimola la sintesi di igf - 1",
-            "D": "La sua azione è regolata in modo negativo dalla somatostatina",
-            "E": "La sua azione è regolata in modo positivo dal ghrh"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L' IGF - 1:",
-        "options": {
-            "A": "Una glicoproteina",
-            "B": "Uno steroide",
-            "C": "Una proteina simile alla proinsulina",
-            "D": "Una proteina formata da una catena alfa e una beta",
-            "E": "Un neuro - ormone ipotalamico che regola la funzione ipofisiaria"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La somatostatina è:",
-        "options": {
-            "A": "Un ormone prodotto ubiquitariamente che regola la crescita cellulare",
-            "B": "Un ormone prodotto in vari organi che regola la secrezione di altri",
-            "C": "Un ormone prodotto dal rene che regola la pressione sanguigna",
-            "D": "Un fattore di crescita",
-            "E": "Uno steroide"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Le azioni del GH sono:",
-        "options": {
-            "A": "In parte dirette e in parte mediate dall' igf - 1",
-            "B": "Essenzialmente simil - insuliniche ipoglicemizzanti",
-            "C": "Di tipo catabolico",
-            "D": "Di tipo inibitorio sulla funzione tiroidea",
-            "E": "Di tipo inibitorio sulla funzione gonadica"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Negli atleti che praticano sport di durata è possibile riscontrare:",
-        "options": {
-            "A": "Un incremento di livelli sierici di testosterone",
-            "B": "Una riduzione di livelli sierici di testosterone",
-            "C": "Una iper - risposta ipofisiaria al ghrh",
-            "D": "Un peggioramento dei valori seminali",
-            "E": "B + D"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il ciclo mestruale normale ha una durata media di:",
-        "options": {
-            "A": "28 - 30 giorni",
-            "B": "20 - 26 giorni",
-            "C": "32 - 38 giorni",
-            "D": "18 - 24 giorni",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quali sono le cause di insufficienza surrenalica secondaria:",
-        "options": {
-            "A": "Tumori dell'ipofisi, carcinoma del surrene, ipofisite linfocitaria",
-            "B": "Terapia cronica con glucocorticoidi, ipofisite linfocitaria, adrenoleucodistrofia",
-            "C": "Interventi neuro - chirurgici, tumori dell'ipofisi, terapie cortisoniche prolungate",
-            "D": "Nessuna delle precedenti",
-            "E": "A + C (tumori dell'ipofisi, carcinoma del surrene, ipofisite linfocitaria e interventi neuro - chirurgici, tumori dell'ipofisi, terapie cortisoniche prolungate)."
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La Triade dell'atleta donna è caratterizzata da:",
-        "options": {
-            "A": "Amenorrea, dismenorrea ed osteoporosi",
-            "B": "Disordini alimentari, amenorrea ed osteoporosi",
-            "C": "Obesità, nervosismo ed osteoporosi",
-            "D": "Amenorrea, obesità ed osteoporosi",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il neuropeptide Y aumenta:",
-        "options": {
-            "A": "Lontano dai pasti",
-            "B": "Subito dopo i pasti",
-            "C": "Prima e durante i pasti",
-            "D": "Dopo un breve periodo di digiuno",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "GLP - 1:",
-        "options": {
-            "A": "è secreto dalle cellule l della mucosa",
-            "B": "Aumenta la secrezione di insulina",
-            "C": "Diminuisce la secrezione di glucagone",
-            "D": "Rallenta lo svuotamento gastrico",
-            "E": "Tutte le risposte sono esatte"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "I livelli di ghrelin acilato sono diminuiti:",
-        "options": {
-            "A": "Subito dopo i pasti",
-            "B": "Dopo digiuno prolungato",
-            "C": "Son dieta ipocalorica",
-            "D": "In soggetti anoressici",
-            "E": "A + c (subito dopo i pasti e con dieta ipocalorica)"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Qual è la terapia dell'insufficienza surrenalica:",
-        "options": {
-            "A": "Analogo dell'acth",
-            "B": "Glucocorticoidi, mineralcorticoidi",
-            "C": "Mineralcorticoidi, androgeni",
-            "D": "Analogo del crh",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'intensità di un esercizio può essere espressa in funzione di:",
-        "options": {
-            "A": "% Hr",
-            "B": "% vo2max",
-            "C": "% hr o mets",
-            "D": "Quantità del lavoro eseguito",
-            "E": "Dispendio calorico"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La sindrome da insulino - resistenza di tipo A è caratterizzata da:",
-        "options": {
-            "A": "Iperinsulinemia, acanthosis nigricans e segni di iperandrogenismo",
-            "B": "Grave ritardo della crescita intrauterino e postnatale, lipotrofia, facies dismorfica (occhi rotondi, orecchie larghe, micrognazia) e acanthosis nigricans",
-            "C": "Severa insulino - resistenza e diabete (refrettario alla terapia con altre dosi di insulina) associati ad acanthosis nigricans, anomalie dello sviluppo dei denti e delle unghie, capelli spessi e a crescita rapida",
-            "D": "Tachicardia, dimagrimento, esoftalmo",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La mutazione del gene PROP - 1 è responsabile di alterata secrezione di:",
-        "options": {
-            "A": "Solo prolattina",
-            "B": "Prolattina e tsh",
-            "C": "Gh e fsh",
-            "D": "Lh, fsh, gh, prolattina e tsh",
-            "E": "Lh e tsh"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Un giovane con diabete mellito di tipo 1 può svolgere attività agonistica:",
-        "options": {
-            "A": "No, perché è pericoloso per la sua salute",
-            "B": "No, perché il diabete è una malattia invalidante",
-            "C": "Si, se non ha gravi complicanze e ha un buon controllo glicemico",
-            "D": "Si, anche in presenza di neuropatia autonomica diabetica",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'ormone anteroipofisiario più sensibile all'azione di agenti lesivi è:",
-        "options": {
-            "A": "Prolattina",
-            "B": "Gh",
-            "C": "Tsh",
-            "D": "Acth",
-            "E": "Lh"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Gli estrogeni possono esercitare:",
-        "options": {
-            "A": "Feedback solo positivo",
-            "B": "Feedback solo negativo",
-            "C": "Feedback positivo e negativo",
-            "D": "Feedback positivo solo in presenza di inibina",
-            "E": "Feedback solo in presenza gnrh"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il processo di adattamento dell'osso al carico meccanico durante l'esercizio fisico:",
-        "options": {
-            "A": "Dipende principalmente dall'intensità dell'esercizio fisico",
-            "B": "è minore negli sport ad alto impatto",
-            "C": "è indipendente dallo strain provocato",
-            "D": "Non consente di ottenere un osso più resistente",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'aumento degli androgeni nella donna comporta:",
-        "options": {
-            "A": "Un vantaggio in certe forme di attività sportiva",
-            "B": "Uno svantaggio in certe forme di attività sportiva",
-            "C": "Nessun effetto sull'attività sportiva",
-            "D": "A + c",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Lo scheletro di un soggetto adulto è costituito da:",
-        "options": {
-            "A": "Osso corticale per l'80% e osso trabecolare per il 20%",
-            "B": "Osso corticale per il 60% e osso trabecolare per il 40%",
-            "C": "Osso corticale per il 50% e osso trabecolare per il 50%",
-            "D": "Osso corticale per il 30% e osso trabecolare per il 70%",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La BMD areale è:",
-        "options": {
-            "A": "Espressa in grammi di idrossiapatite per unità di superficie",
-            "B": "Direttamente dipendente dalla densità minerale ossea del segmento osseo misurato",
-            "C": "Direttamente correlata con la resistenza dell'osso al carico meccanico",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Nelle attività sportive che richiedono l'impiego di forze pressoché massimali la maggior parte dell'energia necessaria deriva da:",
-        "options": {
-            "A": "Sintesi della fosfocreatina",
-            "B": "Glicolisi anaerobica",
-            "C": "Glicolisi aerobica",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "A",
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'attività aerobica determina:",
-        "options": {
-            "A": "Aumento dei depositi di glicogeno muscolare",
-            "B": "Utilizzo dei substrati lipidici",
-            "C": "Aumento dell'attività specifica di enzimi ossidativi coinvolti nel processo di beta - ossidazione dei lipidi",
-            "D": "Rilascio di acidi grassi liberi dai depositi",
-            "E": "Tutte le risposte precedenti"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il rimodellamento osseo:",
-        "options": {
-            "A": "Avviene per attivazione delle unità di rimodellamento osseo (bmu)",
-            "B": "Consente di rinnovare completamente lo scheletro di un soggetto adulto ogni 10 anni",
-            "C": "Si compone di tre fasi (rimodellamento, intermedia, neoformazione), strettamente connessa tra loro che si succedono in modo sequenziale",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "In risposta a uno stimolo aerobico allenante si osservano tutti i seguenti fenomeni, eccetto:",
-        "options": {
-            "A": "Aumento di dimensione delle fibre muscolari di tipo lento",
-            "B": "Aumento di dimensione delle fibre muscolari veloci",
-            "C": "Aumento del numero dei capillari attorno alle fibre",
-            "D": "Aumento della mioglobina muscolare",
-            "E": "Aumento della massa mitocondriale muscolare"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Le fasi che caratterizzano, nell'ordine, il ciclo endometriale sono:",
-        "options": {
-            "A": "Fase premestruale, fase mestruale, fase proliferativa, fase secretiva",
-            "B": "Fase premestruale, fase mestruale, fase secretiva, fase proliferativa",
-            "C": "Fase proliferativa, fase secretiva, fase premestruale e fase mestruale",
-            "D": "Fase secretiva, fase proliferativa, fase premestruale e fase mestruale",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il carcinoma tiroideo costituisce:",
-        "options": {
-            "A": "Meno dell'1% di tutti i tumori maligni",
-            "B": "Meno dell'1% per mille di tutti i tumori maligni",
-            "C": "Il 10% di tutti i tumori maligni",
-            "D": "Il 5% di tutti i tumori maligni",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quali delle seguenti caratteristiche ecografiche è sospetta per malignità in un nodulo tiroideo?",
-        "options": {
-            "A": "Ipoecogenicità",
-            "B": "Irregolarità dei margini",
-            "C": "Ipervascolarizzazione interna",
-            "D": "Presenza di calcificazioni puntate",
-            "E": "Tutte le risposte sono corrette"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quale fra le seguenti non è una causa di iperaldosteronismo primario?",
-        "options": {
-            "A": "Morbo di conn",
-            "B": "Reninoma",
-            "C": "Iperplasia surrenalica",
-            "D": "Carcinoma surrenalico",
-            "E": "Iperaldosteronismo steroido - sensibile"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quale di questi complessi sintomatologico è più suggestivo di feocromocitoma?",
-        "options": {
-            "A": "Amenorrea, osteoporosi, ipertensione",
-            "B": "Crisi ipertensive parossistiche, cefalea, palpitazioni",
-            "C": "Astenia, cefalea, iperidrosi",
-            "D": "Ipopotassemia, ipertensione, striae rubrae",
-            "E": "Ipopotassemia, ipertensione, pseudo - diabete insipido"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Quali esami di laboratorio si eseguono in prima battuta nei pazienti ai quali viene riscontrato un nodulo tiroideo?",
-        "options": {
-            "A": "Tsh, ft3, ft4",
-            "B": "Tsh, calcitonina",
-            "C": "Tsh, anti corpi antirecettori del tsh",
-            "D": "Anti corpi anti - tireoglobulina e anti - tireoperossidasi",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "A",
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La perdita di peso nelle pazienti obese appare associata a una riduzione del rischio di queste patologie:",
-        "options": {
-            "A": "Malattie cardiovascolari e diabete",
-            "B": "Anovularietà",
-            "C": "Malattie gastrointestinali",
-            "D": "A + B",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La cellula di Sertoli si trova:",
-        "options": {
-            "A": "Nell'ovaio embrionale",
-            "B": "Nel pancreas endocrino",
-            "C": "Nel pancreas esocrino",
-            "D": "Nei tubuli seminiferi",
-            "E": "Nel corticosurrene"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La struttura dell'ormone LH è molto simile a quella di quale delle seguenti sostanze?",
-        "options": {
-            "A": "Hcg",
-            "B": "Testosterone",
-            "C": "Tsh",
-            "D": "Fsh",
-            "E": "Tutte le precedenti risposte tranne la B"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il paratormone è elaborato:",
-        "options": {
-            "A": "Dalle paratiroidi",
-            "B": "Dalla tiroide",
-            "C": "Dal corticosurrene",
-            "D": "Dal pancreas endocrino",
-            "E": "Dal testicolo"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'ipotiroidismo primitivo limita la performance fisica più frequentemente e in maggior misura a causa di:",
-        "options": {
-            "A": "Deficit respiratorio",
-            "B": "Insufficienza cardiaca",
-            "C": "Insufficienza muscolare",
-            "D": "Danni nervosi",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": [
-            "C"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Da dove origina il testosterone della donna:",
-        "options": {
-            "A": "Dall'ovaio",
-            "B": "Dal surrene",
-            "C": "Per il 50% dall'ovaio e per il 50% dal surrene",
-            "D": "Per i 2\/3 dall'ovaio e per 1\/3 dal surrene",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "La calcitonina è un marker specifico di una delle seguenti neoplasie tiroidee:",
-        "options": {
-            "A": "Carcinoma midollare",
-            "B": "Carcinoma papillare",
-            "C": "Carcinoma follicolare",
-            "D": "Carcinoma anaplastico",
-            "E": "Tumore solitario fibroso"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Qual è la più comune forma di iperandrogenismo nella donna:",
-        "options": {
-            "A": "La sindrome dell'ovaio policistico",
-            "B": "L'irsutismo idiopatico",
-            "C": "I deficit enzimatici surrenalici",
-            "D": "I tumori androgeni secernenti",
-            "E": "Nessuna delle precedenti risposte"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Per quale delle seguenti ragioni il muscolo scheletrico ha particolare rilevanza?",
-        "options": {
-            "A": "Per la sintesi delle lipoproteine",
-            "B": "Perché utilizza la maggior parte del glucosio assorbito",
-            "C": "Nessuna delle precedenti risposte",
-            "D": "Perché rappresenta il tessuto quantitativamente preponderante tra quelli che costituiscono la massa grassa",
-            "E": "Può controllare la concentrazione di glucosio a digiuno aumentando la gluconeogenesi"
-        },
-        "correct": [
-            "B"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Qual è la causa più frequente di ipotiroidismo?",
-        "options": {
-            "A": "Il morbo di Basedow",
-            "B": "L'adenoma di Plummer",
-            "C": "Nessuna delle altre affermazioni è esatta",
-            "D": "La malattia di Klinefelter",
-            "E": "La tiroidite di Hashimoto"
-        },
-        "correct": [
-            "E"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Qual è la causa più frequente di insufficienza corticosurrenale cronica?",
-        "options": {
-            "A": "Surrenalite autoimmune",
-            "B": "Sono tutte false",
-            "C": "Surrenalite tubercolare",
-            "D": "Iposurrenalismo idiopatico",
-            "E": "Adenoma non funzionante dell'ipofisi"
-        },
-        "correct": [
-            "A"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Lo stato ipotiroideo di modesta entità (ipotiroidismo subclinico) può essere sospetto clinico ed identificato sul piano semiologico-laboratoristico dal riscontro di:",
-        "options": {
-            "A": "Dimagrimento",
-            "B": "Nervosismo",
-            "C": "Riduzione modesta del TSH, tachicardia, iperidrosi",
-            "D": "Aumento modesto del TSH, bradicardia, cute secca",
-            "E": "Assenza di alcun sintomo"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Gli anticorpi antitiroide specifici del morbo di Basedow sono:",
-        "options": {
-            "A": "Anticorpi antitireoglobulina",
-            "B": "Anticorpi antitireoperossidasi",
-            "C": "Nessuna delle precedenti",
-            "D": "Anticorpi antirecettore del TSH",
-            "E": "Anticorpi antiT3"
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "L'apporto alimentare ottimale di iodio è:",
-        "options": {
-            "A": "1000 ug",
-            "B": "300 ug",
-            "C": "1500 ug",
-            "D": "150 ug",
-            "E": "50 ug"
-
-        },
-        "correct": [
-            "D"
-        ],
-        "type": "single"
-    },
-    {
-        "question": "Il feocromocitoma può essere localizzato:",
-        "options": {
-            "A": "Tutte le precedenti",
-            "B": "Nel sangue",
-            "C": "Nel glomo carotideo",
-            "D": "Nei surreni",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Gli ormoni autocrini e paracrini sono:",
-        "options": {
-            "A": "Di varia natura chimica",
-            "B": "Solo glicoproteine",
-            "C": "Di natura esclusivamente carboidratica",
-            "D": "Di natura esclusivamente proteica-peptidica",
-            "E": "Solo steroidei"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Quali sono gli ormoni che derivano dal colesterolo?",
-        "options": {
-            "A": "Nessuna delle affermazioni è esatta",
-            "B": "Insulina e glucagone",
-            "C": "Corticosteroide",
-            "D": "Ormoni steroidei (progesterone, androgeni, estrogeni, mineralcorticoidi, vit. D e derivati)",
-            "E": "Tutte le precedenti"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "I topi geneticamente modificati e privi di Leptina:",
-        "options": {
-            "A": "Sono obesi, iperfagici, iperinsulinemici",
-            "B": "Sono obesi, ipofagici, ipoinsulinemici",
-            "C": "Sono magri, ipofagici, ipoinsulinemici",
-            "D": "Sono magri, ipofagici, iperinsulinemici",
-            "E": "Sono magri, iperfagici, iperinsulinemici"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La causa più frequente di ipotiroidismo:",
-        "options": {
-            "A": "Danno indotto da radiazioni",
-            "B": "Agenesia della tiroide",
-            "C": "Tiroidite cronica (di Hashimoto)",
-            "D": "Tutte le precedenti",
-            "E": "Trauma cranico"
-        },
-        "correct": ["C"],
-        "type": "single"
-    },
-    {
-        "question": "L'ACTH agisce:",
-        "options": {
-            "A": "Sull'ipofisi",
-            "B": "Sulla tiroide",
-            "C": "Sulla corticale del surrene",
-            "D": "Sulla midollare del surrene",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": ["C"],
-        "type": "single"
-    },
-    {
-        "question": "L'aldosterone controlla i livelli di:",
-        "options": {
-            "A": "Cloro e potassio",
-            "B": "Calcio e fosforo",
-            "C": "Nessuna delle precedenti",
-            "D": "Sodio e potassio",
-            "E": "Tutte le altre affermazioni sono esatte"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Qual è l'azione del PTH (paratormone)?",
-        "options": {
-            "A": "Aumenta il riassorbimento osseo, induce l'attività della 1 alfa idrossilasi aumentando il riassorbimento renale di calcio e magnesio ed inibizione del riassorbimento di bicarbonati e fosfati",
-            "B": "Nessuna delle altre affermazioni è corretta",
-            "C": "Aumenta la secrezione urinaria di calcio",
-            "D": "Riduce la secrezione di insulina",
-            "E": "Aumenta la secrezione degli ormoni tiroidei"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il neurormone è:",
-        "options": {
-            "A": "Una sostanza che, prodotta da un neurone, viene immessa nello spazio sinaptico",
-            "B": "Un ormone che regola il sistema nervoso centrale",
-            "C": "Nessuno dei precedenti",
-            "D": "Una sostanza che, prodotta da un neurone, viene immessa in circolo",
-            "E": "È un ormone steroideo"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Gli ormoni steroidei:",
-        "options": {
-            "A": "Interagiscono con i recettori di membrana",
-            "B": "Attivano la via del Camp",
-            "C": "Tutte le affermazioni sono esatte",
-            "D": "Interagiscono con i recettori nucleari o citoplasmatici",
-            "E": "Nessuna delle altre affermazioni è esatta"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "I glucocorticoidi esercitano un'azione:",
-        "options": {
-            "A": "immunosoppressiva",
-            "B": "catabolica",
-            "C": "iperglicemizzante",
-            "D": "tutte le affermazioni sono esatte",
-            "E": "antinfiammatoria"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Per quale delle seguenti ragioni il muscolo scheletrico ha particolare rilevanza?",
-        "options": {
-            "A": "per la sintesi delle lipoproteine",
-            "B": "perché utilizza la maggior parte del glucosio assorbito",
-            "C": "nessuna delle precedenti risposte",
-            "D": "perché rappresenta il tessuto quantitativamente preponderante tra quelli che costituiscono la massa grassa",
-            "E": "può controllare la concentrazione di glucosio a digiuno aumentando la gluconeogenesi"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Qual è la causa più frequente di ipotiroidismo?",
-        "options": {
-            "A": "il morbo di Basedow",
-            "B": "l'adenoma di Plummer",
-            "C": "nessuna delle altre affermazioni è esatta",
-            "D": "la malattia di Klinefelter",
-            "E": "la tiroidite di Hashimoto"
-        },
-        "correct": ["E"],
-        "type": "single"
-    },
-    {
-        "question": "Qual è la causa più frequente di insufficienza corticosurrenale cronica?",
-        "options": {
-            "A": "surrenalite autoimmune",
-            "B": "sono tutte false",
-            "C": "surrenalite tubercolare",
-            "D": "iposurrenalismo idiopatico",
-            "E": "adenoma non funzionante dell'ipofisi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Lo stato ipotiroideo di modesta entità (ipotiroidismo subclinico) può essere sospetto clinico ed identificato sul piano semiologico-laboratoristico dal riscontro di:",
-        "options": {
-            "A": "dimagrimento",
-            "B": "nervosismo",
-            "C": "riduzione modesta del TSH, tachicardia, iperidrosi",
-            "D": "aumento modesto del TSH, bradicardia, cute secca",
-            "E": "assenza di alcun sintomo"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Gli anticorpi antitiroide specifici del morbo di Basedow sono:",
-        "options": {
-            "A": "anticorpi antitireoglobulina",
-            "B": "anticorpi antitireoperossidasi",
-            "C": "nessuna delle precedenti",
-            "D": "anticorpi antirecettore del TSH",
-            "E": "anticorpi antiT3"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "L'apporto alimentare ottimale di iodio è:",
-        "options": {
-            "A": "1000 ug al giorno",
-            "B": "300 ug al giorno",
-            "C": "500 ug al giorno",
-            "D": "150 ug al giorno",
-            "E": "50 ug al giorno"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Il feocromocitoma può essere localizzato:",
-        "options": {
-            "A": "tutte le precedenti",
-            "B": "nel sangue",
-            "C": "nel glomo carotideo",
-            "D": "nei surreni",
-            "E": "nessuna delle precedenti"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Gli ormoni autocrini e paracrini sono:",
-        "options": {
-            "A": "di varia natura chimica",
-            "B": "solo glicoproteine",
-            "C": "di natura esclusivamente carboidratica",
-            "D": "di natura esclusivamente proteica-peptidica",
-            "E": "solo steroidei"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Quali sono gli ormoni che derivano dal colesterolo?",
-        "options": {
-            "A": "nessuna delle affermazioni è esatta",
-            "B": "insulina e glucagone",
-            "C": "corticosteroidei",
-            "D": "ormoni steroidei (progesterone, androgeni, estrogeni, mineralcorticoidi, vit. D e derivati)",
-            "E": "tutte le precedenti"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "I topi geneticamente modificati e privi di Leptina:",
-        "options": {
-            "A": "sono obesi, iperfagici, iperinsulinemici",
-            "B": "sono obesi, ipofagici, ipoinsulinemici",
-            "C": "sono magri, ipofagici, ipoinsulinemici",
-            "D": "sono magri, ipofagici, iperinsulinemici",
-            "E": "sono magri, iperfagici, iperinsulinemici"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La causa più frequente di ipotiroidismo:",
-        "options": {
-            "A": "danno indotto da radiazioni",
-            "B": "agenesia della tiroide",
-            "C": "tiroidite cronica (di Hashimoto)",
-            "D": "tutte le precedenti",
-            "E": "trauma cranico"
-        },
-        "correct": ["C"],
-        "type": "single"
-    },
-    {
-        "question": "L'ACTH agisce:",
-        "options": {
-            "A": "sull'ipofisi",
-            "B": "sulla tiroide",
-            "C": "sull'ovaio",
-            "D": "sulla corticale del surrene",
-            "E": "sulla midollare del surrene"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "L'aldosterone controlla i livelli di:",
-        "options": {
-            "A": "cloro e potassio",
-            "B": "calcio e fosforo",
-            "C": "nessuna delle precedenti",
-            "D": "sodio e potassio",
-            "E": "tutte le altre affermazioni sono esatte"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Qual è l'azione del PTH (paratormone)?",
-        "options": {
-            "A": "aumenta il riassorbimento osseo, induce l'attività della 1 alfa idrossilasi aumentando il riassorbimento renale di calcio e magnesio ed inibizione del riassorbimento di bicarbonati e fosfati",
-            "B": "nessuna delle altre affermazioni è corretta",
-            "C": "aumenta la secrezione urinaria di calcio",
-            "D": "riduce la secrezione di insulina",
-            "E": "aumenta la secrezione degli ormoni tiroidei"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il neurormone è:",
-        "options": {
-            "A": "una sostanza che, prodotta da un neurone, viene immessa nello spazio sinaptico",
-            "B": "un ormone che regula il sistema nervoso centrale",
-            "C": "nessuno dei precedenti",
-            "D": "una sostanza che, prodotta da un neurone, viene immessa in circolo",
-            "E": "è un ormone steroideo"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Gli ormoni steroidei:",
-        "options": {
-            "A": "interagiscono con i recettori di membrana",
-            "B": "attivano la via del cAMP",
-            "C": "tutte le affermazioni sono esatte",
-            "D": "interagiscono con i recettori nucleari o citoplasmatici",
-            "E": "nessuna delle altre affermazioni è esatta"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "Quali sono i tessuti insulino-dipendenti?",
-        "options": {
-            "A": "tutte le altre affermazioni sono esatte",
-            "B": "globuli rossi e fegato",
-            "C": "nessuna delle altre affermazioni è esatta",
-            "D": "cervello, cuore",
-            "E": "tessuto adiposo, muscolo scheletrico, fegato"
-        },
-        "correct": ["E"],
-        "type": "single"
-    },
-    {
-        "question": "Quando una persona si può definire obesa in base all'indice di massa corporea?",
-        "options": {
-            "A": "valori >/= 30",
-            "B": "valori compresi tra 24 e 27",
-            "C": "valori > 24",
-            "D": "valori </= 27",
-            "E": "valori >/= 28"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Qual è il precursore degli ormoni tiroidei?",
-        "options": {
-            "A": "Tirosina",
-            "B": "Triptofano",
-            "C": "Colesterolo",
-            "D": "Acido glutammico",
-            "E": "Fenilalanina"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Cos'è il feocromocitoma?",
-        "options": {
-            "A": "Tumore delle paratiroidi",
-            "B": "Tumore neuroendocrino",
-            "C": "Infiammazione della tiroide",
-            "D": "Malattia autoimmune",
-            "E": "Infezione delle ghiandole surrenali"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Nel Morbo Basedow, l'iperfunzione tiroidea è dovuta a:",
-        "options": {
-            "A": "Eccesso di TSH",
-            "B": "Mutazione genetica",
-            "C": "Immunoglobuline",
-            "D": "Deficit di iodio",
-            "E": "Infezione virale"
-        },
-        "correct": ["C"],
-        "type": "single"
-    },
-    {
-        "question": "Per quale dei seguenti carcinomi tiroidei è stata documentata la trasmissione genetica?",
-        "options": {
-            "A": "Carcinoma papillare",
-            "B": "Carcinoma follicolare",
-            "C": "Carcinoma midollare",
-            "D": "Carcinoma anaplastico",
-            "E": "Carcinoma a cellule di Hürthle"
-        },
-        "correct": ["C"],
-        "type": "single"
-    },
-    {
-        "question": "Precursore biologico dell'insulina:",
-        "options": {
-            "A": "Glucagone",
-            "B": "Pro-insulina",
-            "C": "Pre-pro-insulina",
-            "D": "Amilina",
-            "E": "Somatostatina"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Qual è il precursore degli ormoni tiroidei?",
-        "options": {
-            "A": "Tirosina",
-            "B": "Triptofano",
-            "C": "Colesterolo",
-            "D": "Acido glutammico",
-            "E": "Fenilalanina"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Cos'è il feocromocitoma?",
-        "options": {
-            "A": "Tumore delle paratiroidi",
-            "B": "Tumore neuroendocrino",
-            "C": "Infiammazione della tiroide",
-            "D": "Malattia autoimmune",
-            "E": "Infezione delle ghiandole surrenali"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Nel Morbo Basedow, l'iperfunzione tiroidea è dovuta a:",
-        "options": {
-            "A": "Eccesso di TSH",
-            "B": "Mutazione genetica",
-            "C": "Immunoglobuline",
-            "D": "Deficit di iodio",
-            "E": "Infezione virale"
-        },
-        "correct": ["C"],
-        "type": "single"
-    },
-    {
-        "question": "Per quale dei seguenti carcinomi tiroidei è stata documentata la trasmissione genetica?",
-        "options": {
-            "A": "Carcinoma papillare",
-            "B": "Carcinoma follicolare",
-            "C": "Carcinoma midollare",
-            "D": "Carcinoma anaplastico",
-            "E": "Carcinoma a cellule di Hürthle"
-        },
-        "correct": ["C"],
-        "type": "single"
-    },
-    {
-        "question": "Precursore biologico dell'insulina:",
-        "options": {
-            "A": "Glucagone",
-            "B": "Pro-insulina",
-            "C": "Pre-pro-insulina",
-            "D": "Amilina",
-            "E": "Somatostatina"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Principali sedi dell'insulino-resistenza:",
-        "options": {
-            "A": "Muscolo e fegato",
-            "B": "Cervello e reni",
-            "C": "Cuore e polmoni",
-            "D": "Pelle e ossa",
-            "E": "Intestino e pancreas"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Testosterone:",
-        "options": {
-            "A": "Deriva dal colesterolo",
-            "B": "Deriva dagli aminoacidi",
-            "C": "Deriva dai carboidrati",
-            "D": "Deriva dagli acidi grassi",
-            "E": "Deriva dalle vitamine"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Patologia con la presenza di anticorpi diretti contro i recettori TSH:",
-        "options": {
-            "A": "Tiroidite di Hashimoto",
-            "B": "Morbo di Graves o Basedow",
-            "C": "Adenoma tiroideo",
-            "D": "Ipotiroidismo congenito",
-            "E": "Gozzo multinodulare"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Cellule del pancreas che secernono l'insulina:",
-        "options": {
-            "A": "Alpha",
-            "B": "Beta",
-            "C": "Delta",
-            "D": "Gamma",
-            "E": "Epsilon"
-        },
-        "correct": ["B"],
-        "type": "single"
-    },
-    {
-        "question": "Ormone che risponde allo stress:",
-        "options": {
-            "A": "PRL o PRI",
-            "B": "TSH",
-            "C": "FSH",
-            "D": "LH",
-            "E": "GH"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'obesità comporta un maggior rischio di diabete per il seguente motivo:",
-        "options": {
-            "A": "Insulino resistenza",
-            "B": "Deficit di glucagone",
-            "C": "Iperproduzione di GH",
-            "D": "Ipofunzione tiroidea",
-            "E": "Alterato assorbimento intestinale"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'ormone antidiuretico agisce a livello del:",
-        "options": {
-            "A": "Tubulo distale",
-            "B": "Tubulo prossimale",
-            "C": "Ansa di Henle",
-            "D": "Glomerulo",
-            "E": "Collettore midollare"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'ormone della crescita regola la sintesi di:",
-        "options": {
-            "A": "GH/Somatomedina",
-            "B": "Insulina",
-            "C": "Glucagone",
-            "D": "Cortisolo",
-            "E": "Tiroxina"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'ormone somatotropo agisce sul metabolismo di:",
-        "options": {
-            "A": "Tutti i precedenti",
-            "B": "Solo i carboidrati",
-            "C": "Solo i lipidi",
-            "D": "Solo le proteine",
-            "E": "Solo i minerali"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'ossitocina è un ormone:",
-        "options": {
-            "A": "Peptidico",
-            "B": "Steroideo",
-            "C": "Aminico",
-            "D": "Glicoproteico",
-            "E": "Steroideo-simile"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'uso di estropogestinici è:",
-        "options": {
-            "A": "Un fattore predisponente all'ipertrigliceridemia",
-            "B": "Protettivo per i trigliceridi",
-            "C": "Senza effetto sui lipidi",
-            "D": "Utile nel diabete",
-            "E": "Antipertensivo"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Marker della sindrome surrenogenitale:",
-        "options": {
-            "A": "Deficit 21-idrossilasi e elevazione di 17OH-progesterone",
-            "B": "Deficit di aldosterone",
-            "C": "Eccesso di cortisolo",
-            "D": "Deficit di renina",
-            "E": "Eccesso di ACTH"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nei pazienti affetti da nanismo di Laron i valori sierici del GH e dell'IGF sono:",
-        "options": {
-            "A": "GH elevato e IGF-I ridotto",
-            "B": "GH ridotto e IGF-I elevato",
-            "C": "Entrambi elevati",
-            "D": "Entrambi ridotti",
-            "E": "Normali"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nei soggetti geneticamente predisposti, a parità di numero di calorie introdotte, quali delle seguente combinazioni di crescita esercita il maggiore ruolo diabetogeno?",
-        "options": {
-            "A": "Dieta iperlipidica, ricca in carboidrati, ipoproteica e povera in fibre",
-            "B": "Dieta ipolipidica, povera in carboidrati",
-            "C": "Dieta iperproteica, ricca in fibre",
-            "D": "Dieta bilanciata standard",
-            "E": "Digiuno intermittente"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella dieta di un soggetto diabetico, un'accettabile ripartizione percentuale di carboidrati, proteine e grassi, può essere rispettivamente:",
-        "options": {
-            "A": "50% carboidrati, 20% proteine e 30% grassi",
-            "B": "70% carboidrati, 10% proteine e 20% grassi",
-            "C": "30% carboidrati, 40% proteine e 30% grassi",
-            "D": "40% carboidrati, 30% proteine e 30% grassi",
-            "E": "60% carboidrati, 15% proteine e 25% grassi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella donna normale i più alti livelli plasmatici di gonadotropine si hanno:",
-        "options": {
-            "A": "In menopausa",
-            "B": "In pubertà",
-            "C": "In gravidanza",
-            "D": "Nell'infanzia",
-            "E": "Nella fase follicolare"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella femmina il primo segno di sviluppo puberale è nella maggior parte dei casi:",
-        "options": {
-            "A": "Comparsa dello sviluppo mammario",
-            "B": "Comparsa del menarca",
-            "C": "Comparsa dei peli pubici",
-            "D": "Accelerazione della crescita",
-            "E": "Modificazioni vulvari"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella menopausa risulta elevato il:",
-        "options": {
-            "A": "FSH",
-            "B": "Estrogeni",
-            "C": "Progesterone",
-            "D": "Prolattina",
-            "E": "TSH"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella Sindrome di Morris i livelli di testosterone sono:",
-        "options": {
-            "A": "Sono nella norma per un adulto di sesso maschile",
-            "B": "Ridotti",
-            "C": "Elevati",
-            "D": "Assenti",
-            "E": "Variabili"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella Sindrome a sole cellule di Sertoli o aplasia germinale, normalmente si riscontrano:",
-        "options": {
-            "A": "LH normale, FSH elevato, testosterone normale e inibina ridotta",
-            "B": "LH elevato, FSH ridotto, testosterone elevato",
-            "C": "LH ridotto, FSH normale, testosterone ridotto",
-            "D": "Tutti gli ormoni normali",
-            "E": "LH e FSH entrambi elevati"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella Sindrome di Conn è indicata la terapia con:",
-        "options": {
-            "A": "Spironolattone",
-            "B": "Metformina",
-            "C": "Levotiroxina",
-            "D": "Idrocortisone",
-            "E": "Furosemide"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella Sindrome di Cushing, da neoplasia surrenalica, la secrezione di ACTH:",
-        "options": {
-            "A": "è diminuita",
-            "B": "è aumentata",
-            "C": "è normale",
-            "D": "è variabile",
-            "E": "è assente"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella Sindrome di Klinefelter tipica si trovano sempre valori elevati di:",
-        "options": {
-            "A": "FSH",
-            "B": "LH",
-            "C": "Testosterone",
-            "D": "Estrogeni",
-            "E": "Prolattina"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'insufficienza renale cronica, è frequente il riscontro di:",
-        "options": {
-            "A": "Ipertrigliceridemia",
-            "B": "Ipoglicemia",
-            "C": "Ipotrigliceridemia",
-            "D": "Normolipidemia",
-            "E": "Ipercolesterolemia isolata"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'iperaldosteronismo primario si riscontrano:",
-        "options": {
-            "A": "Aumento di aldosterone e diminuzione di renina",
-            "B": "Diminuzione di aldosterone e aumento di renina",
-            "C": "Aumento di entrambi",
-            "D": "Diminuzione di entrambi",
-            "E": "Valori normali"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'iperaldosteronismo primitivo il mantenimento dell'ipertensione è dovuto a:",
-        "options": {
-            "A": "Aumento delle resistenze periferiche",
-            "B": "Aumento della gittata cardiaca",
-            "C": "Ritenzione idrica",
-            "D": "Vasodilatazione",
-            "E": "Aumento del sodio intracellulare"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'ipocorticosurrenalismo cronico è indicata terapia con:",
-        "options": {
-            "A": "Idrocortisone",
-            "B": "Insulina",
-            "C": "Levotiroxina",
-            "D": "Testosterone",
-            "E": "Estrogeni"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "I livelli di insulina nel sangue aumentano maggiormente in seguito a:",
-        "options": {
-            "A": "Al diabete mellito di tipo II",
-            "B": "Al digiuno prolungato",
-            "C": "All'esercizio fisico",
-            "D": "Allo stress acuto",
-            "E": "Al sonno profondo"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Da quale precursore derivano gli ormoni tiroidei:",
-        "options": {
-            "A": "TSH o Tireotropina",
-            "B": "TRH",
-            "C": "CRH",
-            "D": "GnRH",
-            "E": "GHRH"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "È un ormone che risponde allo stress è:",
-        "options": {
-            "A": "ACTH importante per la secrezione di cortisolo",
-            "B": "TSH per la tiroide",
-            "C": "FSH per le gonadi",
-            "D": "GH per la crescita",
-            "E": "Prolattina per l'allattamento"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il funzionamento corretto del sistema riproduttivo femminile, dipende dall'alterazione di vari organi, oltre quelli proveniente dall'ipofisi, da quale ghiandola o organo?",
-        "options": {
-            "A": "Ovaie, utero, gonadi",
-            "B": "Tiroide, surrene",
-            "C": "Pancreas, fegato",
-            "D": "Reni, cuore",
-            "E": "Polmoni, milza"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'uomo quali sono gli ormoni neuroipofisi?",
-        "options": {
-            "A": "Nell'uomo FSH, nella donna GNRH",
-            "B": "ADH e ossitocina",
-            "C": "TSH e ACTH",
-            "D": "GH e prolattina",
-            "E": "LH e FSH"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'obesità comporta un maggiore rischio di diabete mellito di tipo 2:",
-        "options": {
-            "A": "Insulino resistenza",
-            "B": "Deficit di insulina",
-            "C": "Eccesso di glucagone",
-            "D": "Alterato assorbimento",
-            "E": "Iperfunzione tiroidea"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Frequente nel paziente con obesità centrale:",
-        "options": {
-            "A": "Aumentano le concentrazioni plasmatiche di acidi grassi liberi, trigliceridi, LDL. Sono invece ridotte le concentrazioni di HDL",
-            "B": "Diminuiscono tutti i lipidi",
-            "C": "Aumenta solo il colesterolo",
-            "D": "Diminuiscono solo i trigliceridi",
-            "E": "Tutti i valori sono normali"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Alterata tolleranza di glucosio come è percepita?",
-        "options": {
-            "A": "Glicemia a digiuno minore di 126mg/die",
-            "B": "Glicemia a digiuno maggiore di 200mg/die",
-            "C": "Glicemia post-prandiale minore di 140mg/die",
-            "D": "Emoglobina glicata minore di 6%",
-            "E": "Glicemia random minore di 100mg/die"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'insulina…la glicemia in quanto?",
-        "options": {
-            "A": "L'insulina è l'ormone prodotto dal pancreas, che consente al glucosio l'ingresso nelle cellule e il suo conseguente utilizzo come fonte energetica. Quando questo meccanismo è alterato, il glucosio si accumula nel circolo sanguigno",
-            "B": "Aumenta la glicemia promuovendo la gluconeogenesi",
-            "C": "Stimola il fegato a produrre più glucosio",
-            "D": "Inibisce l'utilizzo del glucosio periferico",
-            "E": "Blocca il rilascio di glucagone"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "È un esame che permette la diagnosi di diabete mellito in caso di dubbi:",
-        "options": {
-            "A": "Test di tolleranza al carico orale di glucosio (OGTT)",
-            "B": "Curva insulinemica",
-            "C": "Test del cortisolo",
-            "D": "Esame delle urine",
-            "E": "Ecografia pancreatica"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'aumento della concentrazione di glucosio plasmatico provoca l'aumento della sintesi di:",
-        "options": {
-            "A": "Glucagone",
-            "B": "Insulina",
-            "C": "Cortisolo",
-            "D": "Adrenalina",
-            "E": "GH"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "I livelli di insulina nel sangue aumentano maggiormente in seguito a:",
-        "options": {
-            "A": "Piatto ricco di carboidrati",
-            "B": "Pasto proteico",
-            "C": "Digiuno",
-            "D": "Esercizio fisico",
-            "E": "Stress"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il peptide C è:",
-        "options": {
-            "A": "Un frammento della molecola originale dalla quale si forma l'insulina",
-            "B": "Un precursore del glucagone",
-            "C": "Un marcatore tumorale",
-            "D": "Un ormone tiroideo",
-            "E": "Un neurotrasmettitore"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Tra le neoplasie della tiroide l'istotipo più frequente è:",
-        "options": {
-            "A": "Papillare",
-            "B": "Midollare",
-            "C": "Follicolare",
-            "D": "Anaplastico",
-            "E": "Linfoma"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Quali sono nell'uomo gli ormoni della neuroipofisi?",
-        "options": {
-            "A": "ADH",
-            "B": "ACTH",
-            "C": "TSH",
-            "D": "FSH",
-            "E": "LH"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'esito più frequente di una tiroide di Hashimoto è:",
-        "options": {
-            "A": "Ipotiroidismo",
-            "B": "Ipertiroidismo",
-            "C": "Eutiroidismo",
-            "D": "Neoplasia",
-            "E": "Guarigione"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Quali sono i criteri per diagnosticare il diabete?",
-        "options": {
-            "A": "Analisi del sangue",
-            "B": "Esame delle urine",
-            "C": "Ecografia pancreatica",
-            "D": "Test genetico",
-            "E": "Biopsia epatica"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'insulina è un ormone:",
-        "options": {
-            "A": "Ipoglicemizzante",
-            "B": "Iperglicemizzante",
-            "C": "Lipolitico",
-            "D": "Catabolico",
-            "E": "Neuromodulatore"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il GH è prodotto da:",
-        "options": {
-            "A": "Ipofisi anteriore",
-            "B": "Ipofisi posteriore",
-            "C": "Ipotalamo",
-            "D": "Tiroide",
-            "E": "Surrene"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il glucagone è un ormone:",
-        "options": {
-            "A": "Prodotto dalle cellule alfa del pancreas",
-            "B": "Prodotto dalle cellule beta del pancreas",
-            "C": "Prodotto dalle cellule delta del pancreas",
-            "D": "Prodotto dal fegato",
-            "E": "Prodotto dall'ipofisi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Le catecolamine:",
-        "options": {
-            "A": "tutte le risposte sono corrette",
-            "B": "sono solo adrenalina e noradrenalina",
-            "C": "sono prodotte solo dalla midollare del surrene",
-            "D": "non influenzano il metabolismo",
-            "E": "sono ormoni steroidei"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il cortisolo:",
-        "options": {
-            "A": "la sua secrezione aumenta in caso di stress psico-fisico",
-            "B": "diminuisce in caso di stress",
-            "C": "non è influenzato dallo stress",
-            "D": "è costante nelle 24 ore",
-            "E": "è prodotto dalla midollare surrenale"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Gli ormoni steroidei:",
-        "options": {
-            "A": "tutte corrette",
-            "B": "sono solo i sessuali",
-            "C": "non attraversano la membrana cellulare",
-            "D": "si legano a recettori di membrana",
-            "E": "derivano da aminoacidi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'insulina è secreta:",
-        "options": {
-            "A": "Dalle cellule beta del pancreas",
-            "B": "Dalle cellule alfa del pancreas",
-            "C": "Dalle cellule delta del pancreas",
-            "D": "Dal fegato",
-            "E": "Dall'ipofisi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La secrezione di GH:",
-        "options": {
-            "A": "ha un effetto iperglicemizzante a lungo termine",
-            "B": "ha effetto ipoglicemizzante",
-            "C": "non influisce sulla glicemia",
-            "D": "aumenta la sensibilità insulinica",
-            "E": "inibisce la gluconeogenesi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Il testosterone:",
-        "options": {
-            "A": "stimola la sintesi di eritropoietina",
-            "B": "inibisce l'eritropoiesi",
-            "C": "non influisce sull'eritropoiesi",
-            "D": "riduce l'emoglobina",
-            "E": "causa anemia"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "L'insulina:",
-        "options": {
-            "A": "è l'ormone anabolico per eccellenza",
-            "B": "è un ormone catabolico",
-            "C": "promuove la lipolisi",
-            "D": "stimola la gluconeogenesi",
-            "E": "inibisce la sintesi proteica"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La secrezione di cortisolo:",
-        "options": {
-            "A": "aumenta in seguito ad esercizio fisico prolungato",
-            "B": "diminuisce con l'esercizio",
-            "C": "non cambia con l'esercizio",
-            "D": "è massima di notte",
-            "E": "è costante tutto il giorno"
-        },
-        "correct": ["A"],
-        "type": "single"
-    }
-
+  {
+    "domanda": "In Match Analysis, la Position Analysis:",
+    "opzioni": [
+      "Investiga sulle differenze di performance riscontrabili in base al ruolo",
+      "Analizza esclusivamente la posizione geografica degli atleti durante la gara",
+      "Si occupa della posizione del pallone durante le azioni di gioco",
+      "Studia la disposizione tattica iniziale della squadra prima del calcio d inizio"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Nel valutare la prestazione di un gruppo di atleti attraverso misure condotte durante la gara (Match Analysis), è opportuno trattare i dati raccolti utilizzando:",
+    "opzioni": [
+      "Esclusivamente la media aritmetica semplice",
+      "Solo la mediana, poiché elimina tutti i valori anomali",
+      "La media e la deviazione standard e, in presenza di valori fuori scala, anche la mediana",
+      "Unicamente la moda, che rappresenta il valore più frequente"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Le procedure di Match Analysis si rivolgono a investire la prestazione sportiva nei 3 diversi domini:",
+    "opzioni": [
+      "Psicologico-Motivazionale, Nutrizionale-Metabolico, Sociologico-Culturale",
+      "Fisiologico-Condizionale, Tecnico-Biomeccanico, Strategico-Tattico",
+      "Atletico-Fisico, Cognitivo-Mentale, Comunicativo-Relazionale",
+      "Morfologico-Strutturale, Biochimico-Ormonale, Biomeccanico-Cinematico"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Con modello si intende:",
+    "opzioni": [
+      "Una rappresentazione concettuale assolutamente sovrapponibile in toto alla realtà che descrive.",
+      "Una rappresentazione concettuale (spesso una semplificazione che ammette una formalizzazione matematica) del mondo reale o di una sua parte capace di spiegarne il funzionamento",
+      "Un processo di estrazione della verità assoluta a partire da una indagine conoscitiva, basata su postulati formulati a priori.",
+      "Un insieme di regole rigide che descrivono deterministicamente ogni aspetto della realtà sportiva."
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Il candidato consideri la citazione di Carl e Grosser (1992) relativa al controllo dell'allenamento. La Match Analysis:",
+    "opzioni": [
+      "Può essere considerata come una serie di procedure mirate esclusivamente al controllo della gara e non può avere collegamenti efficaci con la costruzione dei carichi di allenamento.",
+      "Può essere considerata come una serie di procedure mirate al controllo dell'allenamento e della gara e quindi rientra a pieno diritto nelle strutture di controllo citate dagli autori su indicati",
+      "Il controllo dell'allenamento non ha effetti sulla prestazione in gara. L'allenatore osserva i componenti durante la gara come un testimone silente.",
+      "La match analysis evidenzia solo gli aspetti negativi (errori tecnici) degli atleti coinvolti, non serve alla pianificazione di medio-lungo termine."
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Secondo una definizione di Bruno Ruscello (2008), la Match Analysis negli sport di situazione è una branca della pedagogia sportiva e delle scienze motorie atta a... alcune delle situazioni più significative che possono essere colte in occasione di incontri o partite. Quale formulazione mancante riportata dall'autore?",
+    "opzioni": [
+      "Raccogliere dati e informazioni fisiologiche relative ad atleti",
+      "Documentare, osservare, registrare ed eventualmente raccontare, in forma aneddotica",
+      "Descrivere, classificare, spiegare ed eventualmente predire (su basi probabilistiche)",
+      "Illustrare, spiegare, interpretare ed eventualmente provare su basi scientifiche le verità tattiche"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo la definizione fornita da Pieron (1983), il Coaching (processo di allenamento) è:",
+    "opzioni": [
+      "Un insieme di tecniche per massimizzare la performance atletica attraverso il solo allenamento fisico",
+      "Un processo esclusivamente educativo volto alla formazione umana e non sportiva dell'atleta",
+      "Un sistema di controllo gerarchico dove l'allenatore impartisce ordini agli atleti",
+      "Arte e/o scienza che permette di condurre un atleta o un gruppo di atleti a gareggiare in modo efficiente ed esperto"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Secondo il Professor Madella (2006), fra i maggiori fattori limitanti lo sviluppo della Match Analysis troviamo:",
+    "opzioni": [
+      "La mancanza di tecnologie adeguate per la raccolta dati sul campo",
+      "Questioni di potere (non conferma dell'allenatore, leadership di giocatori, reazioni ostili dei giocatori)",
+      "La scarsa formazione universitaria degli analisti sportivi",
+      "I costi elevati dei software di analisi della performance"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Possiamo esprimere il concetto di Deviazione Standard come:",
+    "opzioni": [
+      "Il valore medio dei dati raccolti durante la competizione sportiva",
+      "La differenza tra il valore massimo e il valore minimo di una distribuzione",
+      "Indicatore della dispersione delle osservazioni intorno al valore medio; si esprime con la stessa unità di misura della media",
+      "Il valore più frequente nella distribuzione dei dati di performance"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo il modello multidimensionale della capacità di gioco proposto da W.D. Brettschneider (1990), quali sono le capacità complesse maggiormente responsabili della performance ottimale nei Team Sports?",
+    "opzioni": [
+      "La capacità di anticipazione, la capacità di decisione, la disponibilità a rischiare, la rapidità di azione, la capacità di cooperare",
+      "La capacità di anticipazione e di elaborare informazioni",
+      "La velocità massimale, la resistenza aerobica, la forza resistente, la mobilità articolare",
+      "La capacità tecnico/tattica/strategica, la capacità fisico-mentale, la capacità di concentrazione circoscritta, il pensiero convergente"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Si consideri la sequenza di numeri: 45, 48, 48, 49, 49, 54, 55, 55, 56, 60, 62, 64, 67, 70, 75. Il candidato indichi la Mediana.",
+    "opzioni": [
+      "55",
+      "54",
+      "56",
+      "55,5"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Le procedure di Match Analysis possono essere applicate:",
+    "opzioni": [
+      "Nel pre-gara, nel post-gara e nel tempo di gara (controllo off line ed on line)",
+      "Esclusivamente nel pre-gara (controllo off line)",
+      "Esclusivamente nel pre-gara e nel post-gara",
+      "Esclusivamente nel post-gara (controllo off-line)"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "L'uso dei software per l'estrazione automatica dei dati (data mining) nella moderna Match Analysis è da considerare:",
+    "opzioni": [
+      "Totalmente inutile. Si possono elaborare solo variabili scalari, non pertinenti quindi all'evento gara.",
+      "Vietato dai regolamenti sportivi attuali, in quanto sostitutivo della figura dell'allenatore.",
+      "Potenzialmente dannoso poiché si configurerebbe come pratica doping.",
+      "Molto utile. Permette di elaborare diverse categorie di variabili di studio, comprese le variabili nominali, utilizzabili per analizzare comportamenti codificati"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "In una sequenza ordinata di dati, per evitare l'influenza dei valori estremi sullo studio dei valori di tendenza centrale, è opportuno considerare:",
+    "opzioni": [
+      "La media aritmetica semplice",
+      "La moda",
+      "La devianza",
+      "La mediana"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Nella Teoria degli Eventi (Ruscello, 2012):",
+    "opzioni": [
+      "L'obiettivo nel dominio delle anticipazioni è quello di giungere ad un Delta t tendente a zero",
+      "L'obiettivo nel dominio delle anticipazioni è quello di giungere ad un Delta t tendente all'infinito",
+      "Gli eventi di gara sono considerati deterministici e completamente prevedibili",
+      "La teoria si applica esclusivamente agli sport individuali e non agli sport di squadra"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Secondo una definizione di Alberto Madella (2006), il fattore limitante noto come \"Information Overload\" significa:",
+    "opzioni": [
+      "La carenza di informazioni disponibili per l'allenatore durante la partita",
+      "Un eccesso di risorse tecnologiche che rallenta l'analisi dei dati",
+      "La tendenza a sovraccaricare il sistema mnemonico individuale attraverso l'acquisizione di un numero enorme di dati, inutili per la gestione efficace della situazione di gioco (troppa informazione = nessuna informazione)",
+      "Il problema tecnico di overflow nei database di archiviazione dei dati sportivi"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo una definizione di Carlo Castagna (2003), la Match Analysis è:",
+    "opzioni": [
+      "Una disciplina esclusivamente statistica che analizza i risultati finali delle partite",
+      "Analisi comportamentale che descrive la prestazione sportiva codificando le azioni di individui o gruppi in termini specifici utili per la pratica",
+      "Un sistema di valutazione della forma fisica degli atleti condotto in laboratorio",
+      "Un processo di raccolta dati nutrizionali e fisiologici in ambiente di gara"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Una delle finalità principali dei processi di Match Analysis condotti in tempo reale (Gatterer et al. 2010) è:",
+    "opzioni": [
+      "Registrare statisticamente tutti gli eventi di gara per elaborazioni successive",
+      "Sostituire le decisioni dell'allenatore con algoritmi automatici di analisi",
+      "Portare alla conoscenza dell'allenatore e degli atleti le informazioni cruciali che concorrono a sostanziare i processi decisionali necessari per affrontare, in senso strategico-tattico, le situazioni di gioco in corso",
+      "Monitorare in tempo reale esclusivamente i parametri fisiologici degli atleti"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Usando metodologie derivate da studi di psicologia criminale, Franks e Miller (1986) hanno dimostrato che i migliori allenatori di livello internazionale hanno una capacità di richiamare al massimo il ...% dei fattori chiave che determinano il successo durante una singola partita.",
+    "opzioni": [
+      "70%",
+      "50%",
+      "45%",
+      "30%"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Con il concetto di \"informazione ecologica o rappresentativa\", inserito nel contesto della Match Analysis, si intende descrivere:",
+    "opzioni": [
+      "Un sistema di raccolta dati ambientali (temperatura, umidità, vento) che influenzano la performance",
+      "Un approccio puramente qualitativo basato sull'osservazione naturalistica del gioco",
+      "Un processo di ricerca-elaborazione-passaggio di informazioni strettamente connesso al sistema di gioco considerato, nel tempo di gara effettivo (real time), identificato dalle peculiari interazioni esistenti fra strutture topologiche, domini temporali, regolamentari, fisiologici, biomeccanici e tattico-strategici",
+      "Un metodo per analizzare l'impatto ambientale delle competizioni sportive sui luoghi di gara"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo il Professor Madella (2006), fra le funzioni principali della Match Analysis troviamo:",
+    "opzioni": [
+      "La valutazione medico-sportiva degli atleti prima e dopo le competizioni",
+      "La pianificazione economico-finanziaria delle società sportive",
+      "Definizione dei profili vincenti (squadre o individui), rispetto ai perdenti, e previsione dell'esito ottimale",
+      "La gestione amministrativa del personale tecnico e dello staff medico"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo una definizione di Staff tecnico data da Franck Dick nel 2006, le figure professionali legate ai processi di Match Analysis sono:",
+    "opzioni": [
+      "Data expert; Performance Supervisor; Scouting Supervisor; Fisiologo dell'esercizio",
+      "Scout Manager; Data Scientist/Statistico; Analista delle squadre avversarie; Set Pieces Analyst",
+      "Match Analista di torneo e/o di Campionato; Data Scientist/Statistico; Analista delle Squadre Avversarie; Performance Analyst",
+      "Match analista di torneo e/o di Campionato; Data Scientist Fisiologico; Analista di Scenario; Performance Expert"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Le tecniche prescrittive, nella Match Analysis:",
+    "opzioni": [
+      "Consentono di prescrivere le qualità motorie richieste per vincere una determinata partita.",
+      "Vengono utilizzate dal medico della squadra per prescrivere le esatte dosi di medicinali da prendere in caso di infortunio.",
+      "Hanno le fondamenta nell'analisi predittiva, ma vanno oltre fornendo vere e proprie regole o patterns direttamente applicabili al contesto gara",
+      "Consentono di prescrivere il giusto carico di allenamento in base al contesto ed al ciclo di allenamento considerato"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "I big data sono definiti come quei dati che presentano una o più delle seguenti tre caratteristiche:",
+    "opzioni": [
+      "Volume, velocità, varietà",
+      "Volume, densità, profondità",
+      "Velocità, integrità, specificità",
+      "Forma, sostanza, contenuto"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Nello studio \"una informazione ecologica ed efficace\" di Ruscello et al. (2012), quale evento viene considerato come variabile dipendente?",
+    "opzioni": [
+      "Tiro in porta: goal – no goal",
+      "Pressing efficace o inefficace",
+      "Passaggio corretto o sbagliato",
+      "Contrasto: corretto o sbagliato"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Il metodo Delphi:",
+    "opzioni": [
+      "È una metodologia derivata dalla psicologia, che serve a determinare in un atleta le sue capacità di previsione e di anticipazione.",
+      "È un metodo basato sulla previsione esoterica di scenari futuribili, utilizzato in antichità per affrontare le battaglie.",
+      "È un modo di dire quando ci si riferisce alla imprevedibilità del futuro che sta per arrivare.",
+      "È una metodologia che permette di strutturare la comunicazione tra un gruppo di esperti (Panel) con l'obiettivo di creare scenari futuri, valutare la desiderabilità e formulare previsioni, attraverso tecniche di convergenza del consenso"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Secondo una definizione fornita a lezione, gli sport di squadra:",
+    "opzioni": [
+      "Si possono considerare come sistemi statici semplici, composti di poche strutture funzionali.",
+      "Si possono considerare come strutture di base, in cui è centrale la capacità atletica dell'individuo.",
+      "Si possono considerare come sistemi dinamici complessi composti di tante parti interagenti",
+      "Si possono considerare come strutture relazionali, in cui lo scopo ultimo è l'affermazione del singolo individuo."
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Per \"squadra invisibile\" intendiamo:",
+    "opzioni": [
+      "La squadra che si allena a porte chiuse e si rende così invisibile ai Match Analisti avversari.",
+      "Un particolare atteggiamento psicologico della squadra, che tende a mascherare le dinamiche di leadership interne.",
+      "I componenti dello staff tecnico e dirigenziale, in senso estensivo, che permettono con il loro lavoro lo sviluppo concreto della squadra",
+      "Una squadra che si nasconde durante un torneo di qualificazione per emergere poi nelle fasi finali."
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Nel film Moneyball, basato su una storia vera, il protagonista:",
+    "opzioni": [
+      "Inserisce la pratica dell'allenamento invisibile nella squadra di hockey su ghiaccio.",
+      "Preleva ingenti somme di denaro tramite frode elettronica e fornisce alla sua squadra di calcio un team di match analisti.",
+      "Introduce un modo innovativo di gestire l'allestimento della squadra di baseball, attraverso un uso estensivo del data mining e della modellazione matematica",
+      "Rivoluziona il modo di gestire la partita di football americano, inserendo la figura del match analista on-line."
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Nel lavoro \"Match Analysis and Temporal Patterns of Fatigue in Rugby Seven\" di Granatelli, Ruscello et al. (2014), quale Key Performance Indicator è considerato nello studio?",
+    "opzioni": [
+      "High intensity acceleration (HIA)",
+      "Distanza totale per minuto (m/min)",
+      "Potenza aerobica",
+      "Velocità aerobica massimale"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "La performance e la match analysis si basano su:",
+    "opzioni": [
+      "Resoconti aneddotici delle evenienze riscontrate in senso puramente qualitativo.",
+      "Acquisizione dei dati, elaborazione dei dati in informazioni, promozione di processi decisionali informati",
+      "Acquisizione di informazioni, trasformazione in dati pertinenti, espansione della coscienza degli atleti.",
+      "Osservazione, interpretazione e discussione dei dati in gruppi ristretti di atleti."
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Il data mining:",
+    "opzioni": [
+      "È una metodica di indagine psicologica sviluppata negli anni 90, che mira a sviluppare analisi regressive della personalità degli sportivi.",
+      "È una metodica di indagine fisiologica volta a definire parametri essenziali della ventilazione polmonare a partire dai dati di VO2max.",
+      "Una metodica di indagine che comprende quegli strumenti e tecniche mirate all'estrazione (mining) di conoscenza da grandi quantità di dati",
+      "È una metodica di indagine biomeccanica volta a derivare informazioni su dati di accelerazione iniziale negli sprint massimali."
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Le tecniche predittive, nella match analysis:",
+    "opzioni": [
+      "Utilizzano i modelli matematici per raggiungere proiezioni deterministiche con la definizione delle costanti di prestazione.",
+      "Utilizzano i dati del passato per estrarre una visione del futuro costituita da un modello matematico-statistico",
+      "Utilizzano il lavoro di sensitivi esperti, molto portati ad avere visioni futuribili molto probabili.",
+      "Utilizzano le informazioni rubate in ambito di spionaggio sportivo per prevedere esattamente come andrà una partita."
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "La Performance Analysis si basa sulla ricerca e misurazione dei Key Performance Indicators (KPI) che...",
+    "opzioni": [
+      "Ci permettono di sviluppare delle teorie deterministiche sulla capacità di prestazione umana.",
+      "Ci forniscono valutazioni soggettive sulla importanza chiave di alcune prestazioni nel complesso della match analysis.",
+      "Ci consentono di fare speculazioni informate sulla struttura profonda del pensiero strategico applicato alla performance.",
+      "Forniscono un parametro oggettivo e quindi informazioni precise su alcune variabili della prestazione sportiva"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Lo sport data analyst:",
+    "opzioni": [
+      "È una figura di sistema che difficilmente troverà spazio nella odierna struttura dello sport di alto livello.",
+      "È un analista che opera prevalentemente in ambito giornalistico per fornire previsioni esatte agli scommettitori.",
+      "È un profilo professionale di interesse psicologico e psicoanalitico, specializzato nel trattamento delle fobie riscontrabili a livello sportivo.",
+      "È una figura di sistema che si sta sempre più affermando in campo professionale, con competenze cruciali nella gestione di grandi basi di dati derivati dalla performance sportiva"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Per \"allenamento invisibile\" intendiamo:",
+    "opzioni": [
+      "La capacità di nascondere la fatica in gara confondendo il pensiero strategico e tattico della squadra avversaria.",
+      "Le attività di vita quotidiana, oltre l'allenamento formale, che fortemente incidono poi sulla capacità di prestazione di gara",
+      "La squadra che si allena a porte chiuse e si rende così invisibile ai match analisti avversari.",
+      "Le pratiche illegali di allenamento basate sul doping."
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Cosa si intende per \"test del tempo\"?",
+    "opzioni": [
+      "La valutazione dell'efficienza di uno studio scientifico.",
+      "Portare a completamento uno studio scientifico nel più breve tempo possibile.",
+      "Il continuo processo di verifica di una teoria attraverso il progresso scientifico",
+      "Percorrere il maggior spazio nel tempo del test."
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Che cosa si intende per pensiero critico?",
+    "opzioni": [
+      "Sterile discussione su un tema sportivo.",
+      "Analisi negativa di una partita effettuata.",
+      "Quelle tecniche che vengono utilizzate per avere una visione oggettiva del problema",
+      "Pensieri che contrastano un progetto di ricerca."
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Che cosa si intende per validazione di un test?",
+    "opzioni": [
+      "La verifica della corrispondenza (associazione) tra misura del test e costrutto da misurare",
+      "La ripetibilità della prova (test).",
+      "La riproducibilità della prova (test).",
+      "L'esito di un test."
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Le tecniche di campionamento:",
+    "opzioni": [
+      "Permettono di risparmiare tempo nella esecuzione di una ricerca, potendo trarre dal campione esattamente le stesse informazioni della popolazione di riferimento.",
+      "Permettono di stimare meglio le grandezze di studio di quanto possa fare nella popolazione al completamento.",
+      "Permettono o limitano le possibili inferenze, ovvero la generalizzazione dei risultati osservati nel campione all'intera popolazione di riferimento",
+      "Permettono di espandere i dati compressi in file campionati."
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Che cosa si intende per precisione di un test?",
+    "opzioni": [
+      "Il ridotto scarto (differenza) dei risultati nella ripetizione del test",
+      "Quante volte ripeto un test nel corso di un esperimento.",
+      "L'attinenza tra procedure di valutazione e protocollo sperimentale.",
+      "La valutazione della chiarezza con cui vengono esposte le procedure di un test."
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Teoria ed evidenza risultano mutualmente esclusive nel pensiero scientifico?",
+    "opzioni": [
+      "Sono due termini che non fanno parte del pensiero scientifico.",
+      "Sono due costrutti mutualmente esclusivi.",
+      "Sono due termini antitetici.",
+      "No, vanno mano nella mano se così si vuol dire"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Le componenti fondamentali di una ricerca includono 6 fasi. Il candidato scelga la settima componente corretta:",
+    "opzioni": [
+      "Discussione sul significato e sulle implicazioni dei risultati",
+      "Ragionamento sulla potenza statistica e rappresentativa del campione.",
+      "Validità interna dello studio.",
+      "Livello di validità ecologica."
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Le cinque caratteristiche dell'approccio corretto alla ricerca sono:",
+    "opzioni": [
+      "Sistematico, logico, empirico, riduttivo, replicabile",
+      "Sistematico, razionale, statistico, aprioristico, assoluto",
+      "Sistematico, deduttivo, induttivo, esplicativo, casuale",
+      "Asistematico, osservazionale, causale, riduttivo, aprioristico"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Nella distribuzione normale (o gaussiana), i valori di popolazione considerati per le prime 3 deviazioni standard sono circa, rispettivamente:",
+    "opzioni": [
+      "Il 40%, il 70%, il 100%",
+      "Il 70%, il 95%, il 99%",
+      "Il 20%, il 30%, il 70%",
+      "Il 95%, il 98%, il 99%"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Una ricerca scientifica viene di norma sintetizzata in un lavoro composto delle seguenti parti (ordine corretto):",
+    "opzioni": [
+      "1) Introduzione, 2) Materiali e metodi, 3) Risultati, 4) Discussioni, 5) Conclusioni, 6) Bibliografia",
+      "1) Introduzione, 2) Risultati, 3) Conclusioni, 4) Discussioni, 5) Bibliografia, 6) Materiali e metodi",
+      "1) Materiali e metodi, 2) Risultati, 3) Conclusioni, 4) Discussioni, 5) Bibliografia, 6) Introduzione",
+      "1) Introduzione, 2) Materiali e metodi, 3) Risultati, 4) Discussioni, 5) Bibliografia, 6) Conclusioni"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Secondo Brukner & Khan (2007), nell'ambito della prevenzione agli infortuni agli hamstring, dobbiamo considerare:",
+    "opzioni": [
+      "Un riscaldamento completo con esercizi specifici",
+      "Esclusivamente stretching prima della seduta",
+      "Esclusivamente stretching dopo della seduta",
+      "Nessuna delle precedenti è corretta"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Che cos'è una teoria scientifica?",
+    "opzioni": [
+      "Le teorie non fanno parte del pensiero scientifico.",
+      "Una formale spiegazione delle relazioni tra una serie di osservazioni",
+      "Una degenerazione del pensiero scientifico.",
+      "Un esercizio del pensiero avulso dall'esperienza."
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Definisci il concetto di ripetibilità di un test:",
+    "opzioni": [
+      "È la corrispondenza tra risultato del test e valore di riferimento.",
+      "È la verifica che un test produca risultati simili nel corso del tempo",
+      "È la misura della velocità con cui si ripete un test.",
+      "È l'annotazione di quante volte un test viene effettuato nel tempo."
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Che cosa si intende per accuratezza di un test?",
+    "opzioni": [
+      "È lo scarto (differenza) tra il risultato delle prove e la misura reale",
+      "La distanza tra due risultati consecutivi.",
+      "Il numero di volte in cui il test raggiunge il valore atteso.",
+      "La capacità del test di discriminare tra soggetti diversi."
+    ],
+    "risposta_corretta": 0
+  }
 ]
