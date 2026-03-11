@@ -1,767 +1,891 @@
 import streamlit as st
-import json
 import random
-import pandas as pd
-from datetime import datetime, timedelta
-import time
 
-# Configurazione pagina
+# ============================================================
+# DATI DELLE DOMANDE
+# ============================================================
+
+# Formato:
+# { "domanda": str, "opzioni": [str, ...], "risposta_corretta": int (indice 0-based) }
+
+DOMANDE_MULTIPLE_CHOICE = [
+    # --- DOMANDE GIA' A SCELTA MULTIPLA DAL FILE ---
+    {
+        "domanda": "Secondo una definizione di Staff tecnico data da Franck Dick nel 2006, le figure professionali legate ai processi di Match Analysis sono:",
+        "opzioni": [
+            "Data expert; Performance Supervisor; Scouting Supervisor; Fisiologo dell'esercizio",
+            "Scout Manager; Data Scientist/Statistico; Analista delle squadre avversarie; Set Pieces Analyst",
+            "Match Analista di torneo e/o di Campionato; Data Scientist/Statistico; Analista delle Squadre Avversarie; Performance Analyst",
+            "Match analista di torneo e/o di Campionato; Data Scientist Fisiologico; Analista di Scenario; Performance Expert"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Le tecniche prescrittive, nella Match Analysis:",
+        "opzioni": [
+            "Consentono di prescrivere le qualità motorie richieste per vincere una determinata partita.",
+            "Vengono utilizzate dal medico della squadra per prescrivere le esatte dosi di medicinali da prendere in caso di infortunio, per evitare di cadere nei problemi di doping.",
+            "Hanno le fondamenta nell'analisi predittiva, ma vanno oltre fornendo vere e proprie 'regole' o 'patterns' direttamente applicabili al contesto gara",
+            "Consentono di prescrivere il giusto carico di allenamento in base al contesto ed al ciclo di allenamento considerato"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Le procedure di Match Analysis possono essere applicate:",
+        "opzioni": [
+            "Nel pre-gara, nel post-gara e nel tempo di gara (controllo off line ed on line)",
+            "Esclusivamente nel pre-gara (controllo off line)",
+            "Esclusivamente nel pre-gara e nel post-gara",
+            "Esclusivamente nel post-gara (controllo off-line)"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Secondo una definizione di Bruno Ruscello (2008), la Match Analysis negli sport di situazione è una branca della pedagogia sportiva e delle scienze motorie atta a... alcune delle situazioni più significative che possono essere colte in occasione di incontri o partite. Quale formulazione mancante riportata dall'autore?",
+        "opzioni": [
+            "Raccogliere dati e informazioni fisiologiche relative ad atleti",
+            "Documentare, osservare, registrare ed eventualmente raccontare, in forma aneddotica",
+            "Descrivere, classificare, spiegare ed eventualmente predire (su basi probabilistiche)",
+            "Illustrare, spiegare, interpretare ed eventualmente provare su basi scientifiche le verità tattiche"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "I big data sono definiti come quei dati che presentano una o più delle seguenti tre caratteristiche:",
+        "opzioni": [
+            "Volume, velocità, varietà",
+            "Volume, densità, profondità",
+            "Velocità, integrità, specificità",
+            "Forma, sostanza, contenuto"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "L'uso dei software per l'estrazione automatica dei dati (data mining) nella moderna Match Analysis è da considerare:",
+        "opzioni": [
+            "Totalmente inutile. Si possono elaborare solo variabili scalari, non pertinenti quindi all'evento gara.",
+            "Vietato dai regolamenti sportivi attuali, in quanto sostitutivo della figura dell'allenatore.",
+            "Potenzialmente dannoso poiché si configurerebbe come pratica doping.",
+            "Molto utile. Permette di elaborare diverse categorie di variabili di studio, comprese le variabili nominali, utilizzabili per analizzare comportamenti codificati"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Nello studio 'una informazione ecologica ed efficace' di Ruscello et al. (2012), quale evento viene considerato come variabile dipendente?",
+        "opzioni": [
+            "Tiro in porta: goal – no goal",
+            "Pressing efficace o inefficace",
+            "Passaggio corretto o sbagliato",
+            "Contrasto: corretto o sbagliato"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Con modello si intende:",
+        "opzioni": [
+            "Una rappresentazione concettuale assolutamente sovrapponibile in toto alla realtà che descrive.",
+            "Una rappresentazione concettuale (spesso una semplificazione che ammette una formalizzazione matematica) del mondo reale o di una sua parte capace di spiegarne il funzionamento",
+            "Un processo di estrazione della verità assoluta a partire da una indagine conoscitiva, basata su postulati formulati a priori.",
+            "Un insieme di regole rigide che descrivono deterministicamente ogni aspetto della realtà sportiva."
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Il candidato consideri la citazione di Carl e Grosser (1992) relativa al controllo dell'allenamento. La Match Analysis:",
+        "opzioni": [
+            "Può essere considerata come una serie di procedure mirate esclusivamente al controllo della gara e non può avere collegamenti efficaci con la costruzione dei carichi di allenamento.",
+            "Può essere considerata come una serie di procedure mirate al controllo dell'allenamento e della gara e quindi rientra a pieno diritto nelle strutture di controllo citate dagli autori su indicati",
+            "Il controllo dell'allenamento non ha effetti sulla prestazione in gara. L'allenatore osserva i componenti durante la gara come un testimone silente.",
+            "La match analysis evidenzia solo gli aspetti negativi (errori tecnici) degli atleti coinvolti, non serve alla pianificazione di medio-lungo termine."
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Secondo il modello multidimensionale della capacità di gioco proposto da W.D. Brettschneider (1990), quali sono le capacità complesse maggiormente responsabili della performance ottimale nei Team Sports?",
+        "opzioni": [
+            "La capacità di anticipazione, la capacità di decisione, la disponibilità a rischiare, la rapidità di azione, la capacità di cooperare",
+            "La capacità di anticipazione e di elaborare informazioni",
+            "La velocità massimale, la resistenza aerobica, la forza resistente, la mobilità articolare",
+            "La capacità tecnico/tattica/strategica, la capacità fisico-mentale, la capacità di concentrazione circoscritta, il pensiero convergente"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Il metodo Delphi:",
+        "opzioni": [
+            "È una metodologia derivata dalla psicologia, che serve a determinare in un atleta le sue capacità di previsione e di anticipazione.",
+            "È un metodo basato sulla previsione esoterica di scenari futuribili, utilizzato in antichità per affrontare le battaglie.",
+            "È un modo di dire quando ci si riferisce alla imprevedibilità del futuro che sta per arrivare.",
+            "È una metodologia che permette di strutturare la comunicazione tra un gruppo di esperti (Panel) con l'obiettivo di creare scenari futuri, valutare la desiderabilità e formulare previsioni, attraverso tecniche di convergenza del consenso"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Secondo una definizione fornita a lezione, gli sport di squadra:",
+        "opzioni": [
+            "Si possono considerare come sistemi statici semplici, composti di poche strutture funzionali.",
+            "Si possono considerare come strutture di base, in cui è centrale la capacità atletica dell'individuo.",
+            "Si possono considerare come sistemi dinamici complessi composti di tante parti interagenti",
+            "Si possono considerare come strutture relazionali, in cui lo scopo ultimo è l'affermazione del singolo individuo."
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Per 'squadra invisibile' intendiamo:",
+        "opzioni": [
+            "La squadra che si allena a 'porte chiuse' e si rende così 'invisibile' ai Match Analisti avversari.",
+            "Un particolare atteggiamento psicologico della squadra, che tende a mascherare le dinamiche di leadership interne.",
+            "I componenti dello staff tecnico e dirigenziale, in senso estensivo, che permettono con il loro lavoro lo sviluppo concreto della squadra",
+            "Una squadra che si 'nasconde' durante un torneo di qualificazione per emergere poi nelle fasi finali."
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Nel film Moneyball, basato su una storia vera, il protagonista:",
+        "opzioni": [
+            "Inserisce la pratica dell'allenamento invisibile nella squadra di hockey su ghiaccio.",
+            "Preleva ingenti somme di denaro tramite frode elettronica e fornisce alla sua squadra di calcio un team di match analisti.",
+            "Introduce un modo innovativo di gestire l'allestimento della squadra di baseball, attraverso un uso estensivo del data mining e della modellazione matematica",
+            "Rivoluziona il modo di gestire la partita di football americano, inserendo la figura del match analista on-line."
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Nel lavoro 'Match Analysis and Temporal Patterns of Fatigue in Rugby Seven' di Granatelli, Ruscello et al. (2014), quale Key Performance Indicator è considerato nello studio?",
+        "opzioni": [
+            "High intensity acceleration (HIA)",
+            "Distanza totale per minuto (m/min)",
+            "Potenza aerobica",
+            "Velocità aerobica massimale"
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "La performance e la match analysis si basano su:",
+        "opzioni": [
+            "Resoconti aneddotici delle evenienze riscontrate in senso puramente qualitativo. Fondamentale è la capacità di osservazione.",
+            "Acquisizione dei dati, elaborazione dei dati in informazioni, promozione di processi decisionali informati",
+            "Acquisizione di informazioni, trasformazione in dati pertinenti, espansione della coscienza degli atleti per favorire i processi condizionali.",
+            "Osservazione, interpretazione e discussione dei dati in gruppi ristretti di atleti."
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Il data mining:",
+        "opzioni": [
+            "È una metodica di indagine psicologica, sviluppata negli anni '90, che mira a sviluppare analisi regressive della personalità degli sportivi.",
+            "È una metodica di indagine fisiologica volta a definire parametri essenziali della ventilazione polmonare a partire dai dati di VO2max.",
+            "Una metodica di indagine che comprende quegli strumenti e tecniche mirate all'estrazione (mining) di conoscenza da grandi quantità di dati",
+            "È una metodica di indagine biomeccanica volta a derivare informazioni su dati di accelerazione iniziale negli sprint massimali."
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Le tecniche predittive, nella match analysis:",
+        "opzioni": [
+            "Utilizzano i modelli matematici per raggiungere proiezioni deterministiche con la definizione delle cosidette 'costanti di prestazione'.",
+            "Utilizzano i dati del passato per estrarre una visione del futuro costituita da un modello matematico-statistico",
+            "Utilizzano il lavoro di sensitivi esperti, molto portati ad avere visioni futuribili molto probabili.",
+            "Utilizzano le informazioni 'rubate' in ambito di spionaggio sportivo per prevedere esattamente come andrà una partita."
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "La Performance Analysis si basa sulla ricerca e misurazione dei 'Key Performance Indicators' (KPI) che...",
+        "opzioni": [
+            "Ci permettono di sviluppare delle teorie deterministiche sulla capacità di prestazione umana.",
+            "Ci forniscono valutazioni soggettive sulla importanza 'chiave' di alcune prestazioni nel complesso della match analysis.",
+            "Ci consentono di fare speculazioni informate sulla struttura profonda del pensiero strategico applicato alla performance.",
+            "Forniscono un parametro oggettivo e quindi informazioni precise su alcune variabili della prestazione sportiva"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Lo sport data analyst:",
+        "opzioni": [
+            "È una figura di sistema che difficilmente troverà spazio nella odierna struttura dello sport di alto livello.",
+            "È un analista che opera prevalentemente in ambito giornalistico per fornire previsioni esatte agli scommettitori.",
+            "È un profilo professionale di interesse psicologico e psicoanalitico, specializzato nel trattamento delle fobie riscontrabili a livello sportivo.",
+            "È una figura di sistema che si sta sempre più affermando in campo professionale, con competenze cruciali nella gestione di grandi basi di dati derivati dalla performance sportiva"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Per 'allenamento invisibile' intendiamo:",
+        "opzioni": [
+            "La capacità di 'nascondere' la fatica in gara confondendo così il pensiero strategico e tattico della squadra avversaria.",
+            "Le attività di vita quotidiana, oltre l'allenamento formale, che fortemente incidono poi sulla capacità di prestazione di gara",
+            "La squadra che si allena a 'porte chiuse' e si rende così 'invisibile' ai match analisti avversari.",
+            "Le pratiche illegali di allenamento basate sul doping."
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Cosa si intende per 'test del tempo'?",
+        "opzioni": [
+            "La valutazione dell'efficienza di uno studio scientifico.",
+            "Portare a completamento uno studio scientifico nel più breve tempo possibile.",
+            "Il continuo processo di verifica di una teoria attraverso il progresso scientifico",
+            "Percorrere il maggior spazio nel tempo del test."
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Che cosa si intende per pensiero critico?",
+        "opzioni": [
+            "Sterile discussione su un tema sportivo.",
+            "Analisi negativa di una partita effettuata.",
+            "Quelle tecniche che vengono utilizzate per avere una visione oggettiva del problema",
+            "Pensieri che contrastano un progetto di ricerca."
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Che cosa si intende per validazione di un test?",
+        "opzioni": [
+            "La verifica della corrispondenza (associazione) tra misura del test e costrutto da misurare",
+            "La ripetibilità della prova (test).",
+            "La riproducibilità della prova (test).",
+            "L'esito di un test."
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Le tecniche di campionamento:",
+        "opzioni": [
+            "Permettono di risparmiare tempo nella esecuzione di una ricerca, potendo trarre dal campione esattamente le stesse informazioni della popolazione di riferimento.",
+            "Permettono di stimare meglio le grandezze di studio di quanto possa fare nella popolazione al completamento.",
+            "Permettono o limitano le possibili inferenze, ovvero la generalizzazione dei risultati osservati nel campione all'intera popolazione di riferimento",
+            "Permettono di espandere i dati compressi in file campionati."
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Che cosa si intende per precisione di un test?",
+        "opzioni": [
+            "Il ridotto scarto (differenza) dei risultati nella ripetizione del test",
+            "Quante volte ripeto un test nel corso di un esperimento.",
+            "L'attinenza tra procedure di valutazione e protocollo sperimentale.",
+            "La valutazione della chiarezza con cui vengono esposte le procedure di un test."
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Teoria ed evidenza risultano mutualmente esclusive nel pensiero scientifico?",
+        "opzioni": [
+            "Sono due termini che non fanno parte del pensiero scientifico.",
+            "Sono due costrutti mutualmente esclusivi.",
+            "Sono due termini antitetici.",
+            "No, vanno mano nella mano se così si vuol dire"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Le componenti fondamentali di una ricerca includono 6 fasi. Il candidato scelga la settima componente corretta:",
+        "opzioni": [
+            "Discussione sul significato e sulle implicazioni dei risultati",
+            "Ragionamento sulla potenza statistica e rappresentativa del campione.",
+            "Validità interna dello studio.",
+            "Livello di validità ecologica."
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Le cinque caratteristiche dell'approccio corretto alla ricerca sono:",
+        "opzioni": [
+            "Sistematico, logico, empirico, riduttivo, replicabile",
+            "Sistematico, razionale, statistico, aprioristico, assoluto",
+            "Sistematico, deduttivo, induttivo, esplicativo, casuale",
+            "Asistematico, osservazionale, causale, riduttivo, aprioristico"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "In una sequenza ordinata di dati, per evitare l'influenza dei valori estremi sullo studio dei valori di tendenza centrale, è opportuno considerare:",
+        "opzioni": [
+            "La media aritmetica semplice",
+            "La moda",
+            "La devianza",
+            "La mediana"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Nella distribuzione normale (o gaussiana), i valori di popolazione considerati per le prime 3 deviazioni standard sono circa, rispettivamente:",
+        "opzioni": [
+            "Il 40%, il 70%, il 100%",
+            "Il 70%, il 95%, il 99%",
+            "Il 20%, il 30%, il 70%",
+            "Il 95%, il 98%, il 99%"
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Una ricerca scientifica viene di norma sintetizzata in un lavoro composto delle seguenti parti (ordine corretto):",
+        "opzioni": [
+            "1) Introduzione, 2) Materiali e metodi, 3) Risultati, 4) Discussioni, 5) Conclusioni, 6) Bibliografia",
+            "1) Introduzione, 2) Risultati, 3) Conclusioni, 4) Discussioni, 5) Bibliografia, 6) Materiali e metodi",
+            "1) Materiali e metodi, 2) Risultati, 3) Conclusioni, 4) Discussioni, 5) Bibliografia, 6) Introduzione",
+            "1) Introduzione, 2) Materiali e metodi, 3) Risultati, 4) Discussioni, 5) Bibliografia, 6) Conclusioni"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Secondo Brukner & Khan (2007), nell'ambito della prevenzione agli infortuni agli hamstring, dobbiamo considerare:",
+        "opzioni": [
+            "Un riscaldamento completo con esercizi specifici",
+            "Esclusivamente stretching prima della seduta",
+            "Esclusivamente stretching dopo della seduta",
+            "Nessuna delle precedenti è corretta"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Si consideri la sequenza di numeri: 45, 48, 48, 49, 49, 54, 55, 55, 56, 60, 62, 64, 67, 70, 75. Il candidato indichi la Mediana.",
+        "opzioni": [
+            "55",
+            "54",
+            "56",
+            "55,5"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Che cos'è una teoria scientifica?",
+        "opzioni": [
+            "Le teorie non fanno parte del pensiero scientifico.",
+            "Una formale spiegazione delle relazioni tra una serie di osservazioni",
+            "Una degenerazione del pensiero scientifico.",
+            "Un esercizio del pensiero avulso dall'esperienza."
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Definisci il concetto di ripetibilità di un test:",
+        "opzioni": [
+            "È la corrispondenza tra risultato del test e valore di riferimento.",
+            "È la verifica che un test produca risultati simili nel corso del tempo",
+            "È la misura della velocità con cui si ripete un test.",
+            "È l'annotazione di quante volte un test viene effettuato nel tempo."
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Che cosa si intende per accuratezza di un test?",
+        "opzioni": [
+            "È lo scarto (differenza) tra il risultato delle prove e la misura reale",
+            "La distanza tra due risultati consecutivi.",
+            "Il numero di volte in cui il test raggiunge il valore atteso.",
+            "La capacità del test di discriminare tra soggetti diversi."
+        ],
+        "risposta_corretta": 0
+    },
+    # --- DOMANDE CON RISPOSTA SINGOLA (con 3 distrattori aggiunti) ---
+    {
+        "domanda": "In Match Analysis, la Position Analysis:",
+        "opzioni": [
+            "Investiga sulle differenze di performance riscontrabili in base al ruolo",
+            "Analizza esclusivamente la posizione geografica degli atleti durante la gara",
+            "Si occupa della posizione del pallone durante le azioni di gioco",
+            "Studia la disposizione tattica iniziale della squadra prima del calcio d'inizio"
+        ],
+        "risposta_corretta": 0
+    },
+    {
+        "domanda": "Nel valutare la prestazione di un gruppo di atleti attraverso misure condotte durante la gara (Match Analysis), è opportuno trattare i dati raccolti utilizzando:",
+        "opzioni": [
+            "Esclusivamente la media aritmetica semplice",
+            "Solo la mediana, poiché elimina tutti i valori anomali",
+            "La media e la deviazione standard e, in presenza di valori fuori scala, anche la mediana",
+            "Unicamente la moda, che rappresenta il valore più frequente"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Le procedure di Match Analysis si rivolgono a investire la prestazione sportiva nei 3 diversi domini:",
+        "opzioni": [
+            "Psicologico-Motivazionale, Nutrizionale-Metabolico, Sociologico-Culturale",
+            "Fisiologico-Condizionale, Tecnico-Biomeccanico, Strategico-Tattico",
+            "Atletico-Fisico, Cognitivo-Mentale, Comunicativo-Relazionale",
+            "Morfologico-Strutturale, Biochimico-Ormonale, Biomeccanico-Cinematico"
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Secondo la definizione fornita da Pieron (1983), il Coaching (processo di allenamento) è:",
+        "opzioni": [
+            "Un insieme di tecniche per massimizzare la performance atletica attraverso il solo allenamento fisico",
+            "Un processo esclusivamente educativo volto alla formazione umana e non sportiva dell'atleta",
+            "Un sistema di controllo gerarchico dove l'allenatore impartisce ordini agli atleti",
+            "Arte e/o scienza che permette di condurre un atleta o un gruppo di atleti a gareggiare in modo efficiente ed esperto"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Secondo il Professor Madella (2006), fra i maggiori fattori limitanti lo sviluppo della Match Analysis troviamo:",
+        "opzioni": [
+            "La mancanza di tecnologie adeguate per la raccolta dati sul campo",
+            "Questioni di potere (non conferma dell'allenatore, leadership di giocatori, reazioni ostili dei giocatori)",
+            "La scarsa formazione universitaria degli analisti sportivi",
+            "I costi elevati dei software di analisi della performance"
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Possiamo esprimere il concetto di Deviazione Standard come:",
+        "opzioni": [
+            "Il valore medio dei dati raccolti durante la competizione sportiva",
+            "La differenza tra il valore massimo e il valore minimo di una distribuzione",
+            "Indicatore della dispersione delle osservazioni intorno al valore medio; si esprime con la stessa unità di misura della media",
+            "Il valore più frequente nella distribuzione dei dati di performance"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Nella Teoria degli Eventi (Ruscello, 2012):",
+        "opzioni": [
+            "L'obiettivo nel dominio delle anticipazioni è quello di giungere ad un Delta t tendente a zero",
+            "L'obiettivo nel dominio delle anticipazioni è quello di giungere ad un Delta t tendente all'infinito",
+            "Gli eventi di gara sono considerati deterministici e completamente prevedibili",
+            "La teoria si applica esclusivamente agli sport individuali e non agli sport di squadra"
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Secondo una definizione di Alberto Madella (2006), il fattore limitante noto come 'Information Overload' significa:",
+        "opzioni": [
+            "La carenza di informazioni disponibili per l'allenatore durante la partita",
+            "Un eccesso di risorse tecnologiche che rallenta l'analisi dei dati",
+            "La tendenza a sovraccaricare il sistema mnemonico individuale attraverso l'acquisizione di un numero enorme di dati, inutili per la gestione efficace della situazione di gioco (troppa informazione = nessuna informazione)",
+            "Il problema tecnico di overflow nei database di archiviazione dei dati sportivi"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Secondo una definizione di Carlo Castagna (2003), la Match Analysis è:",
+        "opzioni": [
+            "Una disciplina esclusivamente statistica che analizza i risultati finali delle partite",
+            "Analisi comportamentale che descrive la prestazione sportiva codificando le azioni di individui o gruppi in termini specifici utili per la pratica",
+            "Un sistema di valutazione della forma fisica degli atleti condotto in laboratorio",
+            "Un processo di raccolta dati nutrizionali e fisiologici in ambiente di gara"
+        ],
+        "risposta_corretta": 1
+    },
+    {
+        "domanda": "Una delle finalità principali dei processi di Match Analysis condotti in tempo reale (Gatterer et al. 2010) è:",
+        "opzioni": [
+            "Registrare statisticamente tutti gli eventi di gara per elaborazioni successive",
+            "Sostituire le decisioni dell'allenatore con algoritmi automatici di analisi",
+            "Portare alla conoscenza dell'allenatore e degli atleti le informazioni cruciali che concorrono a sostanziare i processi decisionali necessari per affrontare, in senso strategico-tattico, le situazioni di gioco in corso",
+            "Monitorare in tempo reale esclusivamente i parametri fisiologici degli atleti"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Usando metodologie derivate da studi di psicologia criminale, Franks e Miller (1986) hanno dimostrato che i migliori allenatori di livello internazionale hanno una capacità di richiamare al massimo il ...% dei fattori chiave che determinano il successo durante una singola partita.",
+        "opzioni": [
+            "70%",
+            "50%",
+            "45%",
+            "30%"
+        ],
+        "risposta_corretta": 3
+    },
+    {
+        "domanda": "Con il concetto di 'informazione ecologica o rappresentativa', inserito nel contesto della Match Analysis, si intende descrivere:",
+        "opzioni": [
+            "Un sistema di raccolta dati ambientali (temperatura, umidità, vento) che influenzano la performance",
+            "Un approccio puramente qualitativo basato sull'osservazione naturalistica del gioco",
+            "Un processo di ricerca-elaborazione-passaggio di informazioni strettamente connesso al sistema di gioco considerato, nel tempo di gara effettivo (real time), identificato dalle peculiari interazioni esistenti fra strutture topologiche, domini temporali, regolamentari, fisiologici, biomeccanici e tattico-strategici",
+            "Un metodo per analizzare l'impatto ambientale delle competizioni sportive sui luoghi di gara"
+        ],
+        "risposta_corretta": 2
+    },
+    {
+        "domanda": "Secondo il Professor Madella (2006), fra le funzioni principali della Match Analysis troviamo:",
+        "opzioni": [
+            "La valutazione medico-sportiva degli atleti prima e dopo le competizioni",
+            "La pianificazione economico-finanziaria delle società sportive",
+            "Definizione dei profili vincenti (squadre o individui), rispetto ai perdenti, e previsione dell'esito ottimale",
+            "La gestione amministrativa del personale tecnico e dello staff medico"
+        ],
+        "risposta_corretta": 2
+    },
+]
+
+
+# ============================================================
+# CONFIGURAZIONE STREAMLIT
+# ============================================================
+
 st.set_page_config(
-    page_title="Quiz di Ripasso - Endocrinologia e Medicina",
-    page_icon="🧠",
+    page_title="Quiz Match Analysis",
+    page_icon="🏆",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
 
-# DOMANDE DI MEDICINA INCORPORATE NEL CODICE
-DOMANDE_MEDICINA = [
-    {
-        "question": "L'ischemia nel distretto splancnico durante esercizio?",
-        "options": {
-            "A": "Una difesa dell'organismo dovuta ad adattamenti vascolari",
-            "B": "Patologia congenita dei vasi intestinali che non si adattano all'esercizio",
-            "C": "Complicanza dell'anemia cronica",
-            "D": "Complicanza del diabete di tipo II",
-            "E": "Sempre patologica e pericolosa"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Durante una maratona quale dei seguenti sintomi si può manifestare?",
-        "options": {
-            "A": "Defecazione imperiosa",
-            "B": "Minzione imperiosa",
-            "C": "Flatulenze",
-            "D": "Diarrea",
-            "E": "Stipsi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Una delle più frequenti cause di esofagite e gastrite nella pratica dello sport è?",
-        "options": {
-            "A": "Uso cronico di antinfiammatori",
-            "B": "Uso di cibi piccanti",
-            "C": "Anemia cronica",
-            "D": "Intolleranza al glutine",
-            "E": "Consumo di alcol"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Durante l'esercizio fisico il dolore toracico va valutato attentamente e?",
-        "options": {
-            "A": "Può essere anche un sintomo di reflusso gastroesofageo",
-            "B": "Può essere un segno di stanchezza cronica",
-            "C": "È sempre un segno di cardiopatia ischemica",
-            "D": "È sempre benigno",
-            "E": "Non richiede mai attenzione medica"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La gestosi del terzo trimestre di gravidanza:",
-        "options": {
-            "A": "Ipertensione, edema, proteinuria",
-            "B": "Ipotensione, edema, glicosuria",
-            "C": "Ipertensione, tachicardia, febbre",
-            "D": "Ipotensione, bradicardia, ipotermia",
-            "E": "Anemia, edemi, iperglicemia"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La lipotimia è:",
-        "options": {
-            "A": "Una presincope",
-            "B": "Una sincope completa",
-            "C": "Una crisi epilettica",
-            "D": "Un attacco di panico",
-            "E": "Una crisi ipoglicemica"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La morte improvvisa da sport:",
-        "options": {
-            "A": "Evento raro non prevedibile ed in genere determinato da cardiopatia non nota",
-            "B": "Evento frequente negli atleti professionisti",
-            "C": "Sempre causata da doping",
-            "D": "Prevedibile con esami di routine",
-            "E": "Causata solo da trauma cardiaco"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La sideremia:",
-        "options": {
-            "A": "Dà misura di ferro libero nel sangue",
-            "B": "Misura il ferro legato all'emoglobina",
-            "C": "Valuta i depositi di ferro",
-            "D": "Misura la capacità di legare il ferro",
-            "E": "Valuta solo il ferro alimentare"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La sincope:",
-        "options": {
-            "A": "Può essere un sintomo di embolia polmonare",
-            "B": "È sempre di origine cardiaca",
-            "C": "Non è mai pericolosa",
-            "D": "È sempre benigna",
-            "E": "Colpisce solo soggetti anziani"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La sincope nell'anziano:",
-        "options": {
-            "A": "Può essere il segno di una patologia coronarica arteriosclerotica",
-            "B": "È sempre vasovagale",
-            "C": "Non richiede mai approfondimenti",
-            "D": "È sempre benigna",
-            "E": "Colpisce solo donne"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La sincope post esercizio:",
-        "options": {
-            "A": "Si può verificare se ci si arresta bruscamente dopo allenamento prolungato",
-            "B": "È sempre causata da disidratazione",
-            "C": "Non si verifica mai negli atleti allenati",
-            "D": "È sempre di origine cardiaca",
-            "E": "Richiede sempre ospedalizzazione"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La sindrome da anticorpi anticardiolipina in caso di connettivite provoca:",
-        "options": {
-            "A": "Trombosi venosa e arteriosa, poliabortività",
-            "B": "Emorragie diffuse",
-            "C": "Ipertensione arteriosa",
-            "D": "Insufficienza renale",
-            "E": "Epatite autoimmune"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "La trombosi venosa profonda è associata alla presenza di:",
-        "options": {
-            "A": "Stasi ematica",
-            "B": "Ipercoagulabilità",
-            "C": "Danno endoteliale",
-            "D": "Tutte le precedenti",
-            "E": "Nessuna delle precedenti"
-        },
-        "correct": ["D"],
-        "type": "single"
-    },
-    {
-        "question": "La trombosi venosa profonda è caratterizzata da:",
-        "options": {
-            "A": "Edema dell'arto interessato",
-            "B": "Pallore dell'arto",
-            "C": "Diminuzione della temperatura",
-            "D": "Assenza di dolore",
-            "E": "Miglioramento con il movimento"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Lo sport migliore per i bambini asmatici è:",
-        "options": {
-            "A": "Nuoto",
-            "B": "Corsa",
-            "C": "Ciclismo",
-            "D": "Calcio",
-            "E": "Pallavolo"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'anemia la fase prelatente:",
-        "options": {
-            "A": "È completamente asintomatica",
-            "B": "Presenta sintomi gravi",
-            "C": "Mostra anemia conclamata",
-            "D": "Richiede sempre trasfusione",
-            "E": "È diagnosticabile solo con esami geneticos"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'asma si può praticare sport:",
-        "options": {
-            "A": "Sì",
-            "B": "No",
-            "C": "Solo sport leggeri",
-            "D": "Solo in inverno",
-            "E": "Mai"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nell'epilessia:",
-        "options": {
-            "A": "Non si possono praticare tutti gli sport con alto rischio intrinseco",
-            "B": "Non si può praticare nessuno sport",
-            "C": "Si possono praticare tutti gli sport",
-            "D": "Si può praticare solo nuoto",
-            "E": "Lo sport è controindicato"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Nella fatica cronica:",
-        "options": {
-            "A": "Si riduce il testosterone e aumenta il cortisolo",
-            "B": "Aumentano tutti gli ormoni",
-            "C": "Si altera solo la glicemia",
-            "D": "Non ci sono alterazioni ormonali",
-            "E": "Aumenta solo la prolattina"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Quale di queste affermazioni è falsa:",
-        "options": {
-            "A": "L'anfetamina aumenta l'appetito",
-            "B": "L'anfetamina può causare dipendenza",
-            "C": "L'anfetamina è uno stimolante",
-            "D": "L'anfetamina può causare ipertensione",
-            "E": "L'anfetamina è una sostanza dopante"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Trombosi venosa superficiale:",
-        "options": {
-            "A": "Non provoca solitamente embolia polmonare",
-            "B": "Provoca sempre embolia polmonare",
-            "C": "È più pericolosa della trombosi profonda",
-            "D": "Richiede sempre anticoagulanti",
-            "E": "Non causa mai sintomi"
-        },
-        "correct": ["A"],
-        "type": "single"
-    },
-    {
-        "question": "Un pasto abbondante prima della competizione:",
-        "options": {
-            "A": "Può causare ischemia intestinale",
-            "B": "Migliora la performance",
-            "C": "Previene l'ipoglicemia",
-            "D": "È sempre raccomandato",
-            "E": "Aumenta la resistenza"
-        },
-        "correct": ["A"],
-        "type": "single"
+# CSS personalizzato
+st.markdown("""
+<style>
+    .stApp {
+        background-color: #0d1117;
     }
-]
-
-# Funzioni per caricare i diversi set di domande
-@st.cache_data
-def carica_domande_endocrinologia():
-    try:
-        with open('domande.json', 'r', encoding='utf-8') as f:
-            domande = json.load(f)
-            return domande
-    except FileNotFoundError:
-        st.error("❌ File 'domande.json' non trovato!")
-        return []
-    except json.JSONDecodeError:
-        st.error("❌ Errore nel formato del file JSON 'domande.json'!")
-        return []
-
-@st.cache_data
-def carica_domande_medicina():
-    # Ritorna direttamente le domande incorporate nel codice
-    return DOMANDE_MEDICINA
-
-def inizializza_session_state():
-    """Inizializza tutte le variabili di sessione"""
-    session_vars = {
-        'quiz_iniziato': False,
-        'domande_quiz': [],
-        'risposte_utente': [],
-        'indice_corrente': 0,
-        'punteggio': 0,
-        'quiz_terminato': False,
-        'mostra_revisione': False,
-        'tempo_inizio': None,
-        'tempo_rimanente': 0,
-        'tempo_limite': 0,
-        'timer_scaduto': False,
-        'tipo_quiz': None,  # 'endocrinologia', 'medicina'
-        'punteggio_massimo': 0,
-        'soglia_minima': 0
+    .quiz-header {
+        text-align: center;
+        padding: 20px;
+        background: linear-gradient(135deg, #1a2a4a, #0d3b6e);
+        border-radius: 12px;
+        margin-bottom: 24px;
+        border: 1px solid #1e4080;
     }
-    
-    for key, value in session_vars.items():
-        if key not in st.session_state:
-            st.session_state[key] = value
+    .quiz-header h1 {
+        color: #4fc3f7;
+        font-size: 2rem;
+        margin: 0;
+    }
+    .quiz-header p {
+        color: #90caf9;
+        margin: 6px 0 0 0;
+    }
+    .question-box {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 10px;
+        padding: 20px 24px;
+        margin-bottom: 20px;
+    }
+    .question-number {
+        color: #4fc3f7;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+    .question-text {
+        color: #e6edf3;
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+    .result-correct {
+        background: #1a3a2a;
+        border: 1px solid #2ea043;
+        border-radius: 8px;
+        padding: 12px 16px;
+        color: #56d364;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .result-wrong {
+        background: #3a1a1a;
+        border: 1px solid #f85149;
+        border-radius: 8px;
+        padding: 12px 16px;
+        color: #ff7b72;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .score-box {
+        text-align: center;
+        background: linear-gradient(135deg, #1a2a4a, #0d3b6e);
+        border-radius: 12px;
+        padding: 30px;
+        border: 1px solid #1e4080;
+        margin: 20px 0;
+    }
+    .score-number {
+        font-size: 4rem;
+        font-weight: 800;
+        color: #4fc3f7;
+    }
+    .score-label {
+        color: #90caf9;
+        font-size: 1.1rem;
+    }
+    .progress-text {
+        color: #8b949e;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .stRadio > div {
+        gap: 8px;
+    }
+    .stRadio label {
+        background: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 10px 14px;
+        width: 100%;
+        transition: all 0.2s;
+    }
+    .stButton > button {
+        border-radius: 8px;
+        font-weight: 600;
+        padding: 10px 24px;
+    }
+</style>
+""", unsafe_allow_html=True)
 
-def inizia_quiz(tipo_quiz):
-    """Inizia un nuovo quiz del tipo specificato"""
-    st.session_state.tipo_quiz = tipo_quiz
-    
-    if tipo_quiz == "endocrinologia":
-        domande_totali = carica_domande_endocrinologia()
-        tempo_limite = 60 * 60  # 1 ora in secondi
-    elif tipo_quiz == "medicina":
-        domande_totali = carica_domande_medicina()
-        tempo_limite = 20 * 60  # 20 minuti in secondi
-    
-    # Verifica che ci siano domande
-    if len(domande_totali) == 0:
-        st.error(f"❌ Non ci sono domande disponibili per il quiz di {tipo_quiz}!")
-        return False
-    
-    # Usa TUTTE le domande disponibili
-    st.session_state.domande_quiz = domande_totali
-    st.session_state.risposte_utente = [None] * len(domande_totali)
-    st.session_state.indice_corrente = 0
-    st.session_state.punteggio = 0
-    st.session_state.quiz_terminato = False
-    st.session_state.quiz_iniziato = True
-    st.session_state.mostra_revisione = False
-    st.session_state.tempo_inizio = datetime.now()
-    st.session_state.tempo_limite = tempo_limite
-    st.session_state.tempo_rimanente = tempo_limite
-    st.session_state.timer_scaduto = False
-    
-    # Calcola punteggio massimo e soglia minima
-    st.session_state.punteggio_massimo = len(domande_totali) * 10
-    st.session_state.soglia_minima = int(st.session_state.punteggio_massimo * 0.6)  # 60%
-    
-    return True
 
-def aggiorna_timer():
-    """Aggiorna il timer rimanente"""
-    if st.session_state.quiz_iniziato and not st.session_state.quiz_terminato:
-        tempo_trascorso = (datetime.now() - st.session_state.tempo_inizio).total_seconds()
-        st.session_state.tempo_rimanente = max(0, st.session_state.tempo_limite - tempo_trascorso)
-        
-        if st.session_state.tempo_rimanente <= 0 and not st.session_state.timer_scaduto:
-            st.session_state.timer_scaduto = True
-            st.session_state.quiz_terminato = True
-            calcola_punteggio()
-            st.rerun()
+# ============================================================
+# STATO SESSIONE
+# ============================================================
 
-def formatta_tempo(secondi):
-    """Formatta il tempo in HH:MM:SS o MM:SS"""
-    ore = int(secondi // 3600)
-    minuti = int((secondi % 3600) // 60)
-    secondi = int(secondi % 60)
-    
-    if ore > 0:
-        return f"{ore:02d}:{minuti:02d}:{secondi:02d}"
-    else:
-        return f"{minuti:02d}:{secondi:02d}"
+def init_state():
+    if "quiz_started" not in st.session_state:
+        st.session_state.quiz_started = False
+    if "quiz_done" not in st.session_state:
+        st.session_state.quiz_done = False
+    if "current_q" not in st.session_state:
+        st.session_state.current_q = 0
+    if "score" not in st.session_state:
+        st.session_state.score = 0
+    if "answers" not in st.session_state:
+        st.session_state.answers = {}
+    if "shuffled_questions" not in st.session_state:
+        st.session_state.shuffled_questions = None
+    if "answer_submitted" not in st.session_state:
+        st.session_state.answer_submitted = False
+    if "selected_answer" not in st.session_state:
+        st.session_state.selected_answer = None
 
-def calcola_punteggio():
-    """Calcola il punteggio finale"""
-    st.session_state.punteggio = 0
-    for i, domanda in enumerate(st.session_state.domande_quiz):
-        risposta_utente = st.session_state.risposte_utente[i]
-        if risposta_utente and risposta_utente in domanda['correct']:
-            st.session_state.punteggio += 10
+init_state()
 
-def mostra_progresso():
-    """Mostra la barra di progresso"""
-    num_domande = len(st.session_state.domande_quiz)
-    progresso = (st.session_state.indice_corrente + 1) / num_domande
-    st.progress(progresso)
-    st.caption(f"Domanda {st.session_state.indice_corrente + 1} di {num_domande}")
 
-def mostra_timer():
-    """Mostra il timer"""
-    tempo_rimanente = st.session_state.tempo_rimanente
-    tempo_limite = st.session_state.tempo_limite
-    
-    # Calcola la percentuale di tempo rimanente
-    percentuale_tempo = (tempo_rimanente / tempo_limite) * 100
-    
-    # Cambia colore in base al tempo rimanente
-    if percentuale_tempo <= 20:
-        colore = "red"
-        icona = "🔴"
-    elif percentuale_tempo <= 50:
-        colore = "orange"
-        icona = "🟠"
-    else:
-        colore = "green"
-        icona = "🟢"
-    
-    st.markdown(
-        f"<div style='text-align: center; padding: 10px; border: 2px solid {colore}; border-radius: 10px; background-color: #f8f9fa;'>"
-        f"<h3 style='color: {colore}; margin: 0;'>{icona} Tempo rimanente: {formatta_tempo(tempo_rimanente)}</h3>"
-        f"</div>",
-        unsafe_allow_html=True
-    )
+# ============================================================
+# FUNZIONI
+# ============================================================
 
-def mostra_domanda():
-    """Mostra la domanda corrente"""
-    # Aggiorna il timer
-    aggiorna_timer()
-    
-    # Se il timer è scaduto, mostra i risultati
-    if st.session_state.timer_scaduto:
-        st.session_state.quiz_terminato = True
-        calcola_punteggio()
-        st.rerun()
+def start_quiz(num_questions, shuffle_options):
+    questions = DOMANDE_MULTIPLE_CHOICE.copy()
+    random.shuffle(questions)
+    questions = questions[:num_questions]
+
+    if shuffle_options:
+        for q in questions:
+            correct_text = q["opzioni"][q["risposta_corretta"]]
+            shuffled = q["opzioni"].copy()
+            random.shuffle(shuffled)
+            q["opzioni"] = shuffled
+            q["risposta_corretta"] = shuffled.index(correct_text)
+
+    st.session_state.shuffled_questions = questions
+    st.session_state.quiz_started = True
+    st.session_state.quiz_done = False
+    st.session_state.current_q = 0
+    st.session_state.score = 0
+    st.session_state.answers = {}
+    st.session_state.answer_submitted = False
+    st.session_state.selected_answer = None
+
+def submit_answer():
+    if st.session_state.selected_answer is None:
         return
-    
-    domanda = st.session_state.domande_quiz[st.session_state.indice_corrente]
-    num_domande = len(st.session_state.domande_quiz)
-    
-    # Header con numero domanda e timer
-    col1, col2 = st.columns([2, 1])
-    with col1:
-        st.subheader(f"📝 Domanda {st.session_state.indice_corrente + 1}")
-    with col2:
-        mostra_timer()
-    
-    # Domanda
-    st.markdown(f"**{domanda['question']}**")
-    st.divider()
-    
-    # Opzioni di risposta
-    opzioni = domanda['options']
-    lettere = list(opzioni.keys())
-    
-    # Radio button per le risposte
-    risposta_selezionata = st.radio(
-        "Seleziona la tua risposta:",
-        options=lettere,
-        format_func=lambda x: f"**{x}**: {opzioni[x]}",
-        key=f"domanda_{st.session_state.indice_corrente}",
-        index=lettere.index(st.session_state.risposte_utente[st.session_state.indice_corrente]) 
-        if st.session_state.risposte_utente[st.session_state.indice_corrente] in lettere else 0
-    )
-    
-    # Salva automaticamente la risposta
-    if risposta_selezionata:
-        st.session_state.risposte_utente[st.session_state.indice_corrente] = risposta_selezionata
-        st.success("✅ Risposta salvata")
-    
-    # Pulsanti di navigazione
-    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
-    
-    with col1:
-        if st.button("⬅️ Precedente", disabled=st.session_state.indice_corrente == 0):
-            st.session_state.indice_corrente -= 1
-            st.rerun()
-    
-    with col2:
-        if st.button("Prossima ➡️", disabled=st.session_state.indice_corrente == num_domande - 1):
-            st.session_state.indice_corrente += 1
-            st.rerun()
-    
-    with col3:
-        if st.button("⏹️ Termina Quiz", type="secondary"):
-            st.session_state.quiz_terminato = True
-            calcola_punteggio()
-            st.rerun()
-    
-    with col4:
-        # Pulsante per saltare alla domanda specifica
-        domanda_target = st.number_input(
-            "Vai a:",
-            min_value=1,
-            max_value=num_domande,
-            value=st.session_state.indice_corrente + 1,
-            key="salto_domanda"
-        )
-        if st.button("Vai") and domanda_target != st.session_state.indice_corrente + 1:
-            st.session_state.indice_corrente = domanda_target - 1
-            st.rerun()
-    
-    # Mostra progresso
-    mostra_progresso()
-
-def mostra_risultati():
-    """Mostra i risultati del quiz"""
-    punteggio = st.session_state.punteggio
-    punteggio_massimo = st.session_state.punteggio_massimo
-    soglia_minima = st.session_state.soglia_minima
-    superato = punteggio >= soglia_minima
-    
-    # Titolo in base al tipo di quiz
-    titolo_quiz = {
-        "endocrinologia": "Endocrinologia",
-        "medicina": "Medicina"
+    q = st.session_state.shuffled_questions[st.session_state.current_q]
+    sel = st.session_state.selected_answer
+    correct = q["risposta_corretta"]
+    is_correct = (sel == correct)
+    if is_correct:
+        st.session_state.score += 1
+    st.session_state.answers[st.session_state.current_q] = {
+        "selected": sel,
+        "correct": correct,
+        "is_correct": is_correct
     }
-    
-    quiz_type = st.session_state.tipo_quiz
-    num_domande = len(st.session_state.domande_quiz)
-    
-    # Header risultati
-    st.header(f"🎯 Risultati Quiz - {titolo_quiz[quiz_type]}")
-    
-    if st.session_state.timer_scaduto:
-        st.error("⏰ **Tempo scaduto!**")
-    elif superato:
-        st.balloons()
-        st.success("🎉 **Congratulazioni! Hai superato il quiz!**")
+    st.session_state.answer_submitted = True
+
+def next_question():
+    total = len(st.session_state.shuffled_questions)
+    if st.session_state.current_q + 1 >= total:
+        st.session_state.quiz_done = True
     else:
-        st.error("😔 **Quiz non superato. Riprova!**")
-    
-    # Punteggio
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Punteggio", f"{punteggio}/{punteggio_massimo}")
-    with col2:
-        st.metric("Soglia minima", f"{soglia_minima}/{punteggio_massimo}")
-    with col3:
-        st.metric("Esito", "✅ Superato" if superato else "❌ Non superato")
-    
-    # Statistiche
-    st.divider()
-    st.subheader("📊 Statistiche")
-    
-    domande_corrette = punteggio // 10
-    domande_errate = num_domande - domande_corrette
-    percentuale = (punteggio / punteggio_massimo) * 100
-    
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("Domande totali", num_domande)
-    with col2:
-        st.metric("Domande corrette", domande_corrette)
-    with col3:
-        st.metric("Domande errate", domande_errate)
-    with col4:
-        st.metric("Percentuale", f"{percentuale:.1f}%")
-    
-    # Tempo utilizzato
-    st.metric("Tempo utilizzato", 
-             formatta_tempo(st.session_state.tempo_limite - st.session_state.tempo_rimanente) 
-             if not st.session_state.timer_scaduto 
-             else formatta_tempo(st.session_state.tempo_limite))
-    
-    # Grafico a barre
-    dati = {
-        'Tipo': ['Corrette', 'Errate'],
-        'Numero': [domande_corrette, domande_errate]
-    }
-    df = pd.DataFrame(dati)
-    st.bar_chart(df.set_index('Tipo'))
-    
-    # Pulsanti azione
-    st.divider()
-    col1, col2, col3 = st.columns([1, 1, 1])
-    
-    with col1:
-        if st.button("🔄 Nuovo Quiz", type="primary", use_container_width=True):
-            st.session_state.quiz_iniziato = False
-            st.session_state.quiz_terminato = False
-            st.rerun()
-    
-    with col2:
-        if st.button("📖 Revisione Dettagliata", use_container_width=True):
-            st.session_state.mostra_revisione = True
-            st.rerun()
-    
-    with col3:
-        if st.button("🏠 Menu Principale", use_container_width=True):
-            st.session_state.quiz_iniziato = False
-            st.session_state.quiz_terminato = False
-            st.rerun()
+        st.session_state.current_q += 1
+        st.session_state.answer_submitted = False
+        st.session_state.selected_answer = None
 
-def mostra_revisione_dettagliata():
-    """Mostra la revisione dettagliata di tutte le domande"""
-    st.header("📖 Revisione Dettagliata")
-    
-    # Filtro per tipo di domanda
-    col1, col2 = st.columns([1, 3])
-    with col1:
-        filtro = st.selectbox(
-            "Filtra domande:",
-            ["Tutte", "Corrette", "Errate", "Non risposte"]
-        )
-    
-    domande_filtrate = []
-    for i, domanda in enumerate(st.session_state.domande_quiz):
-        risposta_utente = st.session_state.risposte_utente[i]
-        risposta_corretta = domanda['correct'][0]
-        corretta = risposta_utente == risposta_corretta
-        
-        if filtro == "Tutte":
-            domande_filtrate.append((i, domanda, risposta_utente, corretta))
-        elif filtro == "Corrette" and corretta:
-            domande_filtrate.append((i, domanda, risposta_utente, corretta))
-        elif filtro == "Errate" and risposta_utente and not corretta:
-            domande_filtrate.append((i, domanda, risposta_utente, corretta))
-        elif filtro == "Non risposte" and not risposta_utente:
-            domande_filtrate.append((i, domanda, risposta_utente, corretta))
-    
-    st.write(f"**{len(domande_filtrate)} domande {filtro.lower()}**")
-    
-    for i, domanda, risposta_utente, corretta in domande_filtrate:
-        with st.expander(f"Domanda {i+1}: {domanda['question'][:70]}...", expanded=False):
-            risposta_corretta = domanda['correct'][0]
-            opzioni = domanda['options']
-            
-            # La tua risposta
-            col1, col2 = st.columns([1, 3])
-            with col1:
-                if risposta_utente:
-                    if corretta:
-                        st.success("✅ La tua risposta")
-                    else:
-                        st.error("❌ La tua risposta")
-                else:
-                    st.warning("⏭️ Nessuna risposta")
-            
-            with col2:
-                if risposta_utente:
-                    st.write(f"**{risposta_utente}**: {opzioni[risposta_utente]}")
-                else:
-                    st.write("Nessuna risposta data")
-            
-            # Risposta corretta
-            if not corretta or not risposta_utente:
-                st.info(f"**Risposta corretta: {risposta_corretta}**: {opzioni[risposta_corretta]}")
-            
-            st.divider()
-    
-    # Pulsanti per tornare indietro
-    col1, col2 = st.columns([1, 1])
-    with col1:
-        if st.button("↩️ Torna ai Risultati", use_container_width=True):
-            st.session_state.mostra_revisione = False
-            st.rerun()
-    with col2:
-        if st.button("🏠 Menu Principale", use_container_width=True):
-            st.session_state.quiz_iniziato = False
-            st.session_state.quiz_terminato = False
-            st.rerun()
+def restart_quiz():
+    st.session_state.quiz_started = False
+    st.session_state.quiz_done = False
+    st.session_state.current_q = 0
+    st.session_state.score = 0
+    st.session_state.answers = {}
+    st.session_state.shuffled_questions = None
+    st.session_state.answer_submitted = False
+    st.session_state.selected_answer = None
 
-def mostra_homepage():
-    """Mostra la homepage dell'app con selezione del tipo di quiz"""
-    st.title("🧠 Quiz di Ripasso - Endocrinologia e Medicina")
-    st.markdown("---")
-    
+
+# ============================================================
+# SCHERMATA INIZIALE
+# ============================================================
+
+if not st.session_state.quiz_started:
     st.markdown("""
-    ### Scegli il tipo di quiz:
-    
-    **Quiz disponibili:**
-    - 🧬 **Endocrinologia**: Tutte le domande di endocrinologia (1 ora)
-    - 🩺 **Medicina**: Tutte le domande di medicina (20 minuti)
-    
-    **Regole:**
-    - ✅ Risposta corretta: **10 punti**
-    - 🎯 Obiettivo: **almeno 60% del punteggio totale**
-    - 📱 Ottimizzato per mobile
-    - 💾 Salvataggio automatico delle risposte
-    """)
-    
-    # Carica e mostra statistiche per entrambi i database
-    domande_endo = carica_domande_endocrinologia()
-    domande_med = carica_domande_medicina()
-    
-    # Calcola punteggi massimi e soglie
-    punteggio_max_endo = len(domande_endo) * 10
-    soglia_endo = int(punteggio_max_endo * 0.6)
-    
-    punteggio_max_med = len(domande_med) * 10
-    soglia_med = int(punteggio_max_med * 0.6)
-    
-    # Container per statistiche
-    with st.container():
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            if len(domande_endo) > 0:
-                st.success(f"🧬 **Endocrinologia**")
-                st.write(f"📊 **{len(domande_endo)}** domande")
-                st.write(f"⏰ **1 ora** di tempo")
-                st.write(f"🎯 **{soglia_endo}/{punteggio_max_endo}** punti per superare")
-            else:
-                st.error("🧬 **Endocrinologia**")
-                st.write("❌ Nessuna domanda disponibile")
-        
-        with col2:
-            if len(domande_med) > 0:
-                st.success(f"🩺 **Medicina**")
-                st.write(f"📊 **{len(domande_med)}** domande")
-                st.write(f"⏰ **20 minuti** di tempo")
-                st.write(f"🎯 **{soglia_med}/{punteggio_max_med}** punti per superare")
-            else:
-                st.error("🩺 **Medicina**")
-                st.write("❌ Nessuna domanda disponibile")
-    
-    st.divider()
-    
-    # Pulsanti per selezionare il tipo di quiz
-    st.subheader("🎯 Seleziona il tuo quiz:")
-    
+    <div class="quiz-header">
+        <h1>🏆 Quiz Match Analysis</h1>
+        <p>Esercitati per l'esame di Scienze Motorie</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown(f"**Domande disponibili:** {len(DOMANDE_MULTIPLE_CHOICE)}")
+    st.markdown("---")
+
     col1, col2 = st.columns(2)
-    
     with col1:
-        if len(domande_endo) > 0:
-            if st.button("🧬\nQuiz Endocrinologia\nTutte le domande\n(1 ora)", 
-                        type="primary", use_container_width=True, key="endo"):
-                if inizia_quiz("endocrinologia"):
-                    st.rerun()
-        else:
-            st.button("🧬\nQuiz Endocrinologia\nTutte le domande\n(1 ora)", 
-                     disabled=True, 
-                     help="Nessuna domanda disponibile nel database",
-                     use_container_width=True, key="endo_disabled")
-    
+        num_q = st.slider(
+            "Quante domande vuoi fare?",
+            min_value=5,
+            max_value=len(DOMANDE_MULTIPLE_CHOICE),
+            value=min(20, len(DOMANDE_MULTIPLE_CHOICE)),
+            step=5
+        )
     with col2:
-        if len(domande_med) > 0:
-            if st.button("🩺\nQuiz Medicina\nTutte le domande\n(20 minuti)", 
-                        type="primary", use_container_width=True, key="med"):
-                if inizia_quiz("medicina"):
-                    st.rerun()
-        else:
-            st.button("🩺\nQuiz Medicina\nTutte le domande\n(20 minuti)", 
-                     disabled=True, 
-                     help="Nessuna domanda disponibile nel database",
-                     use_container_width=True, key="med_disabled")
+        shuffle = st.checkbox("Mescola le opzioni di risposta", value=True)
 
-# App principale
-def main():
-    # Inizializza session state
-    inizializza_session_state()
-    
-    # Gestione dei diversi stati dell'app
-    if not st.session_state.quiz_iniziato:
-        mostra_homepage()
-    
-    elif st.session_state.quiz_iniziato and not st.session_state.quiz_terminato:
-        mostra_domanda()
-    
-    elif st.session_state.quiz_terminato and not st.session_state.mostra_revisione:
-        mostra_risultati()
-    
-    elif st.session_state.mostra_revisione:
-        mostra_revisione_dettagliata()
+    st.markdown("")
+    if st.button("▶ Inizia il Quiz", use_container_width=True, type="primary"):
+        start_quiz(num_q, shuffle)
+        st.rerun()
 
-if __name__ == "__main__":
-    main()
+
+# ============================================================
+# SCHERMATA QUIZ
+# ============================================================
+
+elif st.session_state.quiz_started and not st.session_state.quiz_done:
+    questions = st.session_state.shuffled_questions
+    idx = st.session_state.current_q
+    total = len(questions)
+    q = questions[idx]
+
+    # Header
+    st.markdown(f"""
+    <div class="quiz-header">
+        <h1>🏆 Quiz Match Analysis</h1>
+        <p>Domanda {idx + 1} di {total} &nbsp;|&nbsp; Punteggio: {st.session_state.score}/{idx + (1 if st.session_state.answer_submitted else 0)}</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Progress bar
+    st.progress((idx + (1 if st.session_state.answer_submitted else 0)) / total)
+
+    # Domanda
+    st.markdown(f"""
+    <div class="question-box">
+        <div class="question-number">Domanda {idx + 1}</div>
+        <div class="question-text">{q['domanda']}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Radio options
+    if not st.session_state.answer_submitted:
+        choice = st.radio(
+            "Seleziona la risposta:",
+            options=list(range(len(q["opzioni"]))),
+            format_func=lambda i: q["opzioni"][i],
+            key=f"radio_{idx}",
+            index=None
+        )
+        st.session_state.selected_answer = choice
+
+        col1, col2 = st.columns([3, 1])
+        with col1:
+            if st.button("✅ Conferma risposta", use_container_width=True, type="primary",
+                         disabled=(st.session_state.selected_answer is None)):
+                submit_answer()
+                st.rerun()
+        with col2:
+            if st.button("🔄 Ricomincia", use_container_width=True):
+                restart_quiz()
+                st.rerun()
+
+    else:
+        ans = st.session_state.answers[idx]
+        # Mostra opzioni con evidenziazione
+        for i, opt in enumerate(q["opzioni"]):
+            if i == ans["correct"] and i == ans["selected"]:
+                st.success(f"✅ {opt} ← Risposta corretta!")
+            elif i == ans["correct"]:
+                st.success(f"✅ {opt} ← Risposta corretta")
+            elif i == ans["selected"]:
+                st.error(f"❌ {opt} ← La tua risposta")
+            else:
+                st.markdown(f"◻️ {opt}")
+
+        st.markdown("")
+        col1, col2 = st.columns([3, 1])
+        with col1:
+            label = "➡ Prossima domanda" if idx + 1 < total else "📊 Vedi risultati"
+            if st.button(label, use_container_width=True, type="primary"):
+                next_question()
+                st.rerun()
+        with col2:
+            if st.button("🔄 Ricomincia", use_container_width=True):
+                restart_quiz()
+                st.rerun()
+
+
+# ============================================================
+# SCHERMATA RISULTATI FINALI
+# ============================================================
+
+elif st.session_state.quiz_done:
+    questions = st.session_state.shuffled_questions
+    total = len(questions)
+    score = st.session_state.score
+    perc = round(score / total * 100)
+
+    if perc >= 90:
+        emoji, msg, color = "🏆", "Eccellente! Sei pronto per l'esame!", "#56d364"
+    elif perc >= 75:
+        emoji, msg, color = "🎯", "Ottimo risultato! Continua così.", "#79c0ff"
+    elif perc >= 60:
+        emoji, msg, color = "📚", "Buon lavoro! Qualche ripasso e sarai pronto.", "#e3b341"
+    else:
+        emoji, msg, color = "💪", "Continua a studiare, puoi migliorare!", "#ff7b72"
+
+    st.markdown(f"""
+    <div class="quiz-header">
+        <h1>📊 Risultati Finali</h1>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown(f"""
+    <div class="score-box">
+        <div class="score-number">{emoji} {score}/{total}</div>
+        <div class="score-label">{perc}% — {msg}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("---")
+    st.markdown("### 📋 Riepilogo risposte")
+
+    for i, q in enumerate(questions):
+        ans = st.session_state.answers.get(i, {})
+        is_correct = ans.get("is_correct", False)
+        icon = "✅" if is_correct else "❌"
+
+        with st.expander(f"{icon} Domanda {i+1}: {q['domanda'][:80]}..."):
+            st.markdown(f"**{q['domanda']}**")
+            st.markdown("")
+            for j, opt in enumerate(q["opzioni"]):
+                if j == ans.get("correct") and j == ans.get("selected"):
+                    st.success(f"✅ {opt} ← Risposta corretta!")
+                elif j == ans.get("correct"):
+                    st.success(f"✅ {opt} ← Risposta corretta")
+                elif j == ans.get("selected"):
+                    st.error(f"❌ {opt} ← La tua risposta")
+                else:
+                    st.markdown(f"◻️ {opt}")
+
+    st.markdown("")
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("🔄 Ricomincia quiz", use_container_width=True, type="primary"):
+            restart_quiz()
+            st.rerun()
+    with col2:
+        if st.button("⚙️ Nuova configurazione", use_container_width=True):
+            restart_quiz()
+            st.rerun()
