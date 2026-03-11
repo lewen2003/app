@@ -150,6 +150,16 @@
     "risposta_corretta": 2
   },
   {
+    "domanda": "La multiculturalità:",
+    "opzioni": [
+      "Promuove attivamente lo scambio e il dialogo tra culture diverse",
+      "Coincide con la pedagogia interculturale nella gestione delle differenze",
+      "Garantisce automaticamente l'integrazione tra persone di culture diverse",
+      "Tutte le precedenti affermazioni sono errate"
+    ],
+    "risposta_corretta": 3
+  },
+  {
     "domanda": "L'intelligenza esistenziale di Gardner è:",
     "opzioni": [
       "La capacità di risolvere problemi pratici nella vita quotidiana",
@@ -158,6 +168,16 @@
       "La capacità di adattarsi a diversi contesti culturali"
     ],
     "risposta_corretta": 1
+  },
+  {
+    "domanda": "Per rendere duratura un'amicizia è necessario:",
+    "opzioni": [
+      "Solo la fiducia reciproca e la condivisione degli stessi valori",
+      "La vicinanza fisica costante e la frequentazione quotidiana",
+      "L'ascolto, il tempo, i rituali, la reciprocità",
+      "Avere interessi comuni e la stessa estrazione sociale"
+    ],
+    "risposta_corretta": 2
   },
   {
     "domanda": "Essere cittadino vuol dire:",
@@ -218,6 +238,16 @@
       "Considerare lo sport come un peso e un onere per la collettività"
     ],
     "risposta_corretta": 2
+  },
+  {
+    "domanda": "La frase di Taylor 'una componente dell'idea...' è relativa:",
+    "opzioni": [
+      "All'identità culturale",
+      "Alla dignità",
+      "Alla libertà individuale",
+      "Alla giustizia sociale"
+    ],
+    "risposta_corretta": 1
   },
   {
     "domanda": "Il gruppo secondario:",
