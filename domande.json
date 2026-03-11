@@ -2,12 +2,12 @@
   {
     "domanda": "In Match Analysis, la Position Analysis:",
     "opzioni": [
+      "Analizza esclusivamente la posizione del pallone durante le azioni di gioco",
       "Investiga sulle differenze di performance riscontrabili in base al ruolo",
-      "Analizza esclusivamente la posizione geografica degli atleti durante la gara",
-      "Si occupa della posizione del pallone durante le azioni di gioco",
-      "Studia la disposizione tattica iniziale della squadra prima del calcio d inizio"
+      "Si occupa della disposizione tattica iniziale prima del calcio d'inizio",
+      "Studia la posizione geografica degli atleti tramite GPS"
     ],
-    "risposta_corretta": 0
+    "risposta_corretta": 1
   },
   {
     "domanda": "Nel valutare la prestazione di un gruppo di atleti attraverso misure condotte durante la gara (Match Analysis), è opportuno trattare i dati raccolti utilizzando:",
@@ -32,27 +32,27 @@
   {
     "domanda": "Con modello si intende:",
     "opzioni": [
-      "Una rappresentazione concettuale assolutamente sovrapponibile in toto alla realtà che descrive.",
-      "Una rappresentazione concettuale (spesso una semplificazione che ammette una formalizzazione matematica) del mondo reale o di una sua parte capace di spiegarne il funzionamento",
-      "Un processo di estrazione della verità assoluta a partire da una indagine conoscitiva, basata su postulati formulati a priori.",
-      "Un insieme di regole rigide che descrivono deterministicamente ogni aspetto della realtà sportiva."
+      "Una rappresentazione concettuale assolutamente sovrapponibile in toto alla realtà che descrive",
+      "Un processo di estrazione della verità assoluta a partire da postulati formulati a priori",
+      "Una rappresentazione concettuale (spesso una semplificazione che ammette una formalizzazione matematica) del mondo reale o di una sua parte, capace di spiegarne il funzionamento",
+      "Un insieme di regole rigide che descrivono deterministicamente ogni aspetto della realtà sportiva"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Il candidato consideri la citazione di Carl e Grosser (1992) sul controllo dell'allenamento. La Match Analysis:",
+    "opzioni": [
+      "Può essere considerata come procedure mirate esclusivamente al controllo della gara, senza collegamenti con i carichi di allenamento",
+      "Può essere considerata come una serie di procedure mirate al controllo dell'allenamento e della gara, e quindi rientra a pieno diritto nelle strutture di controllo citate dagli autori",
+      "Il controllo dell'allenamento non ha effetti sulla prestazione in gara; l'allenatore osserva come testimone silente",
+      "La match analysis evidenzia solo gli aspetti negativi degli atleti e non serve alla pianificazione di medio-lungo termine"
     ],
     "risposta_corretta": 1
   },
   {
-    "domanda": "Il candidato consideri la citazione di Carl e Grosser (1992) relativa al controllo dell'allenamento. La Match Analysis:",
+    "domanda": "Secondo una definizione di Bruno Ruscello (2008), la Match Analysis negli sport di situazione è atta a... alcune delle situazioni più significative che possono essere colte in occasione di incontri o partite. Quale formulazione mancante?",
     "opzioni": [
-      "Può essere considerata come una serie di procedure mirate esclusivamente al controllo della gara e non può avere collegamenti efficaci con la costruzione dei carichi di allenamento.",
-      "Può essere considerata come una serie di procedure mirate al controllo dell'allenamento e della gara e quindi rientra a pieno diritto nelle strutture di controllo citate dagli autori su indicati",
-      "Il controllo dell'allenamento non ha effetti sulla prestazione in gara. L'allenatore osserva i componenti durante la gara come un testimone silente.",
-      "La match analysis evidenzia solo gli aspetti negativi (errori tecnici) degli atleti coinvolti, non serve alla pianificazione di medio-lungo termine."
-    ],
-    "risposta_corretta": 1
-  },
-  {
-    "domanda": "Secondo una definizione di Bruno Ruscello (2008), la Match Analysis negli sport di situazione è una branca della pedagogia sportiva e delle scienze motorie atta a... alcune delle situazioni più significative che possono essere colte in occasione di incontri o partite. Quale formulazione mancante riportata dall'autore?",
-    "opzioni": [
-      "Raccogliere dati e informazioni fisiologiche relative ad atleti",
+      "Raccogliere dati e informazioni fisiologiche relative agli atleti",
       "Documentare, osservare, registrare ed eventualmente raccontare, in forma aneddotica",
       "Descrivere, classificare, spiegare ed eventualmente predire (su basi probabilistiche)",
       "Illustrare, spiegare, interpretare ed eventualmente provare su basi scientifiche le verità tattiche"
@@ -84,7 +84,7 @@
     "opzioni": [
       "Il valore medio dei dati raccolti durante la competizione sportiva",
       "La differenza tra il valore massimo e il valore minimo di una distribuzione",
-      "Indicatore della dispersione delle osservazioni intorno al valore medio; si esprime con la stessa unità di misura della media",
+      "Indicatore della dispersione delle osservazioni intorno al valore medio; si esprime con la stessa unità di misura della media (es. m, Kg, ecc.)",
       "Il valore più frequente nella distribuzione dei dati di performance"
     ],
     "risposta_corretta": 2
@@ -100,32 +100,32 @@
     "risposta_corretta": 0
   },
   {
-    "domanda": "Si consideri la sequenza di numeri: 45, 48, 48, 49, 49, 54, 55, 55, 56, 60, 62, 64, 67, 70, 75. Il candidato indichi la Mediana.",
+    "domanda": "Si consideri la sequenza: 45, 48, 48, 49, 49, 54, 55, 55, 56, 60, 62, 64, 67, 70, 75. Qual è la Mediana?",
     "opzioni": [
-      "55",
       "54",
+      "55",
       "56",
       "55,5"
     ],
-    "risposta_corretta": 0
+    "risposta_corretta": 1
   },
   {
     "domanda": "Le procedure di Match Analysis possono essere applicate:",
     "opzioni": [
-      "Nel pre-gara, nel post-gara e nel tempo di gara (controllo off line ed on line)",
       "Esclusivamente nel pre-gara (controllo off line)",
+      "Esclusivamente nel post-gara (controllo off-line)",
       "Esclusivamente nel pre-gara e nel post-gara",
-      "Esclusivamente nel post-gara (controllo off-line)"
+      "Nel pre-gara, nel post-gara e nel tempo di gara (controllo off line ed on-line)"
     ],
-    "risposta_corretta": 0
+    "risposta_corretta": 3
   },
   {
     "domanda": "L'uso dei software per l'estrazione automatica dei dati (data mining) nella moderna Match Analysis è da considerare:",
     "opzioni": [
-      "Totalmente inutile. Si possono elaborare solo variabili scalari, non pertinenti quindi all'evento gara.",
-      "Vietato dai regolamenti sportivi attuali, in quanto sostitutivo della figura dell'allenatore.",
-      "Potenzialmente dannoso poiché si configurerebbe come pratica doping.",
-      "Molto utile. Permette di elaborare diverse categorie di variabili di studio, comprese le variabili nominali, utilizzabili per analizzare comportamenti codificati"
+      "Totalmente inutile; si possono elaborare solo variabili scalari, non pertinenti all'evento gara",
+      "Vietato dai regolamenti sportivi attuali, in quanto sostitutivo della figura dell'allenatore",
+      "Potenzialmente dannoso poiché si configurerebbe come pratica doping",
+      "Molto utile; permette di elaborare diverse categorie di variabili di studio, comprese le variabili nominali, utilizzabili per analizzare comportamenti codificati"
     ],
     "risposta_corretta": 3
   },
@@ -150,17 +150,17 @@
     "risposta_corretta": 1
   },
   {
-    "domanda": "Secondo una definizione di Alberto Madella (2006), il fattore limitante noto come \"Information Overload\" significa:",
+    "domanda": "Secondo Madella (2006), il fattore limitante noto come 'Information Overload' significa:",
     "opzioni": [
       "La carenza di informazioni disponibili per l'allenatore durante la partita",
       "Un eccesso di risorse tecnologiche che rallenta l'analisi dei dati",
-      "La tendenza a sovraccaricare il sistema mnemonico individuale attraverso l'acquisizione di un numero enorme di dati, inutili per la gestione efficace della situazione di gioco (troppa informazione = nessuna informazione)",
+      "La tendenza a sovraccaricare il sistema mnemonico individuale attraverso un numero enorme di dati, inutili per la gestione efficace della situazione di gioco (troppa informazione = nessuna informazione)",
       "Il problema tecnico di overflow nei database di archiviazione dei dati sportivi"
     ],
     "risposta_corretta": 2
   },
   {
-    "domanda": "Secondo una definizione di Carlo Castagna (2003), la Match Analysis è:",
+    "domanda": "Secondo Carlo Castagna (2003), la Match Analysis è:",
     "opzioni": [
       "Una disciplina esclusivamente statistica che analizza i risultati finali delle partite",
       "Analisi comportamentale che descrive la prestazione sportiva codificando le azioni di individui o gruppi in termini specifici utili per la pratica",
@@ -180,7 +180,7 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Usando metodologie derivate da studi di psicologia criminale, Franks e Miller (1986) hanno dimostrato che i migliori allenatori di livello internazionale hanno una capacità di richiamare al massimo il ...% dei fattori chiave che determinano il successo durante una singola partita.",
+    "domanda": "Franks e Miller (1986) hanno dimostrato che i migliori allenatori di livello internazionale hanno una capacità di richiamare al massimo il ...% dei fattori chiave che determinano il successo durante una singola partita.",
     "opzioni": [
       "70%",
       "50%",
@@ -190,7 +190,7 @@
     "risposta_corretta": 3
   },
   {
-    "domanda": "Con il concetto di \"informazione ecologica o rappresentativa\", inserito nel contesto della Match Analysis, si intende descrivere:",
+    "domanda": "Con il concetto di 'informazione ecologica o rappresentativa' nel contesto della Match Analysis, si intende descrivere:",
     "opzioni": [
       "Un sistema di raccolta dati ambientali (temperatura, umidità, vento) che influenzano la performance",
       "Un approccio puramente qualitativo basato sull'osservazione naturalistica del gioco",
@@ -222,10 +222,30 @@
   {
     "domanda": "Le tecniche prescrittive, nella Match Analysis:",
     "opzioni": [
-      "Consentono di prescrivere le qualità motorie richieste per vincere una determinata partita.",
-      "Vengono utilizzate dal medico della squadra per prescrivere le esatte dosi di medicinali da prendere in caso di infortunio.",
-      "Hanno le fondamenta nell'analisi predittiva, ma vanno oltre fornendo vere e proprie regole o patterns direttamente applicabili al contesto gara",
+      "Consentono di prescrivere le qualità motorie richieste per vincere una determinata partita",
+      "Vengono utilizzate dal medico della squadra per prescrivere le esatte dosi di medicinali da prendere in caso di infortunio",
+      "Hanno le fondamenta nell'analisi predittiva, ma vanno oltre fornendo vere e proprie 'regole' o 'patterns' direttamente applicabili al contesto gara",
       "Consentono di prescrivere il giusto carico di allenamento in base al contesto ed al ciclo di allenamento considerato"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Le procedure di Match Analysis possono essere applicate (domanda con opzioni):",
+    "opzioni": [
+      "Nel pre-gara, nel post-gara e nel tempo di gara (controllo off line ed on line)",
+      "Esclusivamente nel pre-gara (controllo off line)",
+      "Esclusivamente nel pre-gara e nel post-gara",
+      "Esclusivamente nel post-gara (controllo off-line)"
+    ],
+    "risposta_corretta": 0
+  },
+  {
+    "domanda": "Secondo Bruno Ruscello (2008), la Match Analysis è atta a... (con opzioni). Quale formulazione mancante?",
+    "opzioni": [
+      "Raccogliere dati e informazioni fisiologiche relative ad atleti",
+      "Documentare, osservare, registrare ed eventualmente raccontare, in forma aneddotica",
+      "Descrivere, classificare, spiegare ed eventualmente predire (su basi probabilistiche)",
+      "Illustrare, spiegare, interpretare ed eventualmente provare su basi scientifiche le verità tattiche"
     ],
     "risposta_corretta": 2
   },
@@ -240,7 +260,17 @@
     "risposta_corretta": 0
   },
   {
-    "domanda": "Nello studio \"una informazione ecologica ed efficace\" di Ruscello et al. (2012), quale evento viene considerato come variabile dipendente?",
+    "domanda": "L'uso dei software per l'estrazione automatica dei dati (data mining) nella moderna Match Analysis è da considerare (con opzioni):",
+    "opzioni": [
+      "Totalmente inutile; si possono elaborare solo variabili scalari, non pertinenti quindi all'evento gara",
+      "Vietato dai regolamenti sportivi attuali, in quanto sostitutivo della figura dell'allenatore",
+      "Potenzialmente dannoso poiché si configurerebbe come pratica doping",
+      "Molto utile; permette di elaborare diverse categorie di variabili di studio, comprese le variabili nominali, utilizzabili per analizzare comportamenti codificati"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Nello studio 'una informazione ecologica ed efficace' di Ruscello et al. (2012), quale evento viene considerato come variabile dipendente?",
     "opzioni": [
       "Tiro in porta: goal – no goal",
       "Pressing efficace o inefficace",
@@ -250,47 +280,77 @@
     "risposta_corretta": 0
   },
   {
+    "domanda": "Con modello si intende (con opzioni):",
+    "opzioni": [
+      "Una rappresentazione concettuale assolutamente sovrapponibile in toto alla realtà che descrive",
+      "Una rappresentazione concettuale (spesso una semplificazione che ammette una formalizzazione matematica) del mondo reale o di una sua parte, capace di spiegarne il funzionamento",
+      "Un processo di estrazione della verità assoluta a partire da una indagine conoscitiva, basata su postulati formulati a priori",
+      "Un insieme di regole rigide che descrivono deterministicamente ogni aspetto della realtà sportiva"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Citazione di Carl e Grosser (1992) sul controllo dell'allenamento. La Match Analysis (con opzioni):",
+    "opzioni": [
+      "Può essere considerata come procedure mirate esclusivamente al controllo della gara, senza collegamenti efficaci con i carichi di allenamento",
+      "Può essere considerata come una serie di procedure mirate al controllo dell'allenamento e della gara e quindi rientra a pieno diritto nelle strutture di controllo citate dagli autori",
+      "Il controllo dell'allenamento non ha effetti sulla prestazione in gara; l'allenatore osserva come testimone silente riservando interventi solo dopo la gara",
+      "La match analysis evidenzia solo gli aspetti negativi degli atleti e non serve alla pianificazione di medio-lungo termine"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Secondo il modello multidimensionale di W.D. Brettschneider (1990), quali sono le capacità complesse maggiormente responsabili della performance ottimale nei Team Sports? (con opzioni)",
+    "opzioni": [
+      "La capacità di anticipazione, la capacità di decisione, la disponibilità a rischiare, la rapidità di azione, la capacità di cooperare",
+      "La capacità di anticipazione e di elaborare informazioni",
+      "La velocità massimale, la resistenza aerobica, la forza resistente, la mobilità articolare",
+      "La capacità tecnico/tattica/strategica, la capacità fisico-mentale, la capacità di concentrazione circoscritta, il pensiero convergente"
+    ],
+    "risposta_corretta": 0
+  },
+  {
     "domanda": "Il metodo Delphi:",
     "opzioni": [
-      "È una metodologia derivata dalla psicologia, che serve a determinare in un atleta le sue capacità di previsione e di anticipazione.",
-      "È un metodo basato sulla previsione esoterica di scenari futuribili, utilizzato in antichità per affrontare le battaglie.",
-      "È un modo di dire quando ci si riferisce alla imprevedibilità del futuro che sta per arrivare.",
-      "È una metodologia che permette di strutturare la comunicazione tra un gruppo di esperti (Panel) con l'obiettivo di creare scenari futuri, valutare la desiderabilità e formulare previsioni, attraverso tecniche di convergenza del consenso"
+      "È una metodologia derivata dalla psicologia, che serve a determinare in un atleta le sue capacità di previsione e di anticipazione",
+      "È un metodo basato sulla previsione esoterica di scenari futuribili, utilizzato in antichità per affrontare le battaglie",
+      "È un modo di dire quando ci si riferisce alla imprevedibilità del futuro che sta per arrivare",
+      "È una metodologia che permette di strutturare la comunicazione tra un gruppo di esperti (Panel) con l'obiettivo di creare scenari futuri, valutare la desiderabilità e la fattibilità di possibili alternative e formulare previsioni, attraverso tecniche di convergenza del consenso"
     ],
     "risposta_corretta": 3
   },
   {
     "domanda": "Secondo una definizione fornita a lezione, gli sport di squadra:",
     "opzioni": [
-      "Si possono considerare come sistemi statici semplici, composti di poche strutture funzionali.",
-      "Si possono considerare come strutture di base, in cui è centrale la capacità atletica dell'individuo.",
+      "Si possono considerare come sistemi statici semplici, composti di poche strutture funzionali",
+      "Si possono considerare come strutture di base, in cui è centrale la capacità atletica dell'individuo",
       "Si possono considerare come sistemi dinamici complessi composti di tante parti interagenti",
-      "Si possono considerare come strutture relazionali, in cui lo scopo ultimo è l'affermazione del singolo individuo."
+      "Si possono considerare come strutture relazionali, in cui lo scopo ultimo è l'affermazione del singolo individuo, a qualunque costo"
     ],
     "risposta_corretta": 2
   },
   {
-    "domanda": "Per \"squadra invisibile\" intendiamo:",
+    "domanda": "Per 'squadra invisibile' intendiamo:",
     "opzioni": [
-      "La squadra che si allena a porte chiuse e si rende così invisibile ai Match Analisti avversari.",
-      "Un particolare atteggiamento psicologico della squadra, che tende a mascherare le dinamiche di leadership interne.",
+      "La squadra che si allena a 'porte chiuse' e si rende così 'invisibile' ai Match Analisti avversari",
+      "Un particolare atteggiamento psicologico della squadra, che tende a mascherare le dinamiche di leadership interne",
       "I componenti dello staff tecnico e dirigenziale, in senso estensivo, che permettono con il loro lavoro lo sviluppo concreto della squadra",
-      "Una squadra che si nasconde durante un torneo di qualificazione per emergere poi nelle fasi finali."
+      "Una squadra che si 'nasconde' durante un torneo di qualificazione per emergere poi nelle fasi finali"
     ],
     "risposta_corretta": 2
   },
   {
     "domanda": "Nel film Moneyball, basato su una storia vera, il protagonista:",
     "opzioni": [
-      "Inserisce la pratica dell'allenamento invisibile nella squadra di hockey su ghiaccio.",
-      "Preleva ingenti somme di denaro tramite frode elettronica e fornisce alla sua squadra di calcio un team di match analisti.",
+      "Inserisce la pratica dell'allenamento invisibile nella squadra di hockey su ghiaccio",
+      "Preleva ingenti somme di denaro tramite frode elettronica e fornisce alla sua squadra di calcio un team di match analisti",
       "Introduce un modo innovativo di gestire l'allestimento della squadra di baseball, attraverso un uso estensivo del data mining e della modellazione matematica",
-      "Rivoluziona il modo di gestire la partita di football americano, inserendo la figura del match analista on-line."
+      "Rivoluziona il modo di gestire la partita di football americano, inserendo la figura del match analista on-line"
     ],
     "risposta_corretta": 2
   },
   {
-    "domanda": "Nel lavoro \"Match Analysis and Temporal Patterns of Fatigue in Rugby Seven\" di Granatelli, Ruscello et al. (2014), quale Key Performance Indicator è considerato nello studio?",
+    "domanda": "Nel lavoro 'Match Analysis and Temporal Patterns of Fatigue in Rugby Seven' di Granatelli, Ruscello et al. (2014), quale Key Performance Indicator è considerato nello studio?",
     "opzioni": [
       "High intensity acceleration (HIA)",
       "Distanza totale per minuto (m/min)",
@@ -302,39 +362,49 @@
   {
     "domanda": "La performance e la match analysis si basano su:",
     "opzioni": [
-      "Resoconti aneddotici delle evenienze riscontrate in senso puramente qualitativo.",
+      "Resoconti aneddotici delle evenienze riscontrate in senso puramente qualitativo; fondamentale è la capacità di osservazione",
       "Acquisizione dei dati, elaborazione dei dati in informazioni, promozione di processi decisionali informati",
-      "Acquisizione di informazioni, trasformazione in dati pertinenti, espansione della coscienza degli atleti.",
-      "Osservazione, interpretazione e discussione dei dati in gruppi ristretti di atleti."
+      "Acquisizione di informazioni, trasformazione in dati pertinenti, espansione della coscienza degli atleti per favorire i processi condizionali",
+      "Osservazione, interpretazione e discussione dei dati in gruppi ristretti di atleti"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Le procedure di match analysis possono essere applicate (versione con 4 opzioni):",
+    "opzioni": [
+      "Esclusivamente nel pre-gara (controllo off line)",
+      "Nel pre-gara, nel post-gara e nel tempo di gara (controllo off line e on line)",
+      "Esclusivamente nel post-gara (controllo off line)",
+      "Esclusivamente nel pre-gara e nel post-gara"
     ],
     "risposta_corretta": 1
   },
   {
     "domanda": "Il data mining:",
     "opzioni": [
-      "È una metodica di indagine psicologica sviluppata negli anni 90, che mira a sviluppare analisi regressive della personalità degli sportivi.",
-      "È una metodica di indagine fisiologica volta a definire parametri essenziali della ventilazione polmonare a partire dai dati di VO2max.",
+      "È una metodica di indagine psicologica, sviluppata negli anni '90, che mira a sviluppare analisi regressive della personalità degli sportivi di alto livello",
+      "È una metodica di indagine fisiologica volta a definire parametri essenziali della ventilazione polmonare a partire dai dati di VO2max",
       "Una metodica di indagine che comprende quegli strumenti e tecniche mirate all'estrazione (mining) di conoscenza da grandi quantità di dati",
-      "È una metodica di indagine biomeccanica volta a derivare informazioni su dati di accelerazione iniziale negli sprint massimali."
+      "È una metodica di indagine biomeccanica volta a derivare informazioni su dati di accelerazione iniziale negli sprint massimali eseguiti da atleti di alto livello"
     ],
     "risposta_corretta": 2
   },
   {
     "domanda": "Le tecniche predittive, nella match analysis:",
     "opzioni": [
-      "Utilizzano i modelli matematici per raggiungere proiezioni deterministiche con la definizione delle costanti di prestazione.",
+      "Utilizzano i modelli matematici per raggiungere proiezioni deterministiche con la definizione delle cosidette 'costanti di prestazione'",
       "Utilizzano i dati del passato per estrarre una visione del futuro costituita da un modello matematico-statistico",
-      "Utilizzano il lavoro di sensitivi esperti, molto portati ad avere visioni futuribili molto probabili.",
-      "Utilizzano le informazioni rubate in ambito di spionaggio sportivo per prevedere esattamente come andrà una partita."
+      "Utilizzano il lavoro di sensitivi esperti, molto portati ad avere visioni futuribili molto probabili",
+      "Utilizzano le informazioni 'rubate' in ambito di spionaggio sportivo per prevedere esattamente come andrà una partita"
     ],
     "risposta_corretta": 1
   },
   {
-    "domanda": "La Performance Analysis si basa sulla ricerca e misurazione dei Key Performance Indicators (KPI) che...",
+    "domanda": "La Performance Analysis si basa sulla ricerca e misurazione dei 'Key Performance Indicators' (KPI) che:",
     "opzioni": [
-      "Ci permettono di sviluppare delle teorie deterministiche sulla capacità di prestazione umana.",
-      "Ci forniscono valutazioni soggettive sulla importanza chiave di alcune prestazioni nel complesso della match analysis.",
-      "Ci consentono di fare speculazioni informate sulla struttura profonda del pensiero strategico applicato alla performance.",
+      "Ci permettono di sviluppare delle teorie deterministiche sulla capacità di prestazione umana",
+      "Ci forniscono valutazioni soggettive sulla importanza 'chiave' di alcune prestazioni nel complesso della match analysis",
+      "Ci consentono di fare speculazioni informate sulla struttura profonda del pensiero strategico applicato alla performance",
       "Forniscono un parametro oggettivo e quindi informazioni precise su alcune variabili della prestazione sportiva"
     ],
     "risposta_corretta": 3
@@ -342,40 +412,40 @@
   {
     "domanda": "Lo sport data analyst:",
     "opzioni": [
-      "È una figura di sistema che difficilmente troverà spazio nella odierna struttura dello sport di alto livello.",
-      "È un analista che opera prevalentemente in ambito giornalistico per fornire previsioni esatte agli scommettitori.",
-      "È un profilo professionale di interesse psicologico e psicoanalitico, specializzato nel trattamento delle fobie riscontrabili a livello sportivo.",
-      "È una figura di sistema che si sta sempre più affermando in campo professionale, con competenze cruciali nella gestione di grandi basi di dati derivati dalla performance sportiva"
+      "È una figura di sistema che difficilmente troverà spazio nella odierna struttura dello sport di alto livello",
+      "È un analista che opera prevalentemente in ambito giornalistico per fornire previsioni esatte agli scommettitori",
+      "È un profilo professionale di interesse psicologico e psicoanalitico, specializzato nel trattamento delle fobie riscontrabili a livello sportivo",
+      "È una figura di sistema che si sta sempre più affermando in campo professionale; cruciali le competenze nella gestione di grandi basi di dati derivati dal Match o dalla performance sportiva"
     ],
     "risposta_corretta": 3
   },
   {
-    "domanda": "Per \"allenamento invisibile\" intendiamo:",
+    "domanda": "Per 'allenamento invisibile' intendiamo:",
     "opzioni": [
-      "La capacità di nascondere la fatica in gara confondendo il pensiero strategico e tattico della squadra avversaria.",
+      "La capacità di 'nascondere' la fatica in gara confondendo il pensiero strategico e tattico della squadra avversaria",
       "Le attività di vita quotidiana, oltre l'allenamento formale, che fortemente incidono poi sulla capacità di prestazione di gara",
-      "La squadra che si allena a porte chiuse e si rende così invisibile ai match analisti avversari.",
-      "Le pratiche illegali di allenamento basate sul doping."
+      "La squadra che si allena a 'porte chiuse' e si rende così 'invisibile' ai match analisti avversari",
+      "Le pratiche illegali di allenamento basate sul doping"
     ],
     "risposta_corretta": 1
   },
   {
-    "domanda": "Cosa si intende per \"test del tempo\"?",
+    "domanda": "Cosa si intende per 'test del tempo'?",
     "opzioni": [
-      "La valutazione dell'efficienza di uno studio scientifico.",
-      "Portare a completamento uno studio scientifico nel più breve tempo possibile.",
+      "La valutazione dell'efficienza di uno studio scientifico",
+      "Portare a completamento uno studio scientifico nel più breve tempo possibile",
       "Il continuo processo di verifica di una teoria attraverso il progresso scientifico",
-      "Percorrere il maggior spazio nel tempo del test."
+      "Percorrere il maggior spazio nel tempo del test"
     ],
     "risposta_corretta": 2
   },
   {
     "domanda": "Che cosa si intende per pensiero critico?",
     "opzioni": [
-      "Sterile discussione su un tema sportivo.",
-      "Analisi negativa di una partita effettuata.",
+      "Sterile discussione su un tema sportivo",
+      "Analisi negativa di una partita effettuata",
       "Quelle tecniche che vengono utilizzate per avere una visione oggettiva del problema",
-      "Pensieri che contrastano un progetto di ricerca."
+      "Pensieri che contrastano un progetto di ricerca"
     ],
     "risposta_corretta": 2
   },
@@ -383,19 +453,19 @@
     "domanda": "Che cosa si intende per validazione di un test?",
     "opzioni": [
       "La verifica della corrispondenza (associazione) tra misura del test e costrutto da misurare",
-      "La ripetibilità della prova (test).",
-      "La riproducibilità della prova (test).",
-      "L'esito di un test."
+      "La ripetibilità della prova (test)",
+      "La riproducibilità della prova (test)",
+      "L'esito di un test"
     ],
     "risposta_corretta": 0
   },
   {
     "domanda": "Le tecniche di campionamento:",
     "opzioni": [
-      "Permettono di risparmiare tempo nella esecuzione di una ricerca, potendo trarre dal campione esattamente le stesse informazioni della popolazione di riferimento.",
-      "Permettono di stimare meglio le grandezze di studio di quanto possa fare nella popolazione al completamento.",
+      "Permettono di risparmiare tempo potendo trarre dal campione esattamente le stesse informazioni della popolazione di riferimento",
+      "Permettono di stimare meglio le grandezze di studio di quanto possa fare nelle popolazione al completamento",
       "Permettono o limitano le possibili inferenze, ovvero la generalizzazione dei risultati osservati nel campione all'intera popolazione di riferimento",
-      "Permettono di espandere i dati compressi in file campionati."
+      "Permettono di espandere i dati compressi in file campionati"
     ],
     "risposta_corretta": 2
   },
@@ -403,18 +473,18 @@
     "domanda": "Che cosa si intende per precisione di un test?",
     "opzioni": [
       "Il ridotto scarto (differenza) dei risultati nella ripetizione del test",
-      "Quante volte ripeto un test nel corso di un esperimento.",
-      "L'attinenza tra procedure di valutazione e protocollo sperimentale.",
-      "La valutazione della chiarezza con cui vengono esposte le procedure di un test."
+      "Quante volte ripeto un test nel corso di un esperimento",
+      "L'attinenza tra procedure di valutazione e protocollo sperimentale",
+      "La valutazione della chiarezza con cui vengono esposte le procedure di un test"
     ],
     "risposta_corretta": 0
   },
   {
     "domanda": "Teoria ed evidenza risultano mutualmente esclusive nel pensiero scientifico?",
     "opzioni": [
-      "Sono due termini che non fanno parte del pensiero scientifico.",
-      "Sono due costrutti mutualmente esclusivi.",
-      "Sono due termini antitetici.",
+      "Sono due termini che non fanno parte del pensiero scientifico",
+      "Sono due costrutti mutualmente esclusivi",
+      "Sono due termini antitetici",
       "No, vanno mano nella mano se così si vuol dire"
     ],
     "risposta_corretta": 3
@@ -423,9 +493,9 @@
     "domanda": "Le componenti fondamentali di una ricerca includono 6 fasi. Il candidato scelga la settima componente corretta:",
     "opzioni": [
       "Discussione sul significato e sulle implicazioni dei risultati",
-      "Ragionamento sulla potenza statistica e rappresentativa del campione.",
-      "Validità interna dello studio.",
-      "Livello di validità ecologica."
+      "Ragionamento sulla potenza statistica e rappresentativa del campione",
+      "Validità interna dello studio",
+      "Livello di validità ecologica"
     ],
     "risposta_corretta": 0
   },
@@ -470,22 +540,32 @@
     "risposta_corretta": 0
   },
   {
+    "domanda": "Si consideri la sequenza: 45, 48, 48, 49, 49, 54, 55, 55, 56, 60, 62, 64, 67, 70, 75. Il candidato indichi la Mediana (con opzioni).",
+    "opzioni": [
+      "55",
+      "54",
+      "56",
+      "55,5"
+    ],
+    "risposta_corretta": 0
+  },
+  {
     "domanda": "Che cos'è una teoria scientifica?",
     "opzioni": [
-      "Le teorie non fanno parte del pensiero scientifico.",
+      "Le teorie non fanno parte del pensiero scientifico",
       "Una formale spiegazione delle relazioni tra una serie di osservazioni",
-      "Una degenerazione del pensiero scientifico.",
-      "Un esercizio del pensiero avulso dall'esperienza."
+      "Una degenerazione del pensiero scientifico",
+      "Un esercizio del pensiero avulso dall'esperienza"
     ],
     "risposta_corretta": 1
   },
   {
     "domanda": "Definisci il concetto di ripetibilità di un test:",
     "opzioni": [
-      "È la corrispondenza tra risultato del test e valore di riferimento.",
+      "È la corrispondenza tra risultato del test e valore di riferimento",
       "È la verifica che un test produca risultati simili nel corso del tempo",
-      "È la misura della velocità con cui si ripete un test.",
-      "È l'annotazione di quante volte un test viene effettuato nel tempo."
+      "È la misura della velocità con cui si ripete un test",
+      "È l'annotazione di quante volte un test viene effettuato nel tempo"
     ],
     "risposta_corretta": 1
   },
@@ -493,10 +573,30 @@
     "domanda": "Che cosa si intende per accuratezza di un test?",
     "opzioni": [
       "È lo scarto (differenza) tra il risultato delle prove e la misura reale",
-      "La distanza tra due risultati consecutivi.",
-      "Il numero di volte in cui il test raggiunge il valore atteso.",
-      "La capacità del test di discriminare tra soggetti diversi."
+      "La distanza tra due risultati consecutivi",
+      "Il numero di volte in cui il test raggiunge il valore atteso",
+      "La capacità del test di discriminare tra soggetti diversi"
     ],
     "risposta_corretta": 0
+  },
+  {
+    "domanda": "Con modello si intende (definizione essenziale):",
+    "opzioni": [
+      "Una copia fedele e completa della realtà che si vuole descrivere",
+      "Una rappresentazione concettuale (spesso una semplificazione che ammette una formalizzazione matematica) del mondo reale o di una sua parte, capace di spiegarne il funzionamento",
+      "Un processo di estrazione della verità assoluta a partire da postulati formulati a priori",
+      "Un sistema di regole rigide applicabili deterministicamente alla realtà sportiva"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "In una sequenza ordinata di dati, per evitare l'influenza dei valori estremi sullo studio dei valori di tendenza centrale, è opportuno considerare (con opzioni):",
+    "opzioni": [
+      "La media aritmetica semplice",
+      "La moda",
+      "La devianza",
+      "La mediana"
+    ],
+    "risposta_corretta": 3
   }
 ]
