@@ -20,17 +20,17 @@
     "risposta_corretta": 1
   },
   {
-    "domanda": "Cosa si intende per Small Sided Games?",
+    "domanda": "Con riferimento all'articolo di D'Ottavio et al. (2010), cosa si intende per Small Sided Games?",
     "opzioni": [
-      "Esercitazioni individuali di tecnica calcistica su campo standard",
+      "Esercitazioni individuali di tecnica su campo standard",
       "Partite a campo ridotto che consentono una notevole gamma di varianti di esercizi",
-      "Allenamenti di gruppo focalizzati esclusivamente sulla tattica difensiva",
+      "Allenamenti di gruppo focalizzati sulla tattica difensiva",
       "Competizioni amichevoli tra squadre giovanili di diverse categorie"
     ],
     "risposta_corretta": 1
   },
   {
-    "domanda": "Nel gioco del calcio, allenare l'anticipazione significa predisporre esercizi che:",
+    "domanda": "Secondo quanto esposto a lezione, nel gioco del calcio allenare l'anticipazione significa predisporre esercizi che:",
     "opzioni": [
       "Sviluppano esclusivamente la velocità di reazione agli stimoli visivi",
       "Migliorano solo la capacità aerobica dell'atleta",
@@ -40,7 +40,7 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Come si può trasformare un modello esercitativo per adulti in un'esercitazione adatta ai bambini della scuola calcio?",
+    "domanda": "Come si può trasformare un modello esercitativo creato per allenare un giocatore adulto in un'esercitazione adatta anche ai bambini della scuola calcio e viceversa?",
     "opzioni": [
       "Riducendo semplicemente la durata dell'esercitazione",
       "Modificando i parametri strutturali, tecnici e regolamentari dell'esercitazione base",
@@ -48,6 +48,36 @@
       "Sostituendo il pallone standard con uno di dimensioni ridotte"
     ],
     "risposta_corretta": 1
+  },
+  {
+    "domanda": "L'attività giovanile della FIGC viene seguita dal settore giovanile scolastico. In quali categorie viene suddivisa l'attività di base?",
+    "opzioni": [
+      "Aquilotti, Pulcini ed Esordienti",
+      "Piccoli Amici, Pulcini ed Esordienti",
+      "Baby Calcio, Pulcini e Allievi",
+      "Micro, Mini e Pulcini"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Secondo quanto esposto a lezione, qual è lo scopo dell'allenamento situazionale?",
+    "opzioni": [
+      "Migliorare esclusivamente la condizione fisica dell'atleta",
+      "Favorire l'elaborazione dell'informazione, l'anticipazione, la presa di decisione, la comprensione dei sistemi di gioco e dei principi tattici",
+      "Sviluppare solo le capacità tecniche individuali del giocatore",
+      "Incrementare la forza muscolare specifica del calciatore"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Quale tra le seguenti metodiche di lavoro consente di stimolare maggiormente l'aspetto cognitivo specifico del gioco del calcio?",
+    "opzioni": [
+      "Esercitazioni analitiche di tecnica individuale",
+      "Circuiti di resistenza aerobica",
+      "Situazioni di gioco",
+      "Esercizi posturali e di equilibrio"
+    ],
+    "risposta_corretta": 2
   },
   {
     "domanda": "Secondo la teoria dei sistemi dinamici, come viene considerato l'errore nell'apprendimento motorio?",
@@ -60,12 +90,32 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Qual è la differenza relativa alla capacità percettiva tra l'atleta adulto (esperto) e l'atleta giovane (inesperto)?",
+    "domanda": "Secondo quanto esposto a lezione, qual è la differenza tra atleti adulti e giovani riguardo alla complessità di carico e alla precisione esecutiva?",
+    "opzioni": [
+      "Gli atleti adulti hanno una precisione maggiore a un carico minore",
+      "Non esistono differenze significative tra adulti e giovani",
+      "Gli atleti giovani hanno una precisione minore ad un carico maggiore",
+      "Gli atleti giovani hanno una precisione maggiore ma una resistenza minore"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo quanto riportato a lezione, qual è la differenza relativa alla capacità percettiva tra l'atleta adulto (esperto) e l'atleta giovane (inesperto)?",
     "opzioni": [
       "L'atleta adulto ha una percezione più lenta ma più precisa di quello giovane",
-      "Non esistono differenze significative tra atleta adulto e giovane nella capacità percettiva",
+      "Non esistono differenze significative nella capacità percettiva",
       "L'atleta giovane ha una percezione più dispendiosa e meno qualitativa rispetto all'atleta adulto",
       "L'atleta giovane ha una percezione più rapida ma meno accurata dell'adulto"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo la teoria dei gradi di libertà, in che modalità deve essere effettuato l'esercizio nelle sue traiettorie di sviluppo?",
+    "opzioni": [
+      "Con traiettorie rigidamente predefinite e non modificabili",
+      "Solo con movimenti standardizzati e ripetuti in modo identico",
+      "Dando modo all'allievo di poter utilizzare più o meno variabili angolari nell'esecuzione dell'esercizio",
+      "Esclusivamente con ausili e vincoli esterni che guidino il movimento"
     ],
     "risposta_corretta": 2
   },
@@ -140,7 +190,47 @@
     "risposta_corretta": 1
   },
   {
-    "domanda": "Tra i comportamenti motori maggiormente osservabili nei principianti di rugby troviamo:",
+    "domanda": "Come deve essere presentato inizialmente il gioco del rugby ai principianti?",
+    "opzioni": [
+      "Partendo dalle regole scritte e dalla teoria del gioco",
+      "Incoraggiando l'evitamento della difesa oppure prediligendo l'affrontamento",
+      "Iniziando subito dalle situazioni di gioco reale in partita",
+      "Attraverso esercizi analitici di tecnica individuale"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Il giocatore di rugby di alto livello deve avere una percentuale di massa grassa pari a:",
+    "opzioni": [
+      "8-10%",
+      "10-12%",
+      "14-16%",
+      "18-20%"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Quali tra queste sono le regole complementari del gioco del rugby?",
+    "opzioni": [
+      "Placcaggio, meta, trasformazione e calcio di punizione",
+      "Mischia, touche, calcio d'invio e di rinvio e annullato",
+      "Fuorigioco, in avanti, vantaggio e rimessa laterale",
+      "Ruck, maul, touche e calcio di punizione"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Dare una definizione di mischia ordinata nel rugby:",
+    "opzioni": [
+      "Una fase di gioco caotica dove tutti i giocatori si contendono il pallone liberamente",
+      "Una fase di affrontamento collettivo organizzato, finalizzato alla conquista della palla, regolata da regole specifiche relative al numero di partecipanti, alla loro posizione e alla loro libertà di movimento",
+      "Un raggruppamento spontaneo di giocatori attorno al pallone a terra",
+      "Una situazione di gioco riservata esclusivamente ai giocatori del pacchetto di mischia"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Tra i seguenti comportamenti motori, quali sono maggiormente osservabili nei principianti di rugby?",
     "opzioni": [
       "Ottima lettura del gioco e buon posizionamento in campo",
       "Passaggi precisi e movimenti coordinati senza palla",
@@ -154,7 +244,7 @@
     "opzioni": [
       "Segnare più punti dell'avversario nel primo tempo",
       "Creare situazioni di soprannumero",
-      "Avere un giocatore con caratteristiche fisiche superiori agli avversari",
+      "Avere un giocatore con caratteristiche fisiche superiori",
       "Eseguire una giocata tecnica individuale di alto livello"
     ],
     "risposta_corretta": 1
@@ -190,6 +280,36 @@
     "risposta_corretta": 1
   },
   {
+    "domanda": "Come si effettua il passaggio a 2 mani petto nel basket?",
+    "opzioni": [
+      "Palla tenuta sopra la testa, lancio con estensione verso il basso",
+      "Posizione fondamentale, mani dietro la palla, palla davanti al petto con gomiti stretti naturalmente, distensione di braccia e mani con frustata finale e passo indietro del ricevente",
+      "Palla tenuta di lato, rotazione del busto e lancio con una mano",
+      "Palla tenuta in basso, lancio verso l'alto con entrambe le mani"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Quando il tiro nel basket finisce, in quale posizione saranno le mani?",
+    "opzioni": [
+      "Entrambe le mani con il palmo rivolto verso l'alto",
+      "Mano di tiro verso il canestro con il palmo rivolto verso il basso e mano guida con il palmo rivolto verso l'interno",
+      "Entrambe le mani con le dita puntate verso il canestro",
+      "Mano di tiro con il palmo verso l'alto e mano guida lungo il fianco"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Quali sono i passaggi che si effettuano a una mano nel basket?",
+    "opzioni": [
+      "Rimbalzo, petto e sopra la testa",
+      "Baseball, laterale e da palleggio",
+      "Rimbalzo, baseball e sopra la testa",
+      "Petto, laterale e rimbalzo"
+    ],
+    "risposta_corretta": 1
+  },
+  {
     "domanda": "Cosa sono i fondamentali tattici nel basket?",
     "opzioni": [
       "Le tecniche individuali di palleggio, passaggio e tiro",
@@ -198,6 +318,16 @@
       "Le regole del gioco che ogni atleta deve conoscere"
     ],
     "risposta_corretta": 2
+  },
+  {
+    "domanda": "Quali tipi di cambi di mano esistono nella pallacanestro?",
+    "opzioni": [
+      "Frontale, laterale e dorsale",
+      "Dietro la schiena, sotto le gambe, virata e giro in palleggio",
+      "Solo incrociato e omologo",
+      "Avanti, indietro e laterale"
+    ],
+    "risposta_corretta": 1
   },
   {
     "domanda": "Quando si effettua un arresto ad un tempo e quando a due tempi nel basket?",
@@ -210,12 +340,52 @@
     "risposta_corretta": 2
   },
   {
+    "domanda": "La mano che palleggia nel palleggio protetto, rispetto al pallone, dove viene messa?",
+    "opzioni": [
+      "Di lato alla palla",
+      "Sopra la palla",
+      "Dietro la palla",
+      "Sotto la palla"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Nel tiro in sospensione, quale sarà la posizione delle mani alla fine del tiro?",
+    "opzioni": [
+      "Entrambe le mani con il palmo verso l'alto",
+      "Mano di tiro verso il canestro con il palmo rivolto verso il basso; mano di guida con il palmo rivolto verso l'interno",
+      "Entrambe le mani con le dita puntate verso il canestro",
+      "Mano di tiro con il palmo verso l'esterno e mano guida lungo il fianco"
+    ],
+    "risposta_corretta": 1
+  },
+  {
     "domanda": "Quale è il modello di pallacanestro a cui si fa riferimento?",
     "opzioni": [
       "Tradizionale",
       "Integrato",
       "Moderno",
       "Europeo"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "La mano che palleggia nel palleggio spinto, rispetto al pallone, dove viene messa?",
+    "opzioni": [
+      "Sopra la palla",
+      "Di lato alla palla",
+      "Dietro la palla",
+      "Sotto la palla"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Quali tipi di cambio di mano ci sono nella pallacanestro?",
+    "opzioni": [
+      "Solo frontale e dorsale",
+      "Sotto le gambe, avanti, dietro la schiena, virata (giro in palleggio)",
+      "Solo incrociato e omologo",
+      "Frontale, laterale, dorsale e a rimbalzo"
     ],
     "risposta_corretta": 1
   },
@@ -230,6 +400,26 @@
     "risposta_corretta": 1
   },
   {
+    "domanda": "Il giro è un fondamentale tecnico nel basket. Quali tipi di giro conosci?",
+    "opzioni": [
+      "Semplice e composto",
+      "Frontale e dorsale",
+      "Interno ed esterno",
+      "Avanzante e retrocedente"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Nel basket, come possiamo suddividere i cambi di direzione senza palla?",
+    "opzioni": [
+      "Diretto e indiretto",
+      "Incrociato e omologo",
+      "Laterale e frontale",
+      "Semplice e doppio"
+    ],
+    "risposta_corretta": 1
+  },
+  {
     "domanda": "Quali sono le fasi del palleggio nel basket?",
     "opzioni": [
       "Di spinta e di trazione",
@@ -240,7 +430,17 @@
     "risposta_corretta": 1
   },
   {
-    "domanda": "In Atletica Leggera esistono due tipologie di codici, determinata dalle lettere:",
+    "domanda": "Quale è la caratteristica del tiro in sospensione nel basket?",
+    "opzioni": [
+      "Il rilascio della palla avviene prima del salto",
+      "Il rilascio della palla viene effettuato quando il giocatore ha raggiunto il massimo o quasi il massimo della sospensione",
+      "Il rilascio avviene sempre con entrambe le mani contemporaneamente",
+      "Il rilascio avviene nella fase discendente del salto"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "In Atletica Leggera esistono due tipologie di codici, determinate dalle lettere:",
     "opzioni": [
       "A e B",
       "T e F",
@@ -258,6 +458,16 @@
       "800 m ostacoli"
     ],
     "risposta_corretta": 3
+  },
+  {
+    "domanda": "Le persone cerebrolese gareggiano in:",
+    "opzioni": [
+      "Corsa su sedia a rotelle",
+      "Salto in lungo",
+      "Nuoto adattato",
+      "Lancio del peso"
+    ],
+    "risposta_corretta": 1
   },
   {
     "domanda": "Quale delle seguenti è un'abilità percettiva nell'attività motoria adattata?",
@@ -290,12 +500,42 @@
     "risposta_corretta": 2
   },
   {
+    "domanda": "Quali delle seguenti caratteristiche NON è propria della sindrome autistica?",
+    "opzioni": [
+      "Difficoltà nella comunicazione sociale",
+      "Comportamenti ripetitivi e stereotipati",
+      "Lesione delle vertebre CS",
+      "Interessi ristretti e focalizzati"
+    ],
+    "risposta_corretta": 2
+  },
+  {
     "domanda": "Quale tra queste cause determina la condizione più grave per una persona ipoacusica?",
     "opzioni": [
       "Lesione del timpano",
       "Otite cronica",
       "Lesione dell'orecchio interno",
       "Occlusione del condotto uditivo esterno"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "La persona Down ha:",
+    "opzioni": [
+      "Esclusivamente deficit cognitivi senza caratteristiche motorie specifiche",
+      "Solo anomalie cromosomiche senza manifestazioni comportamentali",
+      "Stereotipie tipiche della sindrome stessa",
+      "Unicamente ipotonia muscolare generalizzata"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Le persone con deficit ipoacusico e deficit ipovisivo hanno un danno di tipo:",
+    "opzioni": [
+      "Motorio-funzionale",
+      "Cognitivo-comportamentale",
+      "Neurosensoriale",
+      "Muscolo-scheletrico"
     ],
     "risposta_corretta": 2
   },
@@ -308,6 +548,36 @@
       "Roma 1960"
     ],
     "risposta_corretta": 3
+  },
+  {
+    "domanda": "In quale anno è stata introdotta la norma che prevede la frequenza di alunni H nella scuola secondaria di secondo grado?",
+    "opzioni": [
+      "D.P.R. 1977",
+      "D.P.R. 1982",
+      "D.P.R. 1987",
+      "D.P.R. 1992"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "A quando risale l'accordo MIUR-CIP finalizzato alla diffusione di una cultura dell'attività motoria senza barriere per tutti?",
+    "opzioni": [
+      "12.03.2005",
+      "15.09.2007",
+      "24.05.2009",
+      "01.01.2012"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "La legge 118/1971 cosa ha introdotto?",
+    "opzioni": [
+      "L'istituzione delle scuole speciali per i soggetti disabili",
+      "Il riconoscimento della disabilità come categoria giuridica",
+      "Diritto allo studio dei soggetti disabili; l'istruzione obbligatoria deve avvenire nelle classi normali delle scuole pubbliche",
+      "L'obbligo per i comuni di dotarsi di strutture sportive accessibili"
+    ],
+    "risposta_corretta": 2
   },
   {
     "domanda": "Caratteristiche generali dello sviluppo motorio in età giovanile:",
@@ -330,12 +600,82 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Il Relative Age Effect (RAE) ha come unica conseguenza la perdita del Talento a causa dei criteri di selezione basati sulla maturazione fisica?",
+    "domanda": "L'espressione del talento dipende da una serie di fattori correlati tra loro. Quali?",
+    "opzioni": [
+      "Solo potenzialità motorie individuali e sviluppo fisico",
+      "Esclusivamente motivazione e condizioni familiari favorevoli",
+      "Tutte le precedenti (potenzialità motorie, sviluppo fisico ed età biologica, esperienza motoria, motivazione, disponibilità a sostenere carichi, condizioni familiari e socio-ambientali favorevoli)",
+      "Solo capacità fisiche e genetica"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Perché sono importanti i programmi di identificazione e sviluppo dei talenti?",
+    "opzioni": [
+      "Per escludere precocemente gli atleti meno dotati dal percorso sportivo",
+      "Consentono di concentrare le risorse sugli atleti con più probabilità di eccellere e possibilmente di accelerarne lo sviluppo",
+      "Per uniformare il livello delle prestazioni in tutte le categorie giovanili",
+      "Per ridurre i costi della gestione delle squadre giovanili"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "In età post-puberale lo sviluppo della capacità di apprendimento motorio dipende esclusivamente dal miglioramento della forza muscolare:",
+    "opzioni": [
+      "Vero, la forza è il fattore determinante in età post-puberale",
+      "Vero, ma solo per gli sport di squadra",
+      "Falso",
+      "Dipende dalla disciplina sportiva praticata"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Il talento sportivo negli sport di squadra è un complesso sistema multi-fattoriale che provvede al pieno sviluppo del potenziale genetico individuale grazie a:",
+    "opzioni": [
+      "Esclusivamente l'allenamento fisico intensivo e precoce",
+      "Solo le caratteristiche antropometriche e fisiologiche dell'atleta",
+      "Capacità percettivo-concettuali e stimoli ambientali protratti nel tempo",
+      "Unicamente la genetica e il contesto familiare favorevole"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Il recupero del VO2 (pagamento del debito di ossigeno) aumenta con l'età?",
+    "opzioni": [
+      "Falso, rimane costante durante tutta la crescita",
+      "Falso, diminuisce con l'aumentare dell'età",
+      "Vero",
+      "Solo nelle discipline aerobiche, non in quelle anaerobiche"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Il Relative Age Effect (RAE) ha come unica conseguenza la perdita del Talento a causa dei criteri di selezione basati sulla maturazione fisica:",
     "opzioni": [
       "Vero, è l'unica conseguenza documentata del RAE",
       "Vero, ma solo negli sport di squadra",
       "Falsa",
       "Dipende dalla disciplina sportiva considerata"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Il Relative Age Effect (RAE), secondo i dati relativi alle fasi finali del settore giovanile professionistico e della Serie A, si presenta in maniera MENO significativa:",
+    "opzioni": [
+      "Fasi finali settore giovanile professionistico",
+      "Entrambe le categorie in egual misura",
+      "Serie A",
+      "Non si presenta in nessuna delle due categorie"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "In merito allo studio demografico nei settori giovanili professionisti, nella categoria Allievi Nazionali:",
+    "opzioni": [
+      "La percentuale di nati nel quarto trimestre è superiore al 50%",
+      "Non si riscontrano differenze significative tra i trimestri di nascita",
+      "La percentuale di nati nel primo trimestre è di poco superiore al 50%; l'effetto aumenta se si analizza il parametro titolari/non titolari",
+      "L'effetto RAE non è presente in questa categoria"
     ],
     "risposta_corretta": 2
   },
@@ -350,7 +690,197 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Per tapering si intende?",
+    "domanda": "L'alterazione della capacità di carico meccanico può produrre:",
+    "opzioni": [
+      "Solo affaticamento muscolare temporaneo",
+      "Miglioramento della resistenza ossea e tendinea",
+      "Dolori alle inserzioni tendinee e alterazioni posturali",
+      "Esclusivamente infortuni muscolari acuti"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Nell'ambito della prevenzione dei traumi in età giovanile, tra i fattori di rischio con cause esogene si trovano:",
+    "opzioni": [
+      "Solo squilibri muscolari e lassità legamentosa",
+      "Esclusivamente condizioni ambientali sfavorevoli",
+      "Specializzazione precoce e aumenti improvvisi di carico",
+      "Solo attrezzature sportive non adeguate"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Per 'Progressiva Individualizzazione' intendiamo tutte le modificazioni nell'esecuzione del movimento che modificano la prestazione. Quali sono queste modificazioni?",
+    "opzioni": [
+      "Solo velocità e forza muscolare",
+      "Esclusivamente coordinazione e tecnica esecutiva",
+      "Ritmo, forza, fluidità e grado di rapidità",
+      "Solo ampiezza del movimento e precisione esecutiva"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Quale affermazione sulle caratteristiche generali di sviluppo post-puberale è FALSA?",
+    "opzioni": [
+      "Le differenze tra i sessi diventano più marcate dopo la pubertà",
+      "Le capacità coordinative raggiungono livelli simili agli adulti",
+      "Il tasso di incremento delle capacità di resistenza migliora fino a 16 anni",
+      "La forza muscolare aumenta significativamente nel maschio dopo la pubertà"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo Dal Monte (1983), la valutazione funzionale dell'atleta si occupa di:",
+    "opzioni": [
+      "Valutare esclusivamente le capacità tecniche specifiche della disciplina",
+      "Misurare solo la composizione corporea e le caratteristiche antropometriche",
+      "Fornire indicazioni riguardo allo stato e alle evoluzioni dei fattori ordinativi organico-funzionali dell'atleta",
+      "Determinare unicamente il potenziale genetico dell'atleta"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo Eriksson (2006), i fattori di selezione del talento riguardano:",
+    "opzioni": [
+      "Solo fattori fisici e antropometrici",
+      "Esclusivamente fattori psicologici e motivazionali",
+      "Solo fattori genetici e biologici",
+      "Tutte le precedenti"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Secondo il Developmental Model of Sport (Côté 1999-2007), come viene definita la partecipazione sportiva?",
+    "opzioni": [
+      "Allenamento strutturato e competizione organizzata",
+      "Attività libera e attività guidata",
+      "Gioco deliberato e pratica deliberata",
+      "Fase di esplorazione e fase di specializzazione"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo l'articolo 'What Makes a Champion?...' quale è l'interazione per comprendere la variazione della prestazione fisiologica umana?",
+    "opzioni": [
+      "Interazione 'allenamento - recupero'",
+      "Interazione 'tecnica - tattica'",
+      "Interazione 'geni - ambiente'",
+      "Interazione 'motivazione - talento'"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo l'articolo 'The Role of Deliberate...' la pratica estesa (deliberate) per migliorare la prestazione individuale deve avere una durata minima di:",
+    "opzioni": [
+      "5 anni",
+      "7 anni",
+      "10 anni",
+      "15 anni"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo lo studio 'Acute Effect...':",
+    "opzioni": [
+      "È sconsigliabile allenare l'RSA durante le esercitazioni Small Sided Games",
+      "L'RSA non è influenzata dal tipo di esercitazione utilizzata",
+      "È consigliabile allenare l'RSA durante le esercitazioni Small Sided Games",
+      "L'RSA deve essere allenata solo con esercitazioni analitiche"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo lo studio 'L'Esercizio Propriocettivo' condotto da D'Ottavio, quale è il tipo di superficie a cui corrisponde una maggior sollecitazione dell'articolazione della caviglia?",
+    "opzioni": [
+      "Superficie dura (cemento)",
+      "Superficie artificiale (erba sintetica)",
+      "Superficie morbida",
+      "Superficie in legno (parquet)"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo lo studio 'Variation in responses...':",
+    "opzioni": [
+      "L'allenamento della forza è propedeutico all'allenamento della velocità in età scolare",
+      "L'allenamento della resistenza è prioritario rispetto alla velocità in età scolare",
+      "L'allenamento della mobilità articolare è propedeutico all'allenamento della velocità in età scolare",
+      "L'allenamento della coordinazione è prioritario rispetto alla velocità in età scolare"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo Williams e Franks (1998) e Vaeyens (2011), quali sono i potenziali predittori del talento?",
+    "opzioni": [
+      "Solo antropometrici e fisiologici",
+      "Esclusivamente psicologici e sociologici",
+      "Antropometrici, fisiologici, psicologici e sociologici",
+      "Solo genetici e ambientali"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Indica le componenti responsabili dell'insorgere della fatica nell'allenamento di resistenza in età giovanile:",
+    "opzioni": [
+      "Solo componente muscolare e metabolica",
+      "Esclusivamente componente nervosa e ormonale",
+      "Componente centrale, metabolica ed endocrina",
+      "Solo componente cardiovascolare e respiratoria"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Indica i fattori che, secondo Monks (1996), sono importanti affinché si possa sviluppare il talento sportivo:",
+    "opzioni": [
+      "Solo capacità fisiche e genetica favorevole",
+      "Esclusivamente allenamento intensivo e competizione precoce",
+      "Motivazione, creatività, capacità cognitive, scuola, famiglia e amici",
+      "Solo supporto familiare e condizioni economiche favorevoli"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Indica le fasi di rivelazione del talento:",
+    "opzioni": [
+      "Osservazione, valutazione, selezione e monitoraggio",
+      "Identificazione, sviluppo, specializzazione e eccellenza",
+      "Scoperta, identificazione, selezione e sviluppo",
+      "Rilevazione, analisi, classificazione e sviluppo"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo l'articolo 'Genes and Athletic Performance 2016', quanti sono i marcatori genetici individuati relativi alla Resistenza?",
+    "opzioni": [
+      "45 marcatori",
+      "67 marcatori",
+      "93 marcatori",
+      "120 marcatori"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Secondo l'articolo 'Genes and Athletic Performance 2016', quanti sono i marcatori genetici individuati relativi alla Potenza/Forza?",
+    "opzioni": [
+      "28 marcatori",
+      "45 marcatori",
+      "62 marcatori",
+      "84 marcatori"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Tra i presupposti fisiologici per l'allenamento della resistenza in età giovanile NON troviamo:",
+    "opzioni": [
+      "Bassa produzione di lattato durante l'esercizio",
+      "Elevata capacità aerobica relativa al peso corporeo",
+      "Incremento dei livelli di testosterone",
+      "Buona efficienza del sistema cardiovascolare"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Per tapering si intende:",
     "opzioni": [
       "Un aumento progressivo del carico di allenamento nelle settimane pre-gara",
       "Un metodo di periodizzazione dell'allenamento su base annuale",
@@ -360,7 +890,7 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Definiresti la super-compensazione come?",
+    "domanda": "Definiresti la super-compensazione come:",
     "opzioni": [
       "Il raggiungimento del massimo livello di prestazione possibile per un atleta",
       "La risposta negativa dell'organismo a carichi di allenamento eccessivi",
@@ -380,6 +910,16 @@
     "risposta_corretta": 1
   },
   {
+    "domanda": "Il carico esterno è:",
+    "opzioni": [
+      "Solo la risposta fisiologica individuale all'allenamento",
+      "Esclusivamente il numero di chilometri percorsi in una seduta",
+      "Tutto quanto misurabile dall'esterno: km percorsi, vasche nuotate, kg sollevati ecc.",
+      "Solo l'intensità dell'esercizio espressa in percentuale del massimo"
+    ],
+    "risposta_corretta": 2
+  },
+  {
     "domanda": "L'allenamento multilaterale viene effettuato nei giovani per:",
     "opzioni": [
       "Specializzare precocemente l'atleta nella sua disciplina di elezione",
@@ -390,12 +930,32 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Per carico interno si intende?",
+    "domanda": "Nell'ambito della prevenzione dei traumi in età giovanile, tra i fattori di rischio con cause esogene, si trovano:",
+    "opzioni": [
+      "Solo squilibri muscolari e lassità legamentosa",
+      "Esclusivamente condizioni ambientali sfavorevoli",
+      "Specializzazione precoce e aumenti improvvisi di carico",
+      "Solo attrezzature sportive non adeguate"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Per carico interno si intende:",
     "opzioni": [
       "Il peso totale sollevato durante una seduta di allenamento della forza",
       "La distanza percorsa nel corso di una seduta di allenamento aerobico",
       "La risposta fisiologica individuale a un carico esterno",
       "Il numero di ripetizioni eseguite in una serie di esercizi"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Per recupero si intende:",
+    "opzioni": [
+      "Solo il periodo di riposo tra una serie e l'altra durante l'allenamento",
+      "Esclusivamente il sonno notturno come forma di recupero dall'attività fisica",
+      "Tutto quanto sopra: il periodo tra due sedute, la fase in cui l'organismo attua adattamenti, il periodo in cui ha luogo la super-compensazione",
+      "Solo le tecniche di recupero attivo come nuoto e stretching"
     ],
     "risposta_corretta": 2
   },
@@ -430,12 +990,42 @@
     "risposta_corretta": 1
   },
   {
-    "domanda": "Praticare regolarmente esercizi di forza comporta dei benefici, specie negli anziani, perché aiuta a:",
+    "domanda": "Praticare regolarmente esercizi di forza comporta benefici, specie negli anziani, perché aiuta a:",
     "opzioni": [
       "Aumentare esclusivamente la massa muscolare e la forza massimale",
       "Prevenire problemi articolari, osteoporosi, cadute e fratture, diabete, mal di schiena e depressione",
       "Migliorare solo le capacità cardiovascolari e respiratorie",
       "Ridurre il peso corporeo e migliorare la composizione corporea"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "La manovra di Valsalva:",
+    "opzioni": [
+      "È una tecnica di respirazione per migliorare le prestazioni aerobiche",
+      "È un test per valutare la funzionalità cardiaca nell'anziano",
+      "È utilizzata da chi fa manovre in acqua",
+      "È una tecnica di rilassamento muscolare progressivo"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Attività fisica ed equilibrio nell'anziano: quali delle seguenti affermazioni è corretta?",
+    "opzioni": [
+      "L'attività fisica peggiora l'equilibrio nell'anziano fragile",
+      "L'equilibrio non è allenabile negli anziani oltre i 70 anni",
+      "L'attività fisica migliora l'equilibrio solo se praticata in acqua",
+      "Tutte le precedenti affermazioni sono errate"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Quali sono i benefici fisiologici immediati dell'attività fisica?",
+    "opzioni": [
+      "Aumento della massa ossea e densità minerale",
+      "Resistenza aerobica/cardiovascolare",
+      "Incremento della forza massimale",
+      "Miglioramento della flessibilità articolare"
     ],
     "risposta_corretta": 1
   },
@@ -450,12 +1040,152 @@
     "risposta_corretta": 2
   },
   {
+    "domanda": "In un soggetto anziano stabilizzato farmacologicamente ed efficiente, quali sono i distretti muscolari in cui si inizia a somministrare attività motoria?",
+    "opzioni": [
+      "Arti superiori",
+      "Muscolatura del tronco e del core",
+      "Arti inferiori",
+      "Muscolatura cervicale e della spalla"
+    ],
+    "risposta_corretta": 2
+  },
+  {
     "domanda": "Che strategia motoria bisogna effettuare per evitare l'ipotensione ortostatica nell'anziano?",
     "opzioni": [
       "Mantenere la posizione sdraiata il più a lungo possibile",
       "Alzarsi rapidamente per stimolare i barocettori",
       "Movimento segmentato",
       "Aumentare l'assunzione di liquidi prima di alzarsi"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Apparato cardiovascolare nella terza età. Quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Solo l'irrigidimento delle pareti del miocardio",
+      "Solo la ridotta sensibilità barocettiva",
+      "Tutte corrette: irrigidimento pareti del miocardio, incapacità di incrementare il battito cardiaco e ridotta sensibilità barocettiva",
+      "Nessuna delle precedenti è corretta"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Apparato respiratorio nella terza età: quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Aumento della capacità polmonare totale",
+      "Miglioramento degli scambi gassosi alveolari",
+      "Incremento della forza dei muscoli respiratori",
+      "Tutte le precedenti affermazioni sono errate"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Sistema alimentare nella terza età. Quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Solo il ridotto senso della sete",
+      "Solo la secchezza della mucosa orale",
+      "Tutte corrette: ridotto senso della sete, secchezza della mucosa orale e assorbimento intestinale ridotto",
+      "Nessuna delle precedenti è corretta"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Apparato emopoietico nella terza età. Quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Solo la riduzione dei globuli rossi",
+      "Solo la riduzione del midollo osseo",
+      "Tutte corrette: riduzione globuli rossi, riduzione midollo osseo e numero costante di piastrine e globuli bianchi",
+      "Nessuna delle precedenti è corretta"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Fegato nella terza età: quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Incremento della produzione di enzimi epatici",
+      "Aumento del volume epatico con l'invecchiamento",
+      "Miglioramento della funzione di detossificazione",
+      "Tutte le precedenti affermazioni sono errate"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Apparato renale nella terza età. Quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Solo la ridotta massa del 25/30%",
+      "Solo la glomerulosclerosi",
+      "Tutte corrette: ridotta massa del 25/30%, glomerulosclerosi e diminuzione stimolo neuromuscolare muscoli vescica",
+      "Nessuna delle precedenti è corretta"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Sistema nervoso nella terza età: quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Aumento della velocità di conduzione nervosa",
+      "Incremento della neuroplasticità cerebrale",
+      "Miglioramento dei riflessi propriocettivi",
+      "Tutte le precedenti affermazioni sono errate"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Apparato endocrino nella terza età:",
+    "opzioni": [
+      "Aumento della produzione di ormoni anabolizzanti",
+      "Incremento della sensibilità insulinica",
+      "Interruzione ovarica degli estrogeni",
+      "Aumento della produzione di ormone della crescita"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Sistema immunitario nella terza età: quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Potenziamento della risposta immunitaria aspecifica",
+      "Aumento della produzione di anticorpi",
+      "Incremento dell'attività dei linfociti T",
+      "Tutte le precedenti affermazioni sono errate"
+    ],
+    "risposta_corretta": 3
+  },
+  {
+    "domanda": "Apparato tegumentario nella terza età:",
+    "opzioni": [
+      "Aumento della produzione di sebo e sudore",
+      "Incremento dell'elasticità cutanea",
+      "Diminuzione delle ghiandole sebacee e sudoripare",
+      "Aumento dello spessore dello strato corneo"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Sistema uditivo, linguaggio e vista nella terza età. Quali delle seguenti affermazioni sono corrette?",
+    "opzioni": [
+      "Solo la diminuzione dell'abilità di accomodamento visivo",
+      "Solo l'afasia sensoriale",
+      "Tutte corrette: afasia sensoriale, afasia motoria, diminuzione abilità di accomodamento e cataratta",
+      "Nessuna delle precedenti è corretta"
+    ],
+    "risposta_corretta": 2
+  },
+  {
+    "domanda": "Requisiti richiesti alle procedure dei test, criteri:",
+    "opzioni": [
+      "Validità, affidabilità, sensibilità e specificità",
+      "Economia, standardizzazione, utilità e confrontabilità",
+      "Precisione, accuratezza, ripetibilità e generalizzabilità",
+      "Obiettività, semplicità, rapidità e basso costo"
+    ],
+    "risposta_corretta": 1
+  },
+  {
+    "domanda": "Le risposte cardio-circolatorie all'esercizio fisico sono:",
+    "opzioni": [
+      "Solo aumento della frequenza cardiaca",
+      "Solo aumento della gittata sistolica",
+      "Tutte corrette: aumento della frequenza cardiaca, della gittata sistolica e diminuzione delle resistenze periferiche totali",
+      "Solo diminuzione delle resistenze periferiche totali"
     ],
     "risposta_corretta": 2
   },
@@ -470,13 +1200,13 @@
     "risposta_corretta": 2
   },
   {
-    "domanda": "Requisiti richiesti alle procedure dei test, criteri:",
+    "domanda": "Nei processi di invecchiamento si ha:",
     "opzioni": [
-      "Validità, affidabilità, sensibilità e specificità",
-      "Economia, standardizzazione, utilità e confrontabilità",
-      "Precisione, accuratezza, ripetibilità e generalizzabilità",
-      "Obiettività, semplicità, rapidità e basso costo"
+      "Solo riduzione dei globuli rossi",
+      "Solo riduzione del midollo osseo",
+      "Solo riduzione del ferro",
+      "Tutte corrette: riduzione dei globuli rossi, del midollo osseo e del ferro"
     ],
-    "risposta_corretta": 1
+    "risposta_corretta": 3
   }
 ]
